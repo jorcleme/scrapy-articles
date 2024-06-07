@@ -1,13 +1,13 @@
-from scrapy import Spider, Selector
-import scrapy.http
-from scrapy.signalmanager import dispatcher
-from scrapy.http.response.html import HtmlResponse
-from scrapy.http.response.text import TextResponse
 import scrapy
 import json
 import scrapy.signals
-from urllib3.util import parse_url
 import subprocess
+import scrapy.http
+from scrapy import Spider
+from scrapy.signalmanager import dispatcher
+from scrapy.http.response.html import HtmlResponse
+from scrapy.http.response.text import TextResponse
+from urllib3.util import parse_url
 
 
 class ArticleLinks(Spider):
@@ -78,6 +78,7 @@ class ArticleLinks(Spider):
             }
 
     def spider_closed(self, spider: scrapy.Spider):
+        subprocess.call(["python", "-m", "services.articles"])
         subprocess.call(
             [
                 "C:\\Users\\jorcleme\\Projects\\scrapy-articles\\env\\Scripts\\python.exe",

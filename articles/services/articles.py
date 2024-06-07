@@ -20,18 +20,23 @@ from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain.prompts import PromptTemplate
 from langchain_text_splitters import HTMLHeaderTextSplitter
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 
 logger = logging.getLogger(__name__)
 
-load_dotenv()
+load_dotenv(find_dotenv(filename=".env"))
 
-family_objs = []
-with open("articles/data/links.json", "r+") as file:
-    family_objs = json.load(file)
 
-urls: List[str] = [item["url"] for item in family_objs]
-series: List[str] = [item["family"] for item in family_objs]
+def get_article_links_after_spidering():
+    uri = (
+        os.environ.get("MONGO_URI")
+        .replace("<username>", os.environ.get("MONGODB_APP_USER"))
+        .replace("<password>", os.environ.get("MONGODB_APP_PASS"))
+    )
+    client = pymongo.MongoClient(uri)
+    article_link_collection = client["smb_documents"]["article_links"]
+    links = article_link_collection.find({})
+    return links
 
 
 class Revision(BaseModel):
@@ -201,7 +206,27 @@ class ArticleParser:
     def __init__(self) -> None:
         self.headers = ["h1", "h2", "h3", "h4", "h5", "h6"]
         self.logger = logging.getLogger(self.__class__.__name__)
-        logging.basicConfig(level=logging.INFO)
+        # logging.basicConfig(level=logging.INFO)
+        self.logger.setLevel(logging.INFO)
+
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        log_file_path = os.path.join(
+            dir_path, "logs", f"{self.__class__.__name__.lower()}.log"
+        )
+        file_handler = logging.FileHandler(log_file_path, mode="a", encoding="utf8")
+        file_handler.setLevel(logging.INFO)
+
+        stream_handler = logging.StreamHandler()
+        stream_handler.setLevel(logging.INFO)
+
+        formatter = logging.Formatter(
+            "%(asctime)s [%(name)s] %(levelname)s: %(message)s"
+        )
+        file_handler.setFormatter(formatter)
+        stream_handler.setFormatter(formatter)
+
+        self.logger.addHandler(file_handler)
+        self.logger.addHandler(stream_handler)
 
     def parse(self, soup: BeautifulSoup, url: str, series: str) -> Article:
         """
@@ -403,23 +428,6 @@ class ArticleParser:
         self.logger.info(f"Category from LLM: {category}")
         return category
 
-        # if element:
-        #     match = category_pattern.search(element.get_text(strip=True))
-        #     if match:
-        #         if match.group("Troubleshooting"):
-        #             return "Troubleshooting"
-        #         if match.group("Configuration"):
-        #             return "Configuration"
-        #         if match.group("InstallUpgrade"):
-        #             return "Install & Upgrade"
-        #         if match.group("MaintainOperate"):
-        #             return "Maintain & Operate"
-        #         if match.group("Design"):
-        #             return "Design"
-        #     else:
-        #         return self.get_category_with_llm(title)
-        # return self.get_category_with_llm(title)
-
     def get_objective(self, soup: BeautifulSoup) -> Union[str, None]:
         pattern = re.compile(r"^Objective:?\s?", re.IGNORECASE)
         objective_element = soup.find("h2", string=re.compile(pattern))
@@ -528,7 +536,6 @@ class ArticleParser:
                     intro_content.append(next_intro_element.get_text(strip=True))
                 next_intro_element = next_intro_element.find_next_sibling()
             intro_text = " ".join(intro_content)
-        self.logger.info("Extracted Introduction: %s", intro_text)
         return self.sanitize_text(intro_text) if intro_text else None
 
     def get_steps(self, soup: BeautifulSoup) -> List:
@@ -562,7 +569,6 @@ class ArticleParser:
                 step = self.process_step(element)
                 if step:
                     steps.append(step)
-        self.logger.info("Extracted %d steps.", len(steps))
         return steps
 
     def process_step(self, element: Tag):
@@ -580,7 +586,6 @@ class ArticleParser:
                 note = self.sanitize_text(note)
             if src and (alt is None or alt == ""):
                 alt = "Related diagram, image, or screenshot"
-            self.logger.info("Processed Step: %s %s %s", section, step_number, text)
             return {
                 "section": section,
                 "step_num": step_number,
@@ -678,8 +683,6 @@ class ArticleParser:
                 r"^Step", next_element.text
             ):
                 break
-
-            print(f"NEXT ELEMENT: {next_element}")
 
             if next_element.name in {"p"} and next_element.find("img"):
                 img = next_element.find("img")
@@ -991,8 +994,6 @@ class ArticleScraper:
             "id": "skiplink-footer",
         }
         self.article_parser = ArticleParser()
-        self._articles: List[Article] = []
-        self.previous_scraped_articles = self.load_json("./data/all_articles.json")
 
         header_template = default_header_template.copy()
         self._session.headers.update(header_template)
@@ -1007,32 +1008,6 @@ class ArticleScraper:
             raise ValueError(
                 "`parser` must be one of " + ", ".join(valid_parsers) + "."
             )
-
-    @staticmethod
-    def load_json(path: str) -> List[Dict[str, Any]]:
-        try:
-            with open(path, "r+") as file:
-                return json.load(file)
-        except (FileNotFoundError, json.JSONDecodeError):
-            return []
-
-    def has_article_been_scraped(self, url: str) -> bool:
-        return any(article["url"] == url for article in self.previous_scraped_articles)
-
-    def get_scraped_article(self, url: str) -> Dict[str, Any]:
-        for article in self.previous_scraped_articles:
-            if article["url"] == url:
-                return article
-
-    @property
-    def articles(self):
-        """Property to get articles."""
-        return self._articles
-
-    @articles.setter
-    def articles(self, articles: List[Article]):
-        """Property to set articles."""
-        self._articles = articles
 
     async def _fetch(
         self, url: str, retries: int = 3, cooldown: int = 2, backoff: float = 1.5
@@ -1097,13 +1072,11 @@ class ArticleScraper:
     def scrape(self):
         """Scrape the articles from the list of urls."""
         soups = self.scrape_all(self.urls)
-        articles = []
         for i, soup in enumerate(soups):
             url = self.urls[i]
             series = self.series[i]
             self.remove_unwanted_elements_by_attrs(soup, self.unwanted_attributes)
             self.remove_unwanted_tags(soup)
-            self._articles.append(self.article_parser.parse(soup, url, series))
             yield self.article_parser.parse(soup, url, series)
 
     def scrape_all(
@@ -1177,72 +1150,84 @@ def convert_series_to_product_family(abbreviation: str) -> str:
     return product_family_name_map.get(abbreviation, abbreviation)
 
 
-def upload_articles_to_db(articles: List[Article]):
-    client = pymongo.MongoClient(os.getenv("MONGO_URI"))
+def upload_articles_to_db(articles: List[ArticleDict]):
+    uri = (
+        os.environ.get("MONGO_URI")
+        .replace("<username>", os.environ.get("MONGODB_APP_USER"))
+        .replace("<password>", os.environ.get("MONGODB_APP_PASS"))
+    )
+    client = pymongo.MongoClient(uri)
     db = client["smb_documents"]
-    collection = db["articles"]
+    articles_collection = db["articles"]
+    product_fam_collection = db["product_families"]
 
     for article in articles:
-        article_dict = article.to_dict()
-        series = article_dict["series"]
-        pf = db["product_families"].find_one({"name": series})
-        for device in article_dict["applicable_devices"]:
+        series = article["series"]
+        pf = product_fam_collection.find_one({"name": series})
+        for device in article["applicable_devices"]:
             if device["software_link"] is None:
                 if pf:
                     device["software_link"] = pf["software_url"]
             if device["datasheet_link"] is None:
                 if pf:
-                    device["datasheet_link"] = pf["datasheet_url"]
+                    device["datasheet_link"] = pf["datasheet_url"][0]
 
     article_ids = []
+
     for article in articles:
-        article_dict = article.to_dict()
-        series = article_dict["series"]
-        pf = db["product_families"].find_one({"name": series})
+        series = article["series"]
+        pf = product_fam_collection.find_one({"name": series})
         if not pf:
-            print(f"Product Family {series} not found in the database.")
+            logger.info(f"Product Family {series} not found in the database.")
             continue
-        existing_article = collection.find_one(
-            {"document_id": article_dict["document_id"]}
+        existing_article = articles_collection.find_one(
+            {"document_id": article["document_id"]}
         )
         if existing_article:
-            collection.update_one(
+            logger.info(
+                f"Article {article['document_id']} already exists in the database."
+            )
+            articles_collection.update_one(
                 {"_id": existing_article["_id"]}, {"$addToSet": {"series": pf["_id"]}}
             )
             article_ids.append(existing_article["_id"])
         else:
             try:
-                article_dict["series"] = [pf["_id"]]
-                article_id = collection.insert_one(article_dict).inserted_id
+                article["series"] = [pf["_id"]]
+                article_id = articles_collection.insert_one(article).inserted_id
+                logger.info(f"Article {article_id} inserted into the database.")
                 article_ids.append(article_id)
             except pymongo.errors.WriteError as e:
-                print(e.details)
+                logger.error(
+                    f"Error inserting article {article['document_id']} into the database. {e}"
+                )
+                continue
+            except pymongo.errors.OperationFailure as e:
+                logger.error(
+                    f"Error inserting article {article['document_id']} into the database. {e}"
+                )
                 continue
 
-            except pymongo.errors.OperationFailure as e:
-                print(e.details)
-                continue
+
+def process_links():
+    links = get_article_links_after_spidering()
+    urls = []
+    series = []
+    for link in links:
+        if "url" in link and "family" in link:
+            urls.append(link["url"])
+            series.append(convert_series_to_product_family(link["family"]))
+    return urls, series
 
 
 def run_scraper():
-    normalized_series = list(map(convert_series_to_product_family, series))
+    urls, series = process_links()
     scraper = ArticleScraper(
-        series=normalized_series,
+        series=series,
         urls=urls,
     )
-    articles = []
-    for article in scraper.scrape():
-        articles.append(article)
-    scraper.articles = articles
-    scraper.scrape()
-    articles = scraper.articles
-    output = []
-    for article in articles:
-        output.append(article.to_dict())
-    with open(
-        f"{os.getcwd()}/articles/articles/data/documents/articles_schema.json", "w+"
-    ) as f:
-        json.dump(output, f)
+    articles = [article.to_dict() for article in scraper.scrape()]
+    upload_articles_to_db(articles)
     return articles
 
 
