@@ -79,10 +79,10 @@ class ArticleLinks(Spider):
 
     def spider_closed(self, spider: scrapy.Spider):
         subprocess.call(["python", "-m", "services.articles"])
-        subprocess.call(
-            [
-                "C:\\Users\\jorcleme\\Projects\\scrapy-articles\\env\\Scripts\\python.exe",
-                "-m",
-                "services.articles",
-            ]
-        )
+        # subprocess.call(
+        #     [
+        #         "C:\\Users\\jorcleme\\Projects\\scrapy-articles\\env\\Scripts\\python.exe",
+        #         "-m",
+        #         "services.articles",
+        #     ]
+        # )
