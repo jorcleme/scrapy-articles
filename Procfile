@@ -1,2 +1,2 @@
-web: scrapyd && cd articles && scrapyd-deploy
+web: scrapyd
 clock: python scheduler.py
