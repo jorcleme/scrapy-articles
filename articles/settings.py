@@ -108,12 +108,5 @@ FEEDS = {
     }
 }
 
-
-LOG_FILE = f"{Path.cwd()}/articles/logs/scrapy.log"
-LOG_ENCODING = "utf-8"
-LOG_FORMAT = "%(asctime)s [%(name)s] %(levelname)s: %(message)s"
-LOG_DATEFORMAT = "%Y-%m-%d %H:%M:%S"
-LOG_LEVEL = logging.INFO
-
 MONGO_URI = "mongodb+srv://<username>:<password>@cluster0.z82lumt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 MONGO_DB = "smb_documents"
