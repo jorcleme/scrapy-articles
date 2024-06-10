@@ -7,7 +7,7 @@ from twisted.internet import reactor
 
 def send_request():
     requests.post(
-        "https://scrapy-articles-965244f91aa6.herokuapp.com/schedule.json",
+        "http://165.22.25.128:6800/schedule.json",
         data={"project": "articles", "spider": "article_links"},
     )
 
