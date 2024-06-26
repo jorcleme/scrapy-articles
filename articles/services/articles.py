@@ -1209,14 +1209,32 @@ def upload_articles_to_db(articles: List[ArticleDict]):
                 continue
 
 
+def check_for_existing_article(url: str):
+    uri = (
+        os.environ.get("MONGO_URI")
+        .replace("<username>", os.environ.get("MONGODB_APP_USER"))
+        .replace("<password>", os.environ.get("MONGODB_APP_PASS"))
+    )
+    client = pymongo.MongoClient(uri)
+    db = client["smb_documents"]
+    articles_collection = db["articles"]
+    return articles_collection.find_one({"url": url})
+
+
 def process_links():
     links = get_article_links_after_spidering()
     urls = []
     series = []
     for link in links:
-        if "url" in link and "family" in link:
+        if (
+            "url" in link
+            and "family" in link
+            and not check_for_existing_article(link["url"])
+        ):
             urls.append(link["url"])
             series.append(convert_series_to_product_family(link["family"]))
+        else:
+            logger.info(f"Article {link['url']} already exists in the database.")
     return urls, series
 
 

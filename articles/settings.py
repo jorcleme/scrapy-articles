@@ -22,6 +22,8 @@ NEWSPIDER_MODULE = "articles.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+SCRAPEOPS_API_KEY = "395db009-1df8-440d-92ea-67571835b035"
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
 
@@ -53,15 +55,16 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    "articles.middlewares.ArticlesDownloaderMiddleware": 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+    "scrapeops_scrapy.middleware.RetryMiddleware": 550,
+    "scrapy.downloadermiddlewares.retry.RetryMiddleware": None,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-# EXTENSIONS = {
-#    "scrapy.extensions.telnet.TelnetConsole": None,
-# }
+EXTENSIONS = {
+    "scrapeops_scrapy.extension.ScrapeOpsMonitor": 500,
+}
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
