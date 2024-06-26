@@ -21,8 +21,7 @@ NEWSPIDER_MODULE = "articles.spiders"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
-
-SCRAPEOPS_API_KEY = "395db009-1df8-440d-92ea-67571835b035"
+# SCRAPEOPS_API_KEY
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
