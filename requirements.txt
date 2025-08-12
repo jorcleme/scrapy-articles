@@ -29,6 +29,7 @@ grpcio==1.64.1
 grpcio-status==1.62.2
 h11==0.14.0
 herokuify-scrapyd==1.0
+html2text==2025.4.15
 httpcore==1.0.5
 httpx==0.27.0
 hyperlink==21.0.0
@@ -46,6 +47,7 @@ langchain-openai==0.1.8
 langchain-text-splitters==0.2.0
 langsmith==0.1.69
 lxml==5.2.2
+markdownify==1.2.0
 multidict==6.0.5
 numpy==1.26.4
 openai==1.31.0
@@ -86,7 +88,6 @@ tld==0.13
 tldextract==5.1.2
 tqdm==4.66.4
 Twisted==24.3.0
-twisted-iocpsupport==1.0.4
 typing_extensions==4.12.1
 tzdata==2024.1
 tzlocal==5.2
