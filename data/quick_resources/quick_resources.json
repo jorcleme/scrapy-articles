@@ -1,0 +1,166 @@
+[
+    {
+        "series": "Cisco Business 220 Series Switches",
+        "page": "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/CBS220.html",
+        "description": "The support page for Cisco Business Switching 250 Series, containing documents and resources.",
+        "resources": [
+            {
+                "id": "QuickStartGuide",
+                "href": "https://www.cisco.com/c/dam/en/us/td/docs/switches/lan/csbss/CBS220/Quick-Start-Guide/Cisco_Business_220_Series_F.pdf"
+            },
+            {
+                "id": "AdminGuide",
+                "href": "https://www.cisco.com/c/en/us/td/docs/switches/lan/csbss/CBS220/Adminstration-Guide/cbs-220-admin-guide.html"
+            },
+            {
+                "id": "DataSheet",
+                "href": "https://www.cisco.com/c/en/us/products/collateral/switches/business-220-series-smart-switches/datasheet-c78-744915.html"
+            }
+        ]
+    },
+    {
+        "series": "Cisco Business Switching 250 Series",
+        "page": "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/CBS250.html",
+        "description": "The support page for Cisco Business Switching 250 Series, containing documents and videos.",
+        "resources": [
+            {
+                "id": "QuickStartGuide",
+                "href": "https://www.cisco.com/c/dam/en/us/td/docs/switches/lan/csbms/CBS_250_350/Quick-Start-Guide/Cisco_Business_250_Series_Combo.pdf"
+            },
+            {
+                "id": "AdminGuide",
+                "href": "https://cisco.com/go/cbs250ag"
+            },
+            {
+                "id": "DataSheet",
+                "href": "https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html"
+            },
+            {
+                "id": "Firmware",
+                "href": "https://software.cisco.com/download/home/286325765"
+            }
+        ]
+    },
+    {
+        "series": "Cisco Business Switching 350 Series",
+        "page": "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/CBS350.html",
+        "description": "Support page for Cisco Business Switching 350 product family.",
+        "resources": [
+            {
+                "id": "QuickStartGuide",
+                "href": "https://www.cisco.com/c/dam/en/us/td/docs/switches/lan/csbms/CBS_250_350/Quick-Start-Guide/Cisco_Business_350Series_Combo.pdf"
+            },
+            {
+                "id": "AdminGuide",
+                "href": "https://www.cisco.com/c/dam/en/us/td/docs/switches/lan/csbms/CBS_250_350/Administration-Guide/cbs350_3_1AG.pdf"
+            },
+            {
+                "id": "DataSheet",
+                "href": "https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.pdf"
+            },
+            {
+                "id": "Firmware",
+                "href": "https://software.cisco.com/download/home/286325769"
+            }
+        ]
+    },
+    {
+        "series": "Cisco Business Wireless 100 and 200 Series",
+        "page": "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/wireless-mesh-100-200-series.html",
+        "description": "The product support page for the Cisco Business Wireless product series.",
+        "resources": [
+            {
+                "id": "AdminGuide",
+                "href": "https://cisco.com/go/cbwadmin"
+            },
+            {
+                "id": "QuickStartGuides",
+                "nested_resources": [
+                    {
+                        "device": "CBW140AC",
+                        "href": "https://www.cisco.com/c/dam/en/us/td/docs/wireless/access_point/csbap/CBW140/QSG/CBW_140AC_QSG_EN.pdf"
+                    },
+                    {
+                        "device": "CBW145AC",
+                        "href": "https://www.cisco.com/c/dam/en/us/td/docs/wireless/access_point/csbap/CBW145/QSG/CBW_145AC_QSG_EN.pdf"
+                    },
+                    {
+                        "device": "CBW240AC",
+                        "href": "https://www.cisco.com/c/dam/en/us/td/docs/wireless/access_point/csbap/CBW240/QSG/CBW_240AC_QSG_EN.pdf"
+                    }
+                ]
+            },
+            {
+                "id": "DataSheets",
+                "nested_resources": [
+                    {
+                        "device": "CBW140AC",
+                        "href": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html"
+                    },
+                    {
+                        "device": "CBW145AC",
+                        "href": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-145ac-ap-ds-cte-en.html"
+                    },
+                    {
+                        "device": "CBW240AC",
+                        "href": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html"
+                    }
+                ]
+            },
+            {
+                "id": "Firmware",
+                "nested_resources": [
+                    {
+                        "device": "CBW140AC",
+                        "href": "https://software.cisco.com/download/home/286324929"
+                    },
+                    {
+                        "device": "CBW145AC",
+                        "href": "https://software.cisco.com/download/home/286324929"
+                    },
+                    {
+                        "device": "CBW240AC",
+                        "href": "https://software.cisco.com/download/home/286324934"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "series": "Cisco Business Wireless 100 AX Series Access Points & Mesh Extenders",
+        "page": "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/wireless-mesh-100-AX-series.html",
+        "description": "The product support page for the Cisco Business Wireless product series.",
+        "resources": [
+            {
+                "id": "AdminGuide",
+                "href": "https://www.cisco.com/c/en/us/td/docs/wireless/access_point/csbap/CBW_WiFi_6/Admin_Guide/b_cisco_business_wifi_6_admin_guide.html"
+            },
+            {
+                "id": "QuickStartGuides",
+                "nested_resources": [
+                    {
+                        "device": "CBW150AX",
+                        "href": "https://www.cisco.com/c/dam/en/us/td/docs/wireless/access_point/csbap/CBW_WiFi_6/QSG/QSG_en/CBW_150AX_QSG_EN.pdf"
+                    },
+                    {
+                        "device": "CBW151AXM",
+                        "href": "https://www.cisco.com/c/dam/en/us/td/docs/wireless/access_point/csbap/CBW_WiFi_6/QSG/QSG_en/CBW_151AXM_QSG_EN.pdf"
+                    }
+                ]
+            },
+            {
+                "id": "DataSheets",
+                "nested_resources": [
+                    {
+                        "device": "CBW150AX",
+                        "href": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/business-access-point-ds.html"
+                    },
+                    {
+                        "device": "CBW151AXM",
+                        "href": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/busines-mesh-extender-ds.html"
+                    }
+                ]
+            }
+        ]
+    }
+]

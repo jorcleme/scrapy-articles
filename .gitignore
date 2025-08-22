@@ -94,3 +94,9 @@ test_python.sh
 get_errors.sh
 testenv
 .idea
+
+
+/data/vector_db/
+/dbs/
+
+twistd.pid

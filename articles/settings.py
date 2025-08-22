@@ -8,7 +8,11 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from pathlib import Path
+from config import ARTICLES_DATA_DIR, LOGS_DIR
 import logging
+import os
+
+SCRAPEOPS_API_KEY = os.environ.get("SCRAPEOPS_API_KEY")
 
 BOT_NAME = "articles"
 
@@ -22,6 +26,13 @@ NEWSPIDER_MODULE = "articles.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 # SCRAPEOPS_API_KEY
+
+LOG_ENABLED = True
+LOG_ENCODING = "utf-8"
+LOG_FILE = f"{LOGS_DIR}/scrapy.log"
+LOG_FILE_APPEND = False
+LOG_FORMAT = "%(asctime)s [%(name)s] %(levelname)s: %(message)s"
+LOG_FORMATTER = "articles.utils.logger.ArticlesLogFormatter"
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
@@ -55,8 +66,9 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    "scrapeops_scrapy.middleware.RetryMiddleware": 550,
+    "scrapeops_scrapy.middleware.retry.RetryMiddleware": 550,
     "scrapy.downloadermiddlewares.retry.RetryMiddleware": None,
+    "scrapy.downloadermiddlewares.useragent.UserAgentMiddleware": None,
 }
 
 # Enable or disable extensions
@@ -67,10 +79,7 @@ EXTENSIONS = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    "articles.pipelines.DuplicatesPipeline": 300,
-    "articles.pipelines.MongoPipeline": 400,
-}
+ITEM_PIPELINES = {"articles.pipelines.DuplicatesPipeline": 300}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -99,7 +108,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 FEEDS = {
-    f"{Path.cwd()}/articles/data/links.json": {
+    f"{ARTICLES_DATA_DIR}/links.json": {
         "format": "json",
         "encoding": "utf8",
         "indent": 4,
@@ -109,6 +118,3 @@ FEEDS = {
         "overwrite": True,
     }
 }
-
-MONGO_URI = "mongodb+srv://<username>:<password>@cluster0.z82lumt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-MONGO_DB = "smb_documents"

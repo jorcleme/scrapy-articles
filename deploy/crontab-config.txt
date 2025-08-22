@@ -1,0 +1,14 @@
+# Crontab Configuration for Weekly Cisco SMB Articles Crawler
+# Add this to your crontab using: crontab -e
+#
+# This runs every Sunday at 2:00 AM
+# The spider crawl runs first, then after 30 minutes the article parsing begins
+
+# Weekly spider crawl (Sundays at 2:00 AM)
+0 2 * * 0 /home/jclemens/projects/scrapy-articles/deploy/weekly-crawler.sh >> /var/log/cisco-crawler.log 2>&1
+
+# Post-crawl article parsing (Sundays at 2:30 AM - gives crawl time to finish)
+30 2 * * 0 /home/jclemens/projects/scrapy-articles/deploy/parse-articles.sh >> /var/log/cisco-article-parser.log 2>&1
+
+# Optional: Weekly log rotation (Sundays at 3:00 AM)
+0 3 * * 0 /usr/sbin/logrotate -f /home/jclemens/projects/scrapy-articles/deploy/logrotate.conf >> /var/log/logrotate.log 2>&1

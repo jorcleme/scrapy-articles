@@ -3,6 +3,7 @@ import json
 import scrapy.signals
 import subprocess
 import scrapy.http
+
 from scrapy import Spider
 from scrapy.signalmanager import dispatcher
 from scrapy.http.response.html import HtmlResponse
@@ -21,7 +22,6 @@ class ArticleLinks(Spider):
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/Catalyst-1300.html",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/switches-350-family.html",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/switches-350x-family/jcr:content/Grid/widenarrow_5d4b/WN-Wide-1/drawertabscontainer_/responsive-drawertab-parsys-container/drawertab_6b89/responsive-drawertab-parsys-forTabContent/list_dynamic_1675.feed.json",
-        "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/switches-550x-family/jcr:content/Grid/widenarrow_5d4b/WN-Wide-1/drawertabscontainer_/responsive-drawertab-parsys-container/drawertab_6b89/responsive-drawertab-parsys-forTabContent/list_dynamic_76b1.feed.json",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/routers-100-family.html",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/routers-100-family/jcr:content/Grid/widenarrow_5d4b/WN-Wide-1/drawertabscontainer_/responsive-drawertab-parsys-container/drawertab_6b89/responsive-drawertab-parsys-forTabContent/list_dynamic_8602.feed.json",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/routers-320-family.html",
@@ -44,7 +44,6 @@ class ArticleLinks(Spider):
 
         if isinstance(response, HtmlResponse):
             family_name = parse_url(response.url).path.split("/")[-1].split(".")[0]
-            print(f"Family: {family_name}")
             yield response.follow(
                 response.url,
                 callback=self.parse_html,
@@ -78,11 +77,4 @@ class ArticleLinks(Spider):
             }
 
     def spider_closed(self, spider: scrapy.Spider):
-        subprocess.call(["python", "-m", "services.articles"])
-        # subprocess.call(
-        #     [
-        #         "C:\\Users\\jorcleme\\Projects\\scrapy-articles\\env\\Scripts\\python.exe",
-        #         "-m",
-        #         "services.articles",
-        #     ]
-        # )
+        subprocess.call(["python", "-m", "articles.scrapers.articles"])
