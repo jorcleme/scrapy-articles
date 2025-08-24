@@ -9,10 +9,15 @@ on:
 jobs:
   crawl-articles:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allow the action to write to repository
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -42,11 +47,20 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add articles/data/*.json
-          git diff --staged --quiet || git commit -m "Weekly crawl update - $(date +'%Y-%m-%d')"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # Add any new or modified JSON files
+          git add articles/data/*.json || echo "No JSON files to add"
+
+          # Check if there are any changes to commit
+          if ! git diff --staged --quiet; then
+            echo "Changes detected, committing..."
+            git commit -m "Weekly crawl update - $(date +'%Y-%m-%d')"
+            echo "Pushing changes..."
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+            echo "Successfully pushed changes"
+          else
+            echo "No changes to commit"
+          fi
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4

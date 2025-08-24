@@ -501,7 +501,7 @@ class ArticleParser:
             sibling = element.find_next_sibling()
             while sibling and sibling.name in ["p", "ul", "ol", "table"]:
                 if sibling.name in ["ul", "ol", "table"]:
-                    objective_text.app(str(sibling.extract()))
+                    objective_text.append(str(sibling.extract()))
                 elif sibling.name in ["p"]:
                     objective_text.append(sibling.get_text(strip=True))
 
