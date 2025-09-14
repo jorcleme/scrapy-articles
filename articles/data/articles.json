@@ -12345,7 +12345,7 @@
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Network Discovery and Management via FindIT",
     "document_id": "SMB5250",
-    "category": "Configuration",
+    "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/cloud-and-systems-management/cisco-small-business-findit-network-discovery-utility/smb5250-network-discovery-and-management-via-findit.html",
     "objective": "The Cisco FindIT Network Discovery Utility allows users to easily discover select Cisco products connected to a network. This enables users to quickly connect to the user interface of a device, where they can view and manage its configurations. The objective of this document is to explain how to install and use Cisco FindIT to access the configuration utility of the SG550XG and SG350XG Series Managed Switches. For a full length demonstration of Network Discovery and Management via FindIT, please view the video below: Loading.",
     "applicable_devices": [
@@ -46038,7 +46038,7 @@
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Configure Dynamic Host Configuration Protocol (DHCP) Image Upgrade Settings on a Switch",
     "document_id": "SMB2764",
-    "category": "Install & Upgrade",
+    "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-small-business-200-series-smart-switches/smb2764-configure-dynamic-host-configuration-protocol-dhcp-image-upg.html",
     "objective": "The Dynamic Host Configuration Protocol (DHCP) image upgrade feature on a switch can be used to configure a DHCP server to download both a new image and a new configuration file to one or more switches in a network. Simultaneous image and configuration upgrade for all switches in the network helps ensure that each new switch added to a network are synchronous with the network. The DHCP Image Upgrade on your switch works in two ways: DHCP Auto Configuration and Image Auto Update. Configuring these features could be very beneficial in managing more than one switch or stacked switches in the network. <ul> <li>DHCP Auto Configuration — The process by which the network device receives its configuration file from a Secured Copy Protocol (SCP) over Secure Shell (SSH) or Trivial File Transfer Protocol (TFTP) server identified by the DHCP server when it has provided or renewed the IP address on that device. This functions properly only when the DHCP server is configured to assign the host IP address dynamically. By default, the switch is enabled as a DHCP client when the Auto Configuration feature is enabled.</li> <li>DHCP Auto Image Update — Used with DHCP Auto Configuration, this allows you to download both a configuration and a new image to one or more switches in the network. If Image Auto Update is enabled, the flash image is downloaded and updated. If the new configuration is downloaded to a switch that already has a configuration, the downloaded configuration is appended to the configuration file stored on the switch.</li> </ul>",
     "applicable_devices": [
@@ -61574,253 +61574,21 @@
   },
   {
     "series": "RV100 Product Family",
-    "title": "How to Configure Basic Firewall Settings on the RV130 and RV130W",
-    "document_id": "SMB5016",
-    "category": "Configuration",
+    "title": "Support",
+    "document_id": "297b0416c51fca8176d69fc95646deba80a7aca0df278088b485dc487af85db4",
+    "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5016-basic-firewall-settings-on-the-rv130-and-rv130w.html",
-    "objective": "Basic Firewall Settings can secure your network by creating and applying rules that the device uses to selectively block and allow inbound and outbound Internet traffic.Features like Universal Plug and Play make it easy to connect devices to each other on your network without added configurations.Universal Plug and Play (UPnP) allows automatic discovery of devices that can communicate with the device. Blocking Contents can help secure your computer because certain content can be sent to your device which may compromise security or infect your computer with malicious software. The ability to block specific content on the ports of your choosing is useful for greater firewall security.The objective of this document is to show you how to configure Basic Firewall Settings on the RV130 and RV130W.",
+    "objective": null,
     "applicable_devices": [],
     "intro": null,
     "steps": [
       {
-        "section": "Configuring Basic Firewall Settings",
+        "section": "General",
         "step_num": 1,
-        "text": "Log in to the web configuration utility and choose Firewall > Basic Settings. The Basic Settings page opens: Step 2. In the IP Address Spoofing Protection field, check the Enable check box to protect your network against IP address spoofing. IP Address Spoofing is when an unauthorized user tries to gain access to a network by impersonating another trusted device using its ip address as its own. It is recommended to enable IP Address Spoofing Protection. Step 3. In the DoS Protection field, check the Enable check box to protect your network from Denial of Service attacks. Denial of Service Protection is used to protect a network from a Distributed Denial of Service (DDoS) attack. DDoS attacks are meant to flood a network to the point where the resources of the network become unavailable. Step 4. In the Block WAN Ping Request field, check the Enable check box to stop ping requests to your device from the external WAN network. Step 5. The listed fields from LAN/VPN Web Access to Remote Management Port are used to configure LAN and Remote Management Web Access. To learn more about these configurations, refer to Configuration of LAN and Remote Management Web Access on the RV130 and RV130W . Step 6. In the IPv4 Multicast Passthrough:(IGMP Proxy) field, check the Enable check box to enable the multicast passthrough for IPv4. This will forward group IGMP packets from the external WAN network to your internal LAN. Step 7. In the IPv4 Multicast Immediate Leave:(IGMP Proxy Immediate Leave) field, check the Enable check box to enable the Multicast Immediate Leave. Enabling immediate leave ensures that optimal bandwidth management is provided to hosts on your network, even during times of simultaneous multicast group usage. Step 8. In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step211.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Basic Firewall Settings",
-        "step_num": 2,
-        "text": "In the IP Address Spoofing Protection field, check the Enable check box to protect your network against IP address spoofing. IP Address Spoofing is when an unauthorized user tries to gain access to a network by impersonating another trusted device using its ip address as its own. It is recommended to enable IP Address Spoofing Protection. Step 3. In the DoS Protection field, check the Enable check box to protect your network from Denial of Service attacks. Denial of Service Protection is used to protect a network from a Distributed Denial of Service (DDoS) attack. DDoS attacks are meant to flood a network to the point where the resources of the network become unavailable. Step 4. In the Block WAN Ping Request field, check the Enable check box to stop ping requests to your device from the external WAN network. Step 5. The listed fields from LAN/VPN Web Access to Remote Management Port are used to configure LAN and Remote Management Web Access. To learn more about these configurations, refer to Configuration of LAN and Remote Management Web Access on the RV130 and RV130W . Step 6. In the IPv4 Multicast Passthrough:(IGMP Proxy) field, check the Enable check box to enable the multicast passthrough for IPv4. This will forward group IGMP packets from the external WAN network to your internal LAN. Step 7. In the IPv4 Multicast Immediate Leave:(IGMP Proxy Immediate Leave) field, check the Enable check box to enable the Multicast Immediate Leave. Enabling immediate leave ensures that optimal bandwidth management is provided to hosts on your network, even during times of simultaneous multicast group usage. Step 8. In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step212.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Basic Firewall Settings",
-        "step_num": 3,
-        "text": "In the DoS Protection field, check the Enable check box to protect your network from Denial of Service attacks. Denial of Service Protection is used to protect a network from a Distributed Denial of Service (DDoS) attack. DDoS attacks are meant to flood a network to the point where the resources of the network become unavailable. Step 4. In the Block WAN Ping Request field, check the Enable check box to stop ping requests to your device from the external WAN network. Step 5. The listed fields from LAN/VPN Web Access to Remote Management Port are used to configure LAN and Remote Management Web Access. To learn more about these configurations, refer to Configuration of LAN and Remote Management Web Access on the RV130 and RV130W . Step 6. In the IPv4 Multicast Passthrough:(IGMP Proxy) field, check the Enable check box to enable the multicast passthrough for IPv4. This will forward group IGMP packets from the external WAN network to your internal LAN. Step 7. In the IPv4 Multicast Immediate Leave:(IGMP Proxy Immediate Leave) field, check the Enable check box to enable the Multicast Immediate Leave. Enabling immediate leave ensures that optimal bandwidth management is provided to hosts on your network, even during times of simultaneous multicast group usage. Step 8. In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step213.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Basic Firewall Settings",
-        "step_num": 4,
-        "text": "In the Block WAN Ping Request field, check the Enable check box to stop ping requests to your device from the external WAN network. Step 5. The listed fields from LAN/VPN Web Access to Remote Management Port are used to configure LAN and Remote Management Web Access. To learn more about these configurations, refer to Configuration of LAN and Remote Management Web Access on the RV130 and RV130W . Step 6. In the IPv4 Multicast Passthrough:(IGMP Proxy) field, check the Enable check box to enable the multicast passthrough for IPv4. This will forward group IGMP packets from the external WAN network to your internal LAN. Step 7. In the IPv4 Multicast Immediate Leave:(IGMP Proxy Immediate Leave) field, check the Enable check box to enable the Multicast Immediate Leave. Enabling immediate leave ensures that optimal bandwidth management is provided to hosts on your network, even during times of simultaneous multicast group usage. Step 8. In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step2-4.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Basic Firewall Settings",
-        "step_num": 5,
-        "text": "The listed fields from LAN/VPN Web Access to Remote Management Port are used to configure LAN and Remote Management Web Access. To learn more about these configurations, refer to Configuration of LAN and Remote Management Web Access on the RV130 and RV130W. Step 6. In the IPv4 Multicast Passthrough:(IGMP Proxy) field, check the Enable check box to enable the multicast passthrough for IPv4. This will forward group IGMP packets from the external WAN network to your internal LAN. Step 7. In the IPv4 Multicast Immediate Leave:(IGMP Proxy Immediate Leave) field, check the Enable check box to enable the Multicast Immediate Leave. Enabling immediate leave ensures that optimal bandwidth management is provided to hosts on your network, even during times of simultaneous multicast group usage. Step 8. In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step2-6.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Basic Firewall Settings",
-        "step_num": 6,
-        "text": "In the IPv4 Multicast Passthrough:(IGMP Proxy) field, check the Enable check box to enable the multicast passthrough for IPv4. This will forward group IGMP packets from the external WAN network to your internal LAN. Step 7. In the IPv4 Multicast Immediate Leave:(IGMP Proxy Immediate Leave) field, check the Enable check box to enable the Multicast Immediate Leave. Enabling immediate leave ensures that optimal bandwidth management is provided to hosts on your network, even during times of simultaneous multicast group usage. Step 8. In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step2-7.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Basic Firewall Settings",
-        "step_num": 7,
-        "text": "In the IPv4 Multicast Immediate Leave:(IGMP Proxy Immediate Leave) field, check the Enable check box to enable the Multicast Immediate Leave. Enabling immediate leave ensures that optimal bandwidth management is provided to hosts on your network, even during times of simultaneous multicast group usage. Step 8. In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step2-8.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Basic Firewall Settings",
-        "step_num": 8,
-        "text": "In the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) field, check the Enable check box to allow the Session Initiation Protocol (SIP) traffic to traverse the Firewall. Session Initiation Protocol (SIP) equips platforms to signal the setup of voice and multimedia calls over IP networks. Application Layer Gateway (ALG) or also known as Application Level Gateway is an application that translates IP address information inside the payload of an applications packet.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": "The device supports a maximum of 256 SIP ALG sessions.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Universal Plug and Play",
-        "step_num": 1,
-        "text": "In the UPnP field, check the Enable to enable the Universal Plug and Play (UPnP). Step 2. In the Allow Users to Configure field, check the Enable check box to allow the UPnP port-mapping rules to be set by users who have UPnP support enabled on their computers or other UPnP-enabled devices. If disabled, the device does not allow the application to add the forwarding rule. Step 3. In the Allow Users to Disable Internet Access field, check the Enable check box to allow users to disable Internet access.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step3-2.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Allow Users to Disable Internet Access",
-          "Enable"
-        ],
-        "emphasized_tags": [
-          "em",
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Universal Plug and Play",
-        "step_num": 2,
-        "text": "In the Allow Users to Configure field, check the Enable check box to allow the UPnP port-mapping rules to be set by users who have UPnP support enabled on their computers or other UPnP-enabled devices. If disabled, the device does not allow the application to add the forwarding rule. Step 3. In the Allow Users to Disable Internet Access field, check the Enable check box to allow users to disable Internet access.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step3-3.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Allow Users to Disable Internet Access",
-          "Enable"
-        ],
-        "emphasized_tags": [
-          "em",
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring Universal Plug and Play",
-        "step_num": 3,
-        "text": "In the Allow Users to Disable Internet Access field, check the Enable check box to allow users to disable Internet access.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Allow Users to Disable Internet Access",
-          "Enable"
-        ],
-        "emphasized_tags": [
-          "em",
-          "b"
-        ]
-      },
-      {
-        "section": "Blocking Content",
-        "step_num": 1,
-        "text": "Check the check box in the field that corresponds to the content you wish to block from the device. The available options are defined as follows: • Block Java — Blocks the downloading of Java applets. • Block Cookies — Blocks the device from receiving cookie information from web pages. • Block ActiveX — Blocks ActiveX applets which can be present when using Internet Explorer on the Windows operating system. • Block Proxy — Blocks the device from communicating through a proxy server to external devices. This keeps the device from circumventing any firewall rules. Step 2. Select either the Auto radio button to automatically block all instances of that particular content, or click the Manual radio button and enter a specific port in the corresponding field on which the content will be blocked.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step4-7.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "You may enter any desired number in the range (1-65535) for your port value.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Blocking Content",
-        "step_num": 2,
-        "text": "Select either the Auto radio button to automatically block all instances of that particular content, or click the Manual radio button and enter a specific port in the corresponding field on which the content will be blocked.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": "You may enter any desired number in the range (1-65535) for your port value.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Blocking Content",
-        "step_num": 3,
-        "text": "Click Save to save your settings. Step 4. A window appears prompting you to restart your router. Click Yes to restart your router to apply the changes.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevpat-093014-step6-1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Yes"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Blocking Content",
-        "step_num": 4,
-        "text": "A window appears prompting you to restart your router. Click Yes to restart your router to apply the changes.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Yes"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
+        "text": "No steps found."
       }
     ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2018-12-12",
-        "comments": "Initial Release"
-      }
-    ],
+    "revision_history": [],
     "type": "article"
   },
   {
@@ -64077,176 +63845,21 @@
   },
   {
     "series": "RV100 Product Family",
-    "title": "One-to-One Network Address Translation (NAT) on RV130 and RV130W VPN Routers",
-    "document_id": "SMB5056",
-    "category": "Configuration",
+    "title": "Support",
+    "document_id": "9c259869410e6c065beeb12f10e115f73879c2a36e947cd1ef977b3a45ff928b",
+    "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5056-one-to-one-network-address-translation-nat-on-rv130-and-rv13.html",
-    "objective": "One-to-one Network Address Translation (NAT) maps local IP addresses behind your firewall to global IP addresses. By allowing systems configured with private IP addresses behind a firewall to appear to have public IP addresses, they can become visible to external networks and available for inbound connections. The objective of this document is to explain how to configure One-to-One NAT on the RV130 and RV130W Router.",
+    "objective": null,
     "applicable_devices": [],
     "intro": null,
     "steps": [
       {
-        "section": "Adding a New One-to-One NAT Rule",
+        "section": "General",
         "step_num": 1,
-        "text": "Log into the web configuration utility and choose Firewall > One-to-One NAT. The One-to-One NAT page opens:",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader1-step1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Firewall > One-to-One NAT"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Adding a New One-to-One NAT Rule",
-        "step_num": 2,
-        "text": "Click Add Row to add a new One-To-One NAT rule.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader1-step2.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Add Row"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Adding a New One-to-One NAT Rule",
-        "step_num": 3,
-        "text": "In the Private Range Begin field, enter the starting IP address of the private (LAN) IP address range that you want to be available to public networks.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader1-step3.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The LAN IP address of the router should not be included in the range you specify.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Adding a New One-to-One NAT Rule",
-        "step_num": 4,
-        "text": "In the Public Range Begin field, enter the starting IP address of the public (WAN) IP address range. This IP address is usually provided by your Internet Service Provider. The first public IP address you enter will be matched with the first private IP address you entered, the second public IP address will be paired with the second private IP address, and so on.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader1-step4.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The WAN IP address of the router should not be included in the range you specify.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Adding a New One-to-One NAT Rule",
-        "step_num": 5,
-        "text": "In the Range Length field, enter the number of public IP addresses that should be mapped to private addresses, given the private and public beginning ranges previously entered. The range length cannot exceed the number of valid IP addresses. To map a single address, enter “1”.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader1-step5.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Range Length"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "Adding a New One-to-One NAT Rule",
-        "step_num": 6,
-        "text": "In the Service drop-down list, choose which service will be accepted by the private IP (LAN) address when traffic is sent to the corresponding public IP address.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader1-step6.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "If you want to change the services available in this field, click the Configure Services button to open the Service Management page. For more information, refer to the article Service Management on the RV130 and RV130W .",
-        "emphasized_text": [
-          "Note:",
-          "Configure Services",
-          "Service Management"
-        ],
-        "emphasized_tags": [
-          "b",
-          "b",
-          "em"
-        ]
-      },
-      {
-        "section": "Adding a New One-to-One NAT Rule",
-        "step_num": 7,
-        "text": "Click Save to save your configuration for your one-to-one NAT rule.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader1-step7.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "A maximum of ten rules can be made.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Editing/Deleting a One-to-One NAT Rule",
-        "step_num": 1,
-        "text": "Check the check box(s) corresponding to the desired rule(s) you want to edit or delete.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader2-step1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Editing/Deleting a One-to-One NAT Rule",
-        "step_num": 2,
-        "text": "If you want to edit the selected rule(s), click Edit. If you want to delete the selected rule(s), click Delete. If you click Delete, skip to Step 4.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader2-step3.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "Clicking Delete will cause a warning to appear saying that you must click Save to save your changes.",
-        "emphasized_text": [
-          "Note:",
-          "Delete",
-          "Save"
-        ],
-        "emphasized_tags": [
-          "b",
-          "b",
-          "b"
-        ]
-      },
-      {
-        "section": "Editing/Deleting a One-to-One NAT Rule",
-        "step_num": 3,
-        "text": "If you clicked Edit, the fields of the rule(s) you selected will become available. Make any necessary changes.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/tayand-02122015-subheader2-step2-1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Edit"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
+        "text": "No steps found."
       }
     ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2018-12-10",
-        "comments": "Initial Release"
-      }
-    ],
+    "revision_history": [],
     "type": "article"
   },
   {
@@ -67925,277 +67538,21 @@
   },
   {
     "series": "RV100 Product Family",
-    "title": "Configuring Tunneling on the RV130W",
-    "document_id": "SMB5041",
-    "category": "Configuration",
+    "title": "Support",
+    "document_id": "169bdaf4dbc83be8358bf635e9feae8f9a5a56c22aa14eb4fd82180681c6e126",
+    "category": "Troubleshooting",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5041-configuring-tunneling-on-the-rv130w.html",
-    "objective": "IPv6-to-IPv4 tunneling (6-to-4 tunneling) allows IPv6 packets to be transmitted over an IPv4 network. IPv4 (Internet Protocol version 4) is an important networking protocol on the Internet. Its successor, IPv6 (Internet Protocol version 6), has not been universally adopted yet, as IPv4 is still widely prevalent. There are methods to make existing IPv4 networks compatible with newer IPv6 networks, one of which is tunneling. IPv4 to IPv6 tunneling (4-to-6 tunneling) allows IPv4 packets to be transmitted over an IPv6 network. The objective of this document is to show you how to configure tunneling on the RV130W.",
+    "objective": null,
     "applicable_devices": [],
     "intro": null,
     "steps": [
       {
-        "section": "Configuring 6 to 4 Tunneling",
+        "section": "General",
         "step_num": 1,
-        "text": "Log in to the web configuration utility and choose Networking > IPv6 > Tunneling. The tunneling page opens:",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/configuringtunnelingrv130wstep1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 2,
-        "text": "In the 6 to 4 Tunneling field, check Enable.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-1-1-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 3,
-        "text": "In the 6 to 4 Tunneling drop-down list, select one of the options: 6to4, 6RD, or ISATAP. The following options are defined as: • 6to4 — 6to4 is a prefix that allows IPv6 packets to traverse an IPv4 network. If this is selected, go to Step 4. • 6RD — 6RD (IPv6 rapid deployment) is a more secure version of 6to4 tunneling. In 6RD each ISP provides its own unique IPv6 prefix instead of the standard 2002:/16 6to4 prefix. This allows the ISP to control QoS of the tunnel and decides who gets to use the relay servers. If this is selected, go to Step 6. • ISATAP — ISATAP (Intra-Site Automatic Tunnel Addressing Protocol) is used to send IPv6 packets using an IPv4 network. If this is selected, go to Step 11.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-2-2-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 4,
-        "text": "In the Automatic Tunneling field, check the Enable checkbox if you want Automatic Tunneling, then skip to step 13; otherwise, uncheck it. Automatic Tunneling is used to automatically determine the tunnel endpoints.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-3-1-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "This is only available if 6to4 is selected.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 5,
-        "text": "(Optional) If you unchecked the Enable checkbox in the Automatic Tunneling field, enter an IPv4 Address in the Remote End Point IPv4 Address field. This is the IP Address of the machine on the other end of the IPv6 network that you want to send IPv4 packets to. Once you are done, skip to Step 13.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-4-1-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "The address that is shown above may not be the same as yours.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 6,
-        "text": "In the 6RD Tunneling field, choose either the Auto or Manual radio button. Selecting Auto will configure the 6RD settings for you, while Manual lets you input these settings yourself. If you selected Auto, skip to Step 12.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-5-1-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 7,
-        "text": "In the IPv6 Prefix field, enter the IPv6 prefix that specifies the IPv6 network address.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-27-15-step200-1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 8,
-        "text": "Enter the Prefix Length in the IPv6 Prefix Length field. The Prefix Length ranges from 1 – 64.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-27-15-step201-1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 9,
-        "text": "In the Border Relay field, enter in the IP that serves as a bridge between the Internet and the IPv4-only network.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-27-15-step202-1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 10,
-        "text": "In the IPv4 Mask Length field, enter in the IPv4 mask length. This ranges from 0-32.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-27-15-step203-1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 11,
-        "text": "For ISATAP Tunneling, enter the following information. The available options are defined as: • IPv6 prefix — The IPv6 prefix specifies the IPv6 network address. • IPv6 Prefix Length — Length of the IPv6 prefix (typically defined by the ISP). The IPv6 network (subnet) is identified by the initial bits of the address called the prefix. All hosts in the subnetwork have the identical prefix.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-7-1-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 6 to 4 Tunneling",
-        "step_num": 12,
-        "text": "Click Save.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 4 to 6 Tunneling",
-        "step_num": 1,
-        "text": "Log in to the web configuration utility and choose Networking > IPv6 > Tunneling. The tunneling page opens:",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/configuringtunnelingrv130wstep8.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 4 to 6 Tunneling",
-        "step_num": 2,
-        "text": "In the 4 to 6 Tunneling field, check Enable.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/configuringtunnelingrv130wstep122-1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 4 to 6 Tunneling",
-        "step_num": 3,
-        "text": "Enter the Local IPv6 Address in the Local WAN IPv6 Address field.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-9-1-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 4 to 6 Tunneling",
-        "step_num": 4,
-        "text": "Enter the Remote IPv6 Address in the Remote IPv6 Address field.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/kevtay-1-7-step-10-1-redo.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Configuring 4 to 6 Tunneling",
-        "step_num": 5,
-        "text": "Click Save.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
+        "text": "No steps found."
       }
     ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2018-12-11",
-        "comments": "Initial Release"
-      }
-    ],
+    "revision_history": [],
     "type": "article"
   },
   {
@@ -68365,474 +67722,21 @@
   },
   {
     "series": "RV100 Product Family",
-    "title": "Configuration of Captive Portal on the RV130W",
-    "document_id": "SMB5013",
-    "category": "Configuration",
+    "title": "Support",
+    "document_id": "48d6e9909f86dc49a13ac172a0064440e95b06a4fd61d4b3e4fd9998f9154f82",
+    "category": "Troubleshooting",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5013-configuration-of-captive-portal-on-the-rv130w.html",
-    "objective": "Captive portal turns a web browser into an authentication device. The web page requires user interaction or authentication in order to grant network access to the user. Captive portals are commonly used at Wi-Fi hotspots to regulate access to the network through a password and username system. The objective of this document is to show you how to configure captive portal on the RV130W.",
+    "objective": null,
     "applicable_devices": [],
     "intro": null,
     "steps": [
       {
-        "section": "Add a Captive Portal Profile",
+        "section": "General",
         "step_num": 1,
-        "text": "Log in to the web configuration utility and choose Wireless > Captive Portal > Portal Profile. The Portal Profile page opens:",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step1.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 2,
-        "text": "Click Add Row to add a new captive portal profile. A new page of portal profile settings appears:",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step1c.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 3,
-        "text": "In the Profile Name field, enter a name for the captive portal profile.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step3a.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 4,
-        "text": "From the Verification drop-down list, select the method of authentication used to verify clients. The available options are defined as follows: • Guest — Client does not need to be authenticated by a database. • Local — Device uses a local database to authenticate clients.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step3.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 5,
-        "text": "In the Auto Redirect URL field, Click the Enable radio button to redirect clients to a specified web address when they log into the captive portal. If you do not want this feature, choose Disable and skip to Step 7.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step5a.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 6,
-        "text": "If you chose to enable Auto Redirect URL in Step 5, In the Redirect URL field, enter the address for the web page you would like client to be redirected to.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step4.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 7,
-        "text": "In the Session Timeout field, enter the time, in minutes, that a client is allowed to stay connected before they are logged out and re-authentication is required. Entering a value of 0 allows the client to stay connected for an unlimited time period.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step7.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 8,
-        "text": "Choose a color for the text on the captive portal page from the Font Color drop-down list.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step5.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 9,
-        "text": "In the Company Name field, enter the company name to be shown on the captive portal page.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step9a.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 10,
-        "text": "In the Welcome Message field, enter the message that is shown when a client is successfully connected.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step10.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 11,
-        "text": "In the Username field and the Password field, Enter the text that is shown next to these fields when they are displayed on the captive portal page.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step11.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 12,
-        "text": "In the Login Button Title field, enter the text to be displayed on the login button of the captive portal page.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step12.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 13,
-        "text": "In the Copyright field, enter a copyright to be shown at the bottom of the captive portal page.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step13.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 14,
-        "text": "Enter error messages to be shown in the Error 1 and Error 2 fields. Error 1 is for failed authentication due to invalid username or password. Error 2 is for when the network is busy and all connections are being used.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step14.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 15,
-        "text": "In the Agreement field, Click the Enable radio button to require clients to read and agree to an acceptance policy prior to connecting. If you do not want this feature, choose Disable and skip to Step 18.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step15a.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 16,
-        "text": "If you chose to enable an agreement policy in Step 15, enter the text in the Agreement Text field that will appear next to the agreement check box on the captive portal page.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step16.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 17,
-        "text": "If you chose to enable an agreement policy in Step 15, enter in the Acceptance Use Policy field the text that will be displayed as the use policy on the captive portal page.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step17.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 18,
-        "text": "If you wish to change the background image or logo that is displayed on the captive portal page, click Browse to select an image from your computer. When you are ready to add the item to the device, click Upload for the corresponding item.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step18.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 19,
-        "text": "Click Save to save your newly created captive portal profile.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add a Captive Portal Profile",
-        "step_num": 20,
-        "text": "You will be redirected to the main Portal Profile page. Your new profile should be listed in the Portal Profile Table. Click Save to keep the profile saved onto your device.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step20a.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add User Accounts",
-        "step_num": 1,
-        "text": "Navigate to Wireless > Captive Portal > User Account in the web configuration utility. The User Account page appears:",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step1b.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add User Accounts",
-        "step_num": 2,
-        "text": "Click Add Row to add a new user account to the User Account Table.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step2b.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add User Accounts",
-        "step_num": 3,
-        "text": "Enter a name for the user in the Username field.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step11b.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add User Accounts",
-        "step_num": 4,
-        "text": "Enter a password for the user account in the Password field. Enter the same password again in the Verify Password field.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step11c.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add User Accounts",
-        "step_num": 5,
-        "text": "Enter the time (in minutes) that the specific user will be allowed access to the network before needing to log in again in the Access Time (Minutes) field. Entering 0 will grant the user unlimited access.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step11d.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Add User Accounts",
-        "step_num": 6,
-        "text": "Click Save to save the new user account.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Applying a Captive Portal Profile to a Wireless Connection",
-        "step_num": 1,
-        "text": "Navigate to Wireless > Basic Settings in the web configuration utility. The Basic Settings page appears:",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step4b.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Applying a Captive Portal Profile to a Wireless Connection",
-        "step_num": 2,
-        "text": "Check the check box next to the SSID you wish to apply the profile to and click Edit.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step5b.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          ""
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
-      },
-      {
-        "section": "Applying a Captive Portal Profile to a Wireless Connection",
-        "step_num": 3,
-        "text": "Check the Enable check box for Captive Portal, and select the profile you would like to use from the Portal Profile drop-down list.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/images/pat-091614-step6b.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": "If guest verification is used on the portal profile, a VLAN other than 1 must be chosen from the VLAN drop-down list. Please refer to VLAN Membership on RV130 and RV130W if you need help creating a new VLAN.",
-        "emphasized_text": [
-          "Note:",
-          "VLAN Membership on RV130 and RV130W"
-        ],
-        "emphasized_tags": [
-          "b",
-          "em"
-        ]
-      },
-      {
-        "section": "Applying a Captive Portal Profile to a Wireless Connection",
-        "step_num": 4,
-        "text": "Click Save to save your changes.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": "You must reboot your device afterwards to ensure that captive portal is applied to your network.",
-        "emphasized_text": [
-          "Note:"
-        ],
-        "emphasized_tags": [
-          "b"
-        ]
+        "text": "No steps found."
       }
     ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2018-12-11",
-        "comments": "Initial Release"
-      }
-    ],
+    "revision_history": [],
     "type": "article"
   },
   {
@@ -195473,6 +194377,125 @@
   },
   {
     "series": "Cisco Business Wireless AC",
+    "title": "RF Channels on a Cisco Business Wireless Network",
+    "document_id": "1590767168079739",
+    "category": "Maintain and Operate",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
+    "applicable_devices": [
+      {
+        "device": "140AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "141ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "142ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "143ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "145AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "240AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324934"
+      }
+    ],
+    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
+    "steps": [
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 1,
+        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 2,
+        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
+        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 3,
+        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Radio 1",
+          "Radio 2",
+          "Automatic",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 4,
+        "text": "Click the Save icon to permanently save the new channel assignments.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
+        "alt": "Click the Save icon to permanently save the new channel assignments. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Save icon"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-05-29",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Business Wireless AC",
     "title": "Application Profiling",
     "document_id": "1589477197880547",
     "category": "Maintain and Operate",
@@ -195694,125 +194717,6 @@
       {
         "revision": 1.0,
         "publish_date": "2020-05-14",
-        "comments": "Initial Release"
-      }
-    ],
-    "type": "article"
-  },
-  {
-    "series": "Cisco Business Wireless AC",
-    "title": "RF Channels on a Cisco Business Wireless Network",
-    "document_id": "1590767168079739",
-    "category": "Maintain and Operate",
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
-    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
-    "applicable_devices": [
-      {
-        "device": "140AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "141ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "142ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "143ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "145AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "240AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324934"
-      }
-    ],
-    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
-    "steps": [
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 1,
-        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 2,
-        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
-        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 3,
-        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Radio 1",
-          "Radio 2",
-          "Automatic",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 4,
-        "text": "Click the Save icon to permanently save the new channel assignments.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
-        "alt": "Click the Save icon to permanently save the new channel assignments. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save icon"
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      }
-    ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2020-05-29",
         "comments": "Initial Release"
       }
     ],
