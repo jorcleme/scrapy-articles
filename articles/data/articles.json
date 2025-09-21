@@ -12345,7 +12345,7 @@
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Network Discovery and Management via FindIT",
     "document_id": "SMB5250",
-    "category": "Maintain & Operate",
+    "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/cloud-and-systems-management/cisco-small-business-findit-network-discovery-utility/smb5250-network-discovery-and-management-via-findit.html",
     "objective": "The Cisco FindIT Network Discovery Utility allows users to easily discover select Cisco products connected to a network. This enables users to quickly connect to the user interface of a device, where they can view and manage its configurations. The objective of this document is to explain how to install and use Cisco FindIT to access the configuration utility of the SG550XG and SG350XG Series Managed Switches. For a full length demonstration of Network Discovery and Management via FindIT, please view the video below: Loading.",
     "applicable_devices": [
@@ -46038,7 +46038,7 @@
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Configure Dynamic Host Configuration Protocol (DHCP) Image Upgrade Settings on a Switch",
     "document_id": "SMB2764",
-    "category": "Configuration",
+    "category": "3. Install & Upgrade",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-small-business-200-series-smart-switches/smb2764-configure-dynamic-host-configuration-protocol-dhcp-image-upg.html",
     "objective": "The Dynamic Host Configuration Protocol (DHCP) image upgrade feature on a switch can be used to configure a DHCP server to download both a new image and a new configuration file to one or more switches in a network. Simultaneous image and configuration upgrade for all switches in the network helps ensure that each new switch added to a network are synchronous with the network. The DHCP Image Upgrade on your switch works in two ways: DHCP Auto Configuration and Image Auto Update. Configuring these features could be very beneficial in managing more than one switch or stacked switches in the network. <ul> <li>DHCP Auto Configuration — The process by which the network device receives its configuration file from a Secured Copy Protocol (SCP) over Secure Shell (SSH) or Trivial File Transfer Protocol (TFTP) server identified by the DHCP server when it has provided or renewed the IP address on that device. This functions properly only when the DHCP server is configured to assign the host IP address dynamically. By default, the switch is enabled as a DHCP client when the Auto Configuration feature is enabled.</li> <li>DHCP Auto Image Update — Used with DHCP Auto Configuration, this allows you to download both a configuration and a new image to one or more switches in the network. If Image Auto Update is enabled, the flash image is downloaded and updated. If the new configuration is downloaded to a switch that already has a configuration, the downloaded configuration is appended to the configuration file stored on the switch.</li> </ul>",
     "applicable_devices": [
@@ -61575,7 +61575,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "297b0416c51fca8176d69fc95646deba80a7aca0df278088b485dc487af85db4",
+    "document_id": "93e7cbcb80be061ddc7ac171267b6c9cb510d90e10ef65ff200d48874f8b06d1",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5016-basic-firewall-settings-on-the-rv130-and-rv130w.html",
     "objective": null,
@@ -63846,8 +63846,8 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "9c259869410e6c065beeb12f10e115f73879c2a36e947cd1ef977b3a45ff928b",
-    "category": "Maintain & Operate",
+    "document_id": "6f3a164c93bfc7d7727f3c3bf7112e134c03b631079ac5abf3e31921818428d3",
+    "category": "Troubleshooting",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5056-one-to-one-network-address-translation-nat-on-rv130-and-rv13.html",
     "objective": null,
     "applicable_devices": [],
@@ -67539,8 +67539,8 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "169bdaf4dbc83be8358bf635e9feae8f9a5a56c22aa14eb4fd82180681c6e126",
-    "category": "Troubleshooting",
+    "document_id": "b10f39063065cb3d02d507bc71cd3994cb563327d0ad02e6930f001fa2073677",
+    "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5041-configuring-tunneling-on-the-rv130w.html",
     "objective": null,
     "applicable_devices": [],
@@ -67723,8 +67723,8 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "48d6e9909f86dc49a13ac172a0064440e95b06a4fd61d4b3e4fd9998f9154f82",
-    "category": "Troubleshooting",
+    "document_id": "3857506fe3f3e6349873597a1fcf05528df6e1c04f22af8c1d77795102dd8178",
+    "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5013-configuration-of-captive-portal-on-the-rv130w.html",
     "objective": null,
     "applicable_devices": [],
@@ -196792,240 +196792,6 @@
   },
   {
     "series": "Cisco Business Wireless AC",
-    "title": "Identifying Rogue Clients in a Cisco Business Wireless Network",
-    "document_id": "1589471408510478",
-    "category": "Troubleshooting",
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
-    "objective": null,
-    "applicable_devices": [
-      {
-        "device": "140AC",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "141ACM",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "142ACM",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "143ACM",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "145AC",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "240AC",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324934"
-      },
-      {
-        "device": "150AX",
-        "software": "10.3.2.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/business-access-point-ds.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "151AXM",
-        "software": "10.3.2.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/busines-mesh-extender-ds.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      }
-    ],
-    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. They can be used as traditional standalone devices or as part of a mesh network. In a perfect world, everyone would be respectful and honest when using your wireless network. Unfortunately, we don’t live in a perfect world. As an administrator, your job is to be aware of any potential problems. Rogue APs are APs that have been installed on a network without your permission. Rogue clients are any other detected devices that do not belong to your company. These connections could be totally innocent, but there is always a risk that these rogues will attempt to attack your network or steal sensitive information. To keep on top of this, you can view the rogue APs and rogue clients. Once detected, these rogues cannot be blocked through the AP, but it does give you information to investigate further. <div class=\"cdt-note\"> <p> The CBW APs will only detect rogues on channels you are currently using or channels that overlap. </p> </div>",
-    "steps": [
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 1,
-        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. If you are unfamiliar with the terms used, check out Cisco Business: Glossary of New Terms .",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 2,
-        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View .",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
-        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 3,
-        "text": "Navigate to Monitoring > Network Summary > Rogues > Access Points.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-2.png",
-        "alt": "Navigate to Monitoring > Network Summary > Rogues > Access Points. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Monitoring > Network Summary > Rogues > Access Points."
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 4,
-        "text": "Once this page opens, you can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified. The AP does not change the labels for the rogue APs, that is something you would manually do.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-3.png",
-        "alt": "You can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified.",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 5,
-        "text": "The rogue APs are listed, you can click on any of them to investigate further.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-4.png",
-        "alt": "The rogue APs are listed, you can click on any of them to investigate further. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 6,
-        "text": "If you want to classify any of the APs as Friendly or Malicious , you can select either option from the drop-down menu under Update Class . You might want to do this so that when you look at Unclassified Access Points in the future, you won’t have to sort through an entire list. Be sure to click Apply when done.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-5.png",
-        "alt": "If you want to classify any of the APs as Friendly or Malicious, you can select either option from the drop-down menu under Update Class.",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Friendly",
-          "Malicious",
-          "Update Class",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 7,
-        "text": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-6.png",
-        "alt": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Internal",
-          "External",
-          "Update Status",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 1,
-        "text": "Log into the Web UI of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. For some actions, you can go us the Cisco Business Mobile app.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 2,
-        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View . For details on setting up a RADIUS server, check out Radius",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
-        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Expert View",
-          "arrow icon",
-          "Expert View"
-        ],
-        "emphasized_tags": [
-          "em",
-          "strong",
-          "em"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 3,
-        "text": "Navigate to Monitoring > Network Summary > Rogues > Clients.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-7.png",
-        "alt": "Navigate to Monitoring > Network Summary > Rogues > Clients. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Monitoring > Network Summary > Rogues > Clients."
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 4,
-        "text": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-8.png",
-        "alt": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      }
-    ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2020-06-24",
-        "comments": "Initial Release"
-      }
-    ],
-    "type": "article"
-  },
-  {
-    "series": "Cisco Business Wireless AC",
     "title": "Detecting Interferers",
     "document_id": "1589480530956561",
     "category": "Troubleshooting",
@@ -197266,6 +197032,240 @@
           "em",
           "em"
         ]
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-06-24",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Business Wireless AC",
+    "title": "Identifying Rogue Clients in a Cisco Business Wireless Network",
+    "document_id": "1589471408510478",
+    "category": "Troubleshooting",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
+    "objective": null,
+    "applicable_devices": [
+      {
+        "device": "140AC",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "141ACM",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "142ACM",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "143ACM",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "145AC",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "240AC",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324934"
+      },
+      {
+        "device": "150AX",
+        "software": "10.3.2.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/business-access-point-ds.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "151AXM",
+        "software": "10.3.2.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/busines-mesh-extender-ds.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      }
+    ],
+    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. They can be used as traditional standalone devices or as part of a mesh network. In a perfect world, everyone would be respectful and honest when using your wireless network. Unfortunately, we don’t live in a perfect world. As an administrator, your job is to be aware of any potential problems. Rogue APs are APs that have been installed on a network without your permission. Rogue clients are any other detected devices that do not belong to your company. These connections could be totally innocent, but there is always a risk that these rogues will attempt to attack your network or steal sensitive information. To keep on top of this, you can view the rogue APs and rogue clients. Once detected, these rogues cannot be blocked through the AP, but it does give you information to investigate further. <div class=\"cdt-note\"> <p> The CBW APs will only detect rogues on channels you are currently using or channels that overlap. </p> </div>",
+    "steps": [
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 1,
+        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. If you are unfamiliar with the terms used, check out Cisco Business: Glossary of New Terms .",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 2,
+        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
+        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 3,
+        "text": "Navigate to Monitoring > Network Summary > Rogues > Access Points.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-2.png",
+        "alt": "Navigate to Monitoring > Network Summary > Rogues > Access Points. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Monitoring > Network Summary > Rogues > Access Points."
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 4,
+        "text": "Once this page opens, you can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified. The AP does not change the labels for the rogue APs, that is something you would manually do.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-3.png",
+        "alt": "You can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 5,
+        "text": "The rogue APs are listed, you can click on any of them to investigate further.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-4.png",
+        "alt": "The rogue APs are listed, you can click on any of them to investigate further. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 6,
+        "text": "If you want to classify any of the APs as Friendly or Malicious , you can select either option from the drop-down menu under Update Class . You might want to do this so that when you look at Unclassified Access Points in the future, you won’t have to sort through an entire list. Be sure to click Apply when done.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-5.png",
+        "alt": "If you want to classify any of the APs as Friendly or Malicious, you can select either option from the drop-down menu under Update Class.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Friendly",
+          "Malicious",
+          "Update Class",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 7,
+        "text": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-6.png",
+        "alt": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Internal",
+          "External",
+          "Update Status",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 1,
+        "text": "Log into the Web UI of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. For some actions, you can go us the Cisco Business Mobile app.",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 2,
+        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View . For details on setting up a RADIUS server, check out Radius",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
+        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Expert View",
+          "arrow icon",
+          "Expert View"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "em"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 3,
+        "text": "Navigate to Monitoring > Network Summary > Rogues > Clients.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-7.png",
+        "alt": "Navigate to Monitoring > Network Summary > Rogues > Clients. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Monitoring > Network Summary > Rogues > Clients."
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 4,
+        "text": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-8.png",
+        "alt": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
       }
     ],
     "revision_history": [
