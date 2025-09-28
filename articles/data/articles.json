@@ -46038,7 +46038,7 @@
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Configure Dynamic Host Configuration Protocol (DHCP) Image Upgrade Settings on a Switch",
     "document_id": "SMB2764",
-    "category": "3. Install & Upgrade",
+    "category": "Install & Upgrade",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-small-business-200-series-smart-switches/smb2764-configure-dynamic-host-configuration-protocol-dhcp-image-upg.html",
     "objective": "The Dynamic Host Configuration Protocol (DHCP) image upgrade feature on a switch can be used to configure a DHCP server to download both a new image and a new configuration file to one or more switches in a network. Simultaneous image and configuration upgrade for all switches in the network helps ensure that each new switch added to a network are synchronous with the network. The DHCP Image Upgrade on your switch works in two ways: DHCP Auto Configuration and Image Auto Update. Configuring these features could be very beneficial in managing more than one switch or stacked switches in the network. <ul> <li>DHCP Auto Configuration — The process by which the network device receives its configuration file from a Secured Copy Protocol (SCP) over Secure Shell (SSH) or Trivial File Transfer Protocol (TFTP) server identified by the DHCP server when it has provided or renewed the IP address on that device. This functions properly only when the DHCP server is configured to assign the host IP address dynamically. By default, the switch is enabled as a DHCP client when the Auto Configuration feature is enabled.</li> <li>DHCP Auto Image Update — Used with DHCP Auto Configuration, this allows you to download both a configuration and a new image to one or more switches in the network. If Image Auto Update is enabled, the flash image is downloaded and updated. If the new configuration is downloaded to a switch that already has a configuration, the downloaded configuration is appended to the configuration file stored on the switch.</li> </ul>",
     "applicable_devices": [
@@ -61575,8 +61575,8 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "93e7cbcb80be061ddc7ac171267b6c9cb510d90e10ef65ff200d48874f8b06d1",
-    "category": "Maintain & Operate",
+    "document_id": "3b1a3fe51b06d00b854a1f42a80c765d19e9603bae6e83bb73d529e4be91126d",
+    "category": "Troubleshooting",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5016-basic-firewall-settings-on-the-rv130-and-rv130w.html",
     "objective": null,
     "applicable_devices": [],
@@ -63846,8 +63846,8 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "6f3a164c93bfc7d7727f3c3bf7112e134c03b631079ac5abf3e31921818428d3",
-    "category": "Troubleshooting",
+    "document_id": "59537284d58918baabd86d8b048243340bfa053e3c3fca00ea4e0f4488570919",
+    "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5056-one-to-one-network-address-translation-nat-on-rv130-and-rv13.html",
     "objective": null,
     "applicable_devices": [],
@@ -67539,7 +67539,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "b10f39063065cb3d02d507bc71cd3994cb563327d0ad02e6930f001fa2073677",
+    "document_id": "edb48d8bf96331eded1f77074b7c99a58e277ceffffa6af809aa1b6110a4f040",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5041-configuring-tunneling-on-the-rv130w.html",
     "objective": null,
@@ -67723,8 +67723,8 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "3857506fe3f3e6349873597a1fcf05528df6e1c04f22af8c1d77795102dd8178",
-    "category": "Maintain & Operate",
+    "document_id": "218903ec84b269ff3725729fddb9a67bdcfbc7a3c6a020f93c6f3047895bac98",
+    "category": "Troubleshooting",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5013-configuration-of-captive-portal-on-the-rv130w.html",
     "objective": null,
     "applicable_devices": [],
@@ -152832,7 +152832,7 @@
     "series": "Cisco 350 Series Managed Switches",
     "title": "Tips to Keep the ARP Table Available for DHCP IP Addressing",
     "document_id": "1565280132135250",
-    "category": "Maintain & Operate",
+    "category": "Maintain and Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-550x-series-stackable-managed-switches/1526-Tips-to-Keep-the-ARP-Table-Available-for-DHCP-IP-Addressing.html",
     "objective": "This article explains how to set the Address Resolution Protocol (ARP) table of a switch to frequently clear the expired Media Access Control (MAC) addresses from the ARP table. In addition, this article illustrates how to clear the ARP table manually. These options are solutions to bugCSCvn36700.",
     "applicable_devices": [
@@ -153156,7 +153156,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2019-08-09",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -180119,7 +180125,7 @@
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Tips to Keep the ARP Table Available for DHCP IP Addressing",
     "document_id": "1565280132135250",
-    "category": "Maintain & Operate",
+    "category": "Maintain and Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-550x-series-stackable-managed-switches/1526-Tips-to-Keep-the-ARP-Table-Available-for-DHCP-IP-Addressing.html",
     "objective": "This article explains how to set the Address Resolution Protocol (ARP) table of a switch to frequently clear the expired Media Access Control (MAC) addresses from the ARP table. In addition, this article illustrates how to clear the ARP table manually. These options are solutions to bugCSCvn36700.",
     "applicable_devices": [
@@ -180443,7 +180449,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2019-08-09",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
