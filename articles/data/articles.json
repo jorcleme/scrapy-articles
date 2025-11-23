@@ -53542,7 +53542,7 @@
   {
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Switches - Retired Products",
-    "document_id": "a7b1b6798f17ec5efae700f730bb92c8a37e7085ae19369913f8ffdef1efef5a",
+    "document_id": "138f8e62ba51c101fb08181401fb9d22cae3a78892ff3d7fc541e68c82db23ca",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-250-series-smart-switches/smb2698-configure-simple-network-management-protocol-snmp-notificati.html",
     "objective": null,
@@ -61409,7 +61409,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "58c6723f65e04a02d6346ae1b95e9973cf897d215b3be5e09159018bd45b3db9",
+    "document_id": "d60dd66ebd85fed45c94a4fe485bbed0c4c73553f780b4a4666f70f842baea59",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5016-basic-firewall-settings-on-the-rv130-and-rv130w.html",
     "objective": null,
@@ -63680,8 +63680,8 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "60faec0e6414d7c02415d5042747fd17ec1b6c7eeb054d404846c2bb69e93c12",
-    "category": "Maintain & Operate",
+    "document_id": "65581f8857e60df06033a6f7324cba9e2fdcaff1132af41ff922a7d430c8ad21",
+    "category": "Troubleshooting",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5056-one-to-one-network-address-translation-nat-on-rv130-and-rv13.html",
     "objective": null,
     "applicable_devices": [],
@@ -67373,7 +67373,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "df2f96abbaabc3106460784b8e0918d7849c2cddc837d86154bced684b917dd4",
+    "document_id": "aecb633d92aeee54a5e6e9c23b4e3eda2667c3ec23c7e58649bba73696817a99",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5041-configuring-tunneling-on-the-rv130w.html",
     "objective": null,
@@ -67557,7 +67557,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "ce6feb947e57f569c9ec0435f909a7a4e46c28541ec0490a223f2c7ed356d9f4",
+    "document_id": "afca343fdfe66dbb6ad8abc6f953724ed5eaf51242439f8f9d6176642fb9bb72",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5013-configuration-of-captive-portal-on-the-rv130w.html",
     "objective": null,
@@ -73813,7 +73813,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "5df6404fe866f87fc031c0337612c53b6e5a4ddca697049dd5565ee228c08ef9",
+    "document_id": "9ca36b1a12145cfe794340de4ec0423db9048ffb2023aedee79fd6d47fbb5906",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/Configure-MAC-Client-RV32X.html",
     "objective": null,
@@ -73832,7 +73832,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "382a6cb77619ed209539051182a725bb99eee9e862fd0fde71588c1725f23a21",
+    "document_id": "f4e299b3f2b518029434023aa7190a53ed8a92b7cc6c9b03fbaecbb09dd0976c",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4296-configure-easy-client-to-gateway-virtual-private-network-vpn.html",
     "objective": null,
@@ -73851,7 +73851,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1ab90c34746e3f1034963d80fc0c03a4bb2ec941f470ed247e90cdb0a40b39d9",
+    "document_id": "cf55468e32f31735fdcc9f4e4f8589c5b0d9d6f2c09b6927d2082ff729d8fee6",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4166-configure-dmz-host-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -73870,7 +73870,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "41613b2cb117a895ee0d9a77703ca8c4e41dd51ef367f0c3e763d651e283c045",
+    "document_id": "9d5c8a3dc71dfcb6f6d40a32c950db9f727b04964e32df5cb4e53cc40645937b",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4347-reset-to-factory-default-settings-on-rv320-and-rv325-vpn-rou.html",
     "objective": null,
@@ -73914,7 +73914,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "78957d165d04e272293e8acd0e6ed8e7d34f65467f0d217c82bb8fffa80f1a9a",
+    "document_id": "b3408b4e005422717757691e31c1556352a6194e744b53d169c5e28cb9094fe5",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4270-gateway-to-gateway-virtual-private-network-vpn-configuration.html",
     "objective": null,
@@ -73933,7 +73933,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "edfdf54ca1e6e2edfcb1a55fd30b6b78f937ca60c8bf193976ee2779e6ef95ce",
+    "document_id": "fae9c016ff3d450d535cab3d4d82490400e7b2d2fbbf4ce0a000eacc7ed44d51",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4301-configure-virtual-private-network-vpn-passthrough-on-rv320-a.html",
     "objective": null,
@@ -73952,7 +73952,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "60112de2b649b9ac96c7c07cc6ba2a3c8a9df444e2a0054c3e8de580fd27c8dc",
+    "document_id": "4463907e373d14a545ff12dbc7348dacc5fb287516ac723316c2cee968d16ec2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4377-configure-inbound-load-balance-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -73971,7 +73971,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ad60b8f7192bc1bc5d342771dceb3ffb374b59f44183723451cba47c1b2de8d4",
+    "document_id": "2e9c41fd4666271e11444d797d05bd73d2e8fe94cfc36e7bde55372f9457b84c",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4261-configure-qos-quality-of-service-queue-mapping-on-the-rv320.html",
     "objective": null,
@@ -73990,7 +73990,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "0e6cb2a8d64a23e6608f78f0a627724604a07647798de098f1051ffad5b787fb",
+    "document_id": "3cb3a421a4fbb161bfeadbc1d8002e0685fef390f3c04e49682d47e4ab1074ee",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4122-configure-time-and-date-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74354,7 +74354,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "08bde2c6f828b6ccd202f114b20b86a6f2db539a55cad8be48c65c31899fcd1c",
+    "document_id": "286567a11d4fa6c1eaddd181084b9b5532acc87331a14447e517f3305877f0df",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4939-configuring-a-site-to-site-vpn-tunnel-between-cisco-rv320-gi.html",
     "objective": null,
@@ -74373,7 +74373,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "a39f4ca414cfa4b0710514a7fbd3a43a9b5c322b70b6a273841f62e3bdcdd544",
+    "document_id": "04f91181e337cae2932ff7eeb7110810e3ae48715da6404e059bbcfbbfa52f85",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4288-configure-single-client-to-gateway-virtual-private-network-v.html",
     "objective": null,
@@ -74392,7 +74392,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "22008a10f519ad99a4b5f189d544a5a1dd24a5bdcfe2bc24a7daee1f9d83b2c2",
+    "document_id": "2f7614c004bda458837b3bd351930e9b8a9a99af63a2633544c0f5e68d0ccd41",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4359-configure-point-to-point-tunneling-protocol-pptp-server-on-r.html",
     "objective": null,
@@ -74411,7 +74411,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ef7073da565337ec8a2b06673df50048a9381432778494e3080e76f7a1c9eca0",
+    "document_id": "1d5869bf61dd6bf59f18c2dbc21a443935aa4e259f01b27113c8a61cdc62d447",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4348-configure-advanced-secure-sockets-layer-virtual-private-netw.html",
     "objective": null,
@@ -74430,7 +74430,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "757b2d7e616ee3146ca1a28e62079e54683650d5602df5b2e8a745ffa35c672e",
+    "document_id": "e24d961402fd62bed84991e978090cfafd9afeabed995cb3375200ac376a2140",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4381-configure-my-certificate-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74449,7 +74449,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "70d50ab22ccc086557115575b85f0221877dda32a205c6e166ddd8e96e7aa7a0",
+    "document_id": "8552175073417a24671449a8aacbcb6680430cc816a1d11a2e2331eb77dc484c",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4295-configure-group-client-to-gateway-virtual-private-network-vp.html",
     "objective": null,
@@ -74468,7 +74468,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "827bdcc014c310dcedce5e3d1c764a15c0608fcd3076a1291c3cfb95a9d08566",
+    "document_id": "3270629bdbef84475286e692356404a1d4d0e36ddd3e00502ffff8c658a138ab",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4154-configure-one-to-one-network-address-translation-nat-on-rv32.html",
     "objective": null,
@@ -74487,7 +74487,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "01ccba83d44d216e939c332b2f0a85e595af93943d7f9e6515249afa3516870c",
+    "document_id": "2d8b686fc6b0a55785d3bbf8738845997fb7f02662b0abc4c8c0377f2d1a6f01",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4152-configure-port-address-translation-pat-on-rv320-and-rv325-vp.html",
     "objective": null,
@@ -74506,7 +74506,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c7546f71df01535b62f50263bb06ad73d075c6473f06439e2b3645f2936a33d3",
+    "document_id": "73a776092083370cb4c01c085ded1e47e1389e2027edc73e0a920c3c47a39421",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4142-configure-vlan-membership-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74525,7 +74525,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "8019f7665611a09168d781cb272974b1150cd9743a55065d6006258a5f32ab0a",
+    "document_id": "08dbd6ed18be0bd74496a8c9051b541068edf1e1fe693930cff881174d3ba059",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4127-configure-simple-network-management-protocol-snmp-on-rv320-a.html",
     "objective": null,
@@ -74544,7 +74544,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "d516d4d613ceb8280f797281d3c8723ee8723420b7024329d5a10a7199bf3cc2",
+    "document_id": "d79889316e3931ca01212bae805dea12f788f1c7d8898d3ed05047d339b034f0",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4176-configure-dynamic-domain-name-server-on-rv320-and-rv325-vpn.html",
     "objective": null,
@@ -74563,7 +74563,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "a9d5a8b34c3aaf842779be84d5d39056f236f9e4fd8606518af11cd96ee96d14",
+    "document_id": "d9135782e15e3f47425081321191c56c4e172a3e7a98f08bd30cfba6f1274c86",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4165-bandwidth-management-configuration-on-rv320-and-rv325-vpn-ro.html",
     "objective": null,
@@ -74582,7 +74582,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c46095c89512d6e3d287c2ffde12889c0f0423a583cde186b2a6bd727b1625fd",
+    "document_id": "b524da50492e54f3151b1770f3b71c91ab6179a059408335c24e07a7bf77b2c9",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5046-configuration-of-universal-plug-and-play-upnp-on-rv320-and-r.html",
     "objective": null,
@@ -75050,7 +75050,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "98861128f820d6adecc067d63231b22f09fcaadd81f4844e84527c1f773bc353",
+    "document_id": "f68fd0ccd43405f1752e2b6153b68923218c60fa67c222f462ede182242b0d00",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4286-access-rules-configuration-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75069,7 +75069,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "bd131dcdfd65e5291f06ed9a65489e3e3d943229f042e825ffba536125ca0ef7",
+    "document_id": "3ac662e812da1f9e324e9927c44be6219f14d9229a5e10799b0ba68735f1e401",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4362-advanced-routing-configuration-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -75088,7 +75088,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1e80bc1598a25da708ee68e246777ab15365c4a611d9f869db5b29fdcda8da6b",
+    "document_id": "76a23e0d435bd729ff8fcee1e72c74835eb34741aa8a19ce7cc2b77f4cb1db9a",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4226-manage-ip-and-mac-binding-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75107,7 +75107,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c8c1ef9bc3e584909c648f7fe51ecec6f36a1c873754a553900e3e88a9cbd3fc",
+    "document_id": "ab1cfa6f0f41100db173416a484c0a6119511a619c54968e9469f16174246fff",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4274-access-rule-setup-wizard-on-rv32x-vpn-router-series.html",
     "objective": null,
@@ -75126,7 +75126,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "4c7f9e98d585eac000c5f63063fd7a2ed1622056a6864dbe01207f82b293cd87",
+    "document_id": "7ce2c2cb0f8c0c144e4a944d19a0e687b9ca3978086b1010966c8def71fce35e",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4336-basic-firewall-configuration-on-rv320-and-rv325-routers.html",
     "objective": null,
@@ -75145,7 +75145,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c0f01acef48206f777123cd03d97ffc80fbce50bb5c3474ee749300e16c33878",
+    "document_id": "4f481154f119f6a6b9800134e7f7604da89f2c52136266e5d3069bd9d3299572",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4411-certificate-signing-request-csr-on-rv320-and-rv325-vpn-route.html",
     "objective": null,
@@ -75164,7 +75164,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "becf3ebd4987e983637fbcf2381dce859d71efc768a973cc9bf6897b900c8bf5",
+    "document_id": "a312220d2dae56702c30898ececc52f433cfa419368dbe370ec506ec37c904ff",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4328-resource-management-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75183,7 +75183,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1b1fae3a0e00bbc8777ca3ec915bae56257bbcb498cc4a14c3205e192526c54f",
+    "document_id": "f1cd443551fc64c92aa4210042ad54a843b6b8d68fe302738be4c0aa68cbc271",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4253-option-82-configuration-on-rv32x-vpn-router-series.html",
     "objective": null,
@@ -75202,7 +75202,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "2732fe56c41ed623f301f32cb50ae8bf748c8a02a4a7be92ae09c545cee70f7f",
+    "document_id": "bfc2cfc4b31f62a8e46d7a6c1effcb05a6afbb9725ca8590b571caf1c5068b3e",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4221-system-log-configuration-on-rv320-and-rv325-vpn-router-serie.html",
     "objective": null,
@@ -75221,7 +75221,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "5b410c5872e334d7dcc4f26eb1ba04835c345b85436e7851e01e4cc47655e554",
+    "document_id": "34ede4ed49c5a6790639430f2a8dbe7e0248618512145694ca4113fe29a4ea1e",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4163-clone-mac-address-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75240,7 +75240,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "43c39218e9cb3cd6d783aa1d542c485ad5e6ad3b9344b2f30b2d85d2af117eb3",
+    "document_id": "948b844e85dc7e25e4e8f8410c89eda7b5e642870f67b15f72b0a1c36d81daba",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4159-port-forwarding-and-port-triggering-on-rv320-and-rv325-vpn-r.html",
     "objective": null,
@@ -75259,7 +75259,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "dbf4a879ee9b177621c61ebdb299111a79fc6bb52f7f3ff0011e6fd07a5f82c1",
+    "document_id": "7fc197aaa5e502dc12f544c35766b390081d54eb89fddbeecfad26699c40e76c",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4195-manage-router-advertisement-on-rv320-and-rv325-vpn-router-se.html",
     "objective": null,
@@ -75278,7 +75278,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "2e93aa80fba1ea0e2641a5ef79f40b9360d16c86dc9fd6b71413456dd8e8ced5",
+    "document_id": "df8e208b6ff21271993b81655fe0c8b1ce696b6804a0aad2ad1de402adefaa01",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4147-password-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75297,7 +75297,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "4fbba027ee100041b9f2fc7f5170565b31846c053af02b494823b483eb4c09e6",
+    "document_id": "2590b620868b7befcbec7ff39f10bc114c3ac4eeb02471eba31aac19b20731e1",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4222-manage-dns-domain-name-system-local-database-on-rv320-and-rv.html",
     "objective": null,
@@ -75316,7 +75316,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "21911639f84b5a121747481f24b9772a6d653ebee9914628d8be33a5dd9282bb",
+    "document_id": "abfdce687868efdfdebe7283fd735a9a79ddaa689d80080ebc50e367df2dbe98",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4125-backup-and-restore-the-configuration-files-on-rv320-and-rv32.html",
     "objective": null,
@@ -75507,7 +75507,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "e45ef46efade3b8347aaa5628102e338e1ec999cfe40b85456240ac5ae37c906",
+    "document_id": "dd28e1a6e8b389bc3ca9fe70f2f2e9ed6ea7f4ef385f43aa1057d5084e7a0dd5",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4148-8021x-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75526,7 +75526,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "7fb517636b62892cd8fe37692544be723670346d9f59cd60ac9657937341c050",
+    "document_id": "3d35a67a07166efe431b69036399c3c9b03a7f1b0cdea7694a1e9b3fc631cd6c",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4242-dual-wan-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75545,7 +75545,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c1ec59e067e005aa1633feb52193a3d29debb185f827ce140f62ad0146f36c02",
+    "document_id": "a3102420630033f00aa1313a66cc53d31a8945c19a1b72b876d0f224fc58a772",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4255-dhcpv4-configuration-and-monitoring-on-rv32x-vpn-router-seri.html",
     "objective": null,
@@ -75564,7 +75564,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "bd4949541a1bff6fa597edd3b6eded7f74e8956d1e482c01c59846ebe2a91c2e",
+    "document_id": "90df8345174b07aae4e365418917e119b2ab98f12cd54fc8bba04cd2d5cb7531",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4231-content-filter-configuration-on-rv320-and-rv325-vpn-router-s.html",
     "objective": null,
@@ -75583,7 +75583,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c8145dcf717b8f67183cd05e9af7c2a257966643014431f1a3403446ee21b22f",
+    "document_id": "d618dfa0ba1308f5ca705cd45f981c74792d5f003d258b288626ad95a3ef063f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4280-dhcpv6-configuration-and-monitoring-on-rv32x-vpn-router-seri.html",
     "objective": null,
@@ -131625,7 +131625,7 @@
   {
     "series": "Cisco Catalyst 1200 Series Switches",
     "title": "IOS Configuration Converter",
-    "document_id": "fd0e89303cb919008cf688b75fa7f9ff809eb3a999cd7e4aab2ed9334a9daf56",
+    "document_id": "0704d668143b1e226561fa084422245ca0df7c1eb4216536fecd24fc926a7858",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/IOS-Configuration-Coverter.html",
     "objective": null,
@@ -144103,7 +144103,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "39f7e865099f0e149dbb648fdcbb4b8f5682c04d0214945aa7ba01d212f7fd9a",
+    "document_id": "798318aa51c8a14c785709e23b2b514f4a525b42402fefef9db36e585c8bbec2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4265-basic-setup-wizard-on-rv32x-vpn-router-series.html",
     "objective": null,
@@ -144122,7 +144122,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Switches - Retired Products",
-    "document_id": "ee237fde904fd49497392fc301e795ae72b42814c620454a07909abb6909a765",
+    "document_id": "6668197564aadc2fae115ca217ba1337c7ee2026536eef1df0e244788d764f13",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4941-enabling-multiple-wireless-networks-on-rv320-vpn-router-wap3.html",
     "objective": null,
@@ -144687,7 +144687,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "56af601ea474152d74405ca828893b1ba05b96a75bff00bb74d91744948a25aa",
+    "document_id": "49135b5c24bc571f80465e40f9d7cf4b2ece42abeecb742432c8eb092777565c",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4890-workaround-for-inaccessibility-of-gui-after-firmware-version.html",
     "objective": null,
@@ -144962,7 +144962,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "39411911845dec0ed220f531c23f3c49168c93943c473187c70070f97a2229f8",
+    "document_id": "784ade8403f866fd687500b89b653675975f97ab92cfed9b97228a3e7ba23616",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4346-view-traffic-statistics-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -144981,7 +144981,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "8636858643a8629b178910ec78a943de0fb10b0e5d4aabac63c893560023d72a",
+    "document_id": "4b9d3a946b32d1027403210c5581aa89ae86556117ccdb625b5890fcc16becdf",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4424-view-add-trusted-ipsec-certificate-on-rv320-and-rv325-vpn-ro.html",
     "objective": null,
@@ -145000,7 +145000,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "e7a3cabbb2ea366ec8e2f14279a257d6b6528a3df158c0f7b18b70061e1fb871",
+    "document_id": "2156ff3d92fa49f0ace6c191e5448be13395109c929cfc485363c571d46c44a3",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4421-view-add-trusted-ssl-certificate-on-rv320-and-rv325-vpn-rout.html",
     "objective": null,
@@ -145019,7 +145019,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "54c12df2481853d167f9a172602ca620fd65c4997d68020e67b058a1b4b58e69",
+    "document_id": "85305099d3b757e3f7a003bed6a9eee9a5d3e1ccf3f05dd304dfe5dbaa51bbf1",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4339-view-link-layer-discovery-protocol-lldp-properties-on-rv320.html",
     "objective": null,
@@ -145038,7 +145038,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "d291fa805643522b6d6e278102c89121f9205d437d0d6109e708ffe8b2379127",
+    "document_id": "936f873f40ce75b9e8fd5469132c0171d966a153fcc8f08a06b7a5456c83d88d",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4367-view-virtual-private-network-vpn-summary-on-rv320-and-rv325.html",
     "objective": null,
@@ -145057,7 +145057,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "60664538ce833ebc7bc02c2d2f5cdfb2901fb8dc6774033a42cd2c7d32b6608a",
+    "document_id": "6bf5360cca9b0bb4dfba4bdcfa1e35234a29ab95f7e5ecf6c09e032dccea11da",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4136-view-port-setup-port-status-on-rv320-and-rv325-vpn-router-se.html",
     "objective": null,
@@ -145076,7 +145076,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "3794b4353046566766c97a5ddbf6b6a793d68359167fb170a07338c4f78fdd17",
+    "document_id": "e0d5f629273dcc67696aa02109e06c1d650742cfedbf6d6e0791b5db2067f6c4",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/kmgmt-2483-troubleshooting-openvpn-on-RV320-RV325-routers.html",
     "objective": null,
@@ -145095,7 +145095,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "cab2a8a2e8754e3828a3a4fdab4d4a7e4ed3a7694756c52b5d272ad140d7fddc",
+    "document_id": "ee1e2050988c098d56d626f83c51c05945a1d1beefcfa9c1180528b5dacb3ea4",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/CSCvm78058_Cisco_Small_Business_RV320_and_RV325_Routers_Command_Injection_Vulnerability.html",
     "objective": null,
@@ -145114,7 +145114,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "83c7b1b6e22ce27946101c47c13b8686d812a74f5405663dd15d41eba370d51d",
+    "document_id": "215932779f197ab2e4aeedb1c5f6574d3ac6d66f56ef870b210b9ea80c695ab4",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4282-view-processes-log-information-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -145133,7 +145133,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1b216e8b53bb177c26fd39684ce5240fcfc1940d195996eb9c01a73426b651b5",
+    "document_id": "655c9a4065c0c66be9b160679b95efd7739ec52ba83eb17aad3787f6bc5b12c7",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5580-sr-682173131-rv320-inbound-access-control-lists-acls-are-no.html",
     "objective": null,
@@ -145152,7 +145152,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "7972e78ce96e12e6367c08ccd497dd681d101beb523df2df11959a8d82e6fea2",
+    "document_id": "f66502f21d36bd807b7622c502cf8f0777256b3aef8da524b42ad8ad4a7ea8c3",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5546-workaround-for-uploading-rv32x-series-router-certificate.html",
     "objective": null,
@@ -145171,7 +145171,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "b3a0cf29f55b5afe8b59086662f104d15dd7277e00eab3e67508a58f93788f09",
+    "document_id": "ee1f2be5058fd4d83865731e910cfaca126fa23b0e99e7985dd26c6e98942104",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5577-sr-681455492-us-rv325-k9-na-usb-dongle-failover-not-working.html",
     "objective": null,
@@ -145190,7 +145190,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "7375210727c2c5bdceb53c656ab49da99b20a6289c1eab2d7508cda5f33caa76",
+    "document_id": "d3bee4f0f8202c88204cb59f3436b3c7eed8490fb0dd4633e3f5a4ab4b265043",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5688-sr-638773469-chat-2-rv320-device-freezes-and-stops-working-1.html",
     "objective": null,
@@ -145209,7 +145209,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "05b883c6b0ea6d3db326bc91ee88efdd70450e494f7da7d99578c8f7608221e0",
+    "document_id": "c1d072f0f644b5758d31bf68b293f29e26c145ad98ac920b560dc6156788a6bc",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4284-view-system-statistics-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -145228,7 +145228,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "e65525d23e19f03f2192464b561bda06dc15f547e1982accfae98d4f857ce6a2",
+    "document_id": "26bfd1e780b0aa58d4747ccb13a02118281e8607bbe31ba34497b3326e95534f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5484-cscva43065-rv32x-access-to-internal-web-server-broken-with-w.html",
     "objective": null,
@@ -145247,7 +145247,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "e6571e3c14dd1372e5d23aa4d2bbe9f9a68d65a4d25a8a87d363c2113e6a15dc",
+    "document_id": "653c820d08b06fcc451a6c18a383a0d5a047788936cf2b06e761e9deafdc50e4",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4161-dns-name-lookup-and-ping-test-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -180661,125 +180661,6 @@
   },
   {
     "series": "Cisco Business Wireless AC",
-    "title": "RF Channels on a Cisco Business Wireless Network",
-    "document_id": "1590767168079739",
-    "category": "Maintain and Operate",
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
-    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
-    "applicable_devices": [
-      {
-        "device": "140AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "141ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "142ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "143ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "145AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "240AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324934"
-      }
-    ],
-    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
-    "steps": [
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 1,
-        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 2,
-        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
-        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 3,
-        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Radio 1",
-          "Radio 2",
-          "Automatic",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 4,
-        "text": "Click the Save icon to permanently save the new channel assignments.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
-        "alt": "Click the Save icon to permanently save the new channel assignments. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save icon"
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      }
-    ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2020-05-29",
-        "comments": "Initial Release"
-      }
-    ],
-    "type": "article"
-  },
-  {
-    "series": "Cisco Business Wireless AC",
     "title": "Application Profiling",
     "document_id": "1589477197880547",
     "category": "Maintain and Operate",
@@ -181001,6 +180882,125 @@
       {
         "revision": 1.0,
         "publish_date": "2020-05-14",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Business Wireless AC",
+    "title": "RF Channels on a Cisco Business Wireless Network",
+    "document_id": "1590767168079739",
+    "category": "Maintain and Operate",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
+    "applicable_devices": [
+      {
+        "device": "140AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "141ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "142ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "143ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "145AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "240AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324934"
+      }
+    ],
+    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
+    "steps": [
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 1,
+        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 2,
+        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
+        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 3,
+        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Radio 1",
+          "Radio 2",
+          "Automatic",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 4,
+        "text": "Click the Save icon to permanently save the new channel assignments.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
+        "alt": "Click the Save icon to permanently save the new channel assignments. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Save icon"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-05-29",
         "comments": "Initial Release"
       }
     ],
