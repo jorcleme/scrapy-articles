@@ -2720,11 +2720,15 @@
     "family": "CBS220"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/General/new-to-cisco-small-business-terms-and-tricks-for-beginners.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt3607-disabling-http-https-services-in-switches.html",
     "family": "CBS220"
 },
 {
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/kmgmt-1080-New-to-Cisco-Business-General-Glossary.html",
+    "family": "CBS220"
+},
+{
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/General/new-to-cisco-small-business-terms-and-tricks-for-beginners.html",
     "family": "CBS220"
 },
 {
@@ -2733,10 +2737,6 @@
 },
 {
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2861-enable-loopback-detection-CBS-220.html",
-    "family": "CBS220"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt3607-disabling-http-https-services-in-switches.html",
     "family": "CBS220"
 },
 {
@@ -3096,11 +3096,11 @@
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2068-Application-Profiling.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2068-Application-Profiling.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
@@ -3156,11 +3156,11 @@
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2073-interferers.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2073-interferers.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
