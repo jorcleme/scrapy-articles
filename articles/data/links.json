@@ -2328,23 +2328,11 @@
     "family": "routers-100-family"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4265-basic-setup-wizard-on-rv32x-vpn-router-series.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4941-enabling-multiple-wireless-networks-on-rv320-vpn-router-wap3.html",
-    "family": "routers-320-family"
-},
-{
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/cloud-and-systems-management/network-automation-and-management/Installing_Postfix_Mail_Server_on_a_Raspberry_Pi.html",
     "family": "routers-320-family"
 },
 {
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4890-workaround-for-inaccessibility-of-gui-after-firmware-version.html",
     "family": "routers-320-family"
 },
 {
@@ -2364,67 +2352,7 @@
     "family": "routers-320-family"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4346-view-traffic-statistics-on-rv320-and-rv325-vpn-routers.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4424-view-add-trusted-ipsec-certificate-on-rv320-and-rv325-vpn-ro.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4421-view-add-trusted-ssl-certificate-on-rv320-and-rv325-vpn-rout.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4339-view-link-layer-discovery-protocol-lldp-properties-on-rv320.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4367-view-virtual-private-network-vpn-summary-on-rv320-and-rv325.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4136-view-port-setup-port-status-on-rv320-and-rv325-vpn-router-se.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/kmgmt-2483-troubleshooting-openvpn-on-RV320-RV325-routers.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/CSCvm78058_Cisco_Small_Business_RV320_and_RV325_Routers_Command_Injection_Vulnerability.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4282-view-processes-log-information-on-rv320-and-rv325-vpn-router.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5580-sr-682173131-rv320-inbound-access-control-lists-acls-are-no.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5546-workaround-for-uploading-rv32x-series-router-certificate.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5577-sr-681455492-us-rv325-k9-na-usb-dongle-failover-not-working.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5688-sr-638773469-chat-2-rv320-device-freezes-and-stops-working-1.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4284-view-system-statistics-on-rv320-and-rv325-vpn-routers.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5484-cscva43065-rv32x-access-to-internal-web-server-broken-with-w.html",
-    "family": "routers-320-family"
-},
-{
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4161-dns-name-lookup-and-ping-test-on-rv320-and-rv325-vpn-router.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5561-manage-product-instances-smart-software-manager.html",
     "family": "routers-320-family"
 },
 {
@@ -3096,11 +3024,11 @@
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2068-Application-Profiling.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2068-Application-Profiling.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
@@ -3156,11 +3084,11 @@
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2073-interferers.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2073-interferers.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
