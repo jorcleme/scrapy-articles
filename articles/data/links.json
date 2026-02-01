@@ -2080,6 +2080,18 @@
     "family": "Catalyst-1300"
 },
 {
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui.html",
+    "family": "Catalyst-1300"
+},
+{
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3844-configure-ospf-on-cisco-catalyst-1300x-switches-using-cli.html",
+    "family": "Catalyst-1300"
+},
+{
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3743-downloadable-acl-catalyst-1300-switches.html",
+    "family": "Catalyst-1300"
+},
+{
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3734-configure-change-of-authorization-catalyst-web-ui.html",
     "family": "Catalyst-1300"
 },
@@ -2120,6 +2132,18 @@
     "family": "Catalyst-1300"
 },
 {
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3843-understanding-ospf-in-catalyst-1300x-switches.html",
+    "family": "Catalyst-1300"
+},
+{
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/IOS-Configuration-Coverter.html",
+    "family": "Catalyst-1300"
+},
+{
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3829-overview-of-downloadable-acl-in-catalyst-1300-switches.html",
+    "family": "Catalyst-1300"
+},
+{
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3810-triggering-configuration-file-copies-to-tftp-server-via-snmp.html",
     "family": "Catalyst-1300"
 },
@@ -2133,6 +2157,10 @@
 },
 {
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3620-reboot-factory-reset-catalyst-1200-1300-switches.html",
+    "family": "Catalyst-1300"
+},
+{
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3846-cbs-reboot-with-fatal-error-from-dnsc-process.html",
     "family": "Catalyst-1300"
 },
 {
@@ -3024,11 +3052,11 @@
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2068-Application-Profiling.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
     "family": "wireless-mesh-100-200-series"
 },
 {
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2068-Application-Profiling.html",
     "family": "wireless-mesh-100-200-series"
 },
 {

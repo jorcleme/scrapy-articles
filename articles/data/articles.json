@@ -53542,7 +53542,7 @@
   {
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Switches - Retired Products",
-    "document_id": "74044bbc15f2958185fd6399ff72fc4d9ee828bacb1a28c3a8231e964dbaa3ce",
+    "document_id": "793cdc2c040ceedae5db9864c81ea919359b7784a71e84afca454a8d6894d3b4",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-250-series-smart-switches/smb2698-configure-simple-network-management-protocol-snmp-notificati.html",
     "objective": null,
@@ -61409,7 +61409,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "71c5e08959704d6414a60d9c6fe17d958a8efdf403263bc9c8a26e4182caf84a",
+    "document_id": "0c467e0fc9ab8f4ddf59b8631aa35d1bf539572e2ee68950113d0f892e1a7cbb",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5016-basic-firewall-settings-on-the-rv130-and-rv130w.html",
     "objective": null,
@@ -63680,7 +63680,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "a71dfb1ecca4c7c3f46de6c8c13848d266133c89063d97b044945a77dee8a9a1",
+    "document_id": "17b8515052e7b763000f665208a4225353493511077c5dd9eb636a89aaeb7001",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5056-one-to-one-network-address-translation-nat-on-rv130-and-rv13.html",
     "objective": null,
@@ -67373,7 +67373,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "ca698ee512f243f084a417fc476956faad17733bd5e920b044041e77d7e0a047",
+    "document_id": "7a6850f86cddca61383a800968ce1c753a54d92e34afa46f3224bd37f0199de3",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5041-configuring-tunneling-on-the-rv130w.html",
     "objective": null,
@@ -67557,7 +67557,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "b2922a3804bd775d33641c778d25d4a4118c98d5ddd5576dda4278245079e146",
+    "document_id": "f0ac1f413f0cf46feee9064ca635955f1369fd06733a5df69ba798afa7eda1c5",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5013-configuration-of-captive-portal-on-the-rv130w.html",
     "objective": null,
@@ -73813,7 +73813,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "65d704a4d7873c7e39eb819e1f8b8b9fe4c200b90fa8888ebf922778e8297d9e",
+    "document_id": "3ca68f8781cb4711a1060c54853dd4f715c05cc15d9785c02f99f2f95e2e2a83",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/Configure-MAC-Client-RV32X.html",
     "objective": null,
@@ -73832,7 +73832,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "b319abb7f871fe153b04800ed05b794dea97acce168e79eda50beddb6f7da641",
+    "document_id": "d17a33376eb9e123f4df28c8e16e0c63d22886a24ea6646851cc577c4158437e",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4296-configure-easy-client-to-gateway-virtual-private-network-vpn.html",
     "objective": null,
@@ -73851,7 +73851,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1c336e75de0860540a79125feebcccd40c9fd5db3170c13bd04e0d6d5da51bf0",
+    "document_id": "78c38321f445739dc0c966867b289b66cd3f99c23f965337d7e3a6b89d3815f2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4166-configure-dmz-host-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -73870,7 +73870,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "5d5a53eb47cfd2d071a5a69362f624f37373dd2325360468317721a538e25f2e",
+    "document_id": "95c457b1036333631f7d8efa893ff4bf43d7d458cb0a0c5657e0e4ce5b57f970",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4347-reset-to-factory-default-settings-on-rv320-and-rv325-vpn-rou.html",
     "objective": null,
@@ -73914,7 +73914,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "4c4e1d9cd16026c36bf2edf0fdf675dc9aadd66791eda79af59a00b4162835a0",
+    "document_id": "211c0c6b3c5414887eca3f5373fac9a4708e5fdade1fe8e46842e53b52558337",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4270-gateway-to-gateway-virtual-private-network-vpn-configuration.html",
     "objective": null,
@@ -73933,7 +73933,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "e13d1a330c6ba693cf0d111806e6ed6511f6b77ed64930724684a111ddb3e06d",
+    "document_id": "5acfb58765f9b4c1f2256611319343f57075f8020490e87cab85d8966f744e4a",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4301-configure-virtual-private-network-vpn-passthrough-on-rv320-a.html",
     "objective": null,
@@ -73952,7 +73952,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "afec75e7c16049f2422d79f5356067cfed2db2d9cbfec50fb556ad2edc8cf820",
+    "document_id": "6e6295bb632e0f6eb9640f3b736c7c4eaedba9e41b57077bf96cec1162556c0a",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4377-configure-inbound-load-balance-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -73971,7 +73971,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "5816e8a682ccfcb9e2b767de46766d23772602138beb04f86173360ca06565b4",
+    "document_id": "08590d049832020488b94249b386e6ec3bc8a0d969bf67ef8a30bd8c8cc034a2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4261-configure-qos-quality-of-service-queue-mapping-on-the-rv320.html",
     "objective": null,
@@ -73990,7 +73990,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ad0959e1b132a8a1345cb9db7eeeb0dcb6acf1aa5679b618629eea2dc3c5923e",
+    "document_id": "4313719b7ad90d58412c45764992abb8b1d2dcc534916dd34f27b118d7899d72",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4122-configure-time-and-date-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74354,7 +74354,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1cd85b58376a036ec2deaff2baa836dc6b4c14abbd6b8699a296bd8121457cfd",
+    "document_id": "028dea8f4e20c54182237843c8e2d6ed36d0c0f8bec36d4ea965a9d2534d6f98",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4939-configuring-a-site-to-site-vpn-tunnel-between-cisco-rv320-gi.html",
     "objective": null,
@@ -74373,7 +74373,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "4e52134c6273e92b74c7cf591aa55fdac3cf42853ed9cfc63f35a3ca6d97d426",
+    "document_id": "684c9e91039d44738b102b443d455f52b4af0a1d15f40a422b5a2260d9680bfd",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4288-configure-single-client-to-gateway-virtual-private-network-v.html",
     "objective": null,
@@ -74392,7 +74392,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "35f0a38981fc2f580920ac7b43d79009e5084f2cc4b2fcfe687bf75e5b6154b4",
+    "document_id": "ed6d4d444c69f5e1f9d05e4e2978d7772df56bc86c872c0bcf555d2c4a923d80",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4359-configure-point-to-point-tunneling-protocol-pptp-server-on-r.html",
     "objective": null,
@@ -74411,7 +74411,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "870e1ed9f10b1f756af60a344a48be81e3cdea432fcc7db74a6a127dc8ed8883",
+    "document_id": "243c32c01470495a886d10c6ab12b121bae773d9ca69b2b852a4fc3045c858f5",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4348-configure-advanced-secure-sockets-layer-virtual-private-netw.html",
     "objective": null,
@@ -74430,7 +74430,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "44d12fc6a528671ada1a6122c1b906247ae11b2c1d77483e92919672ad31aec8",
+    "document_id": "a36d9ee40d33f1bf149b74ec25b55d0283fae759138cbca8872793c4ace1cd50",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4381-configure-my-certificate-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74449,7 +74449,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "da991c01c5be4a306ba963c20b7516ea23c6e7a6f9ecdd24d214d73142ef93c3",
+    "document_id": "9dc95eade304a7a38ba893a83fa7bcede8fe3873499471e3ecd5995b272b566e",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4295-configure-group-client-to-gateway-virtual-private-network-vp.html",
     "objective": null,
@@ -74468,7 +74468,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "8d45c3861a5a22b8175709fb2d998d69cb2baa89502f3a0a051aaee52247e013",
+    "document_id": "824bf4ef30099ada60b6229d77bff70f2cd0b3ac7f3521d702e74c3661c39a58",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4154-configure-one-to-one-network-address-translation-nat-on-rv32.html",
     "objective": null,
@@ -74487,7 +74487,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ae49cc1642958efc8db86571ee06ea256fdd037ab81583fb962e07c881af34ca",
+    "document_id": "a1743b9905bcdd4a065ed7402aa521d0c770facf4988de1c643d63e2b9b705b2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4152-configure-port-address-translation-pat-on-rv320-and-rv325-vp.html",
     "objective": null,
@@ -74506,7 +74506,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "31c1e807c204bd86dcc20c2df6af61cd3787bfdd75619868653b294505bd26ff",
+    "document_id": "f766a042f8a227c6567a9cfc76294e68cd0a323f4f394bd0114bb9d0fc1ea3ef",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4142-configure-vlan-membership-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74525,7 +74525,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "e7311c11700902b0f24dddac19d31d205acb6eba63cfe57d89e49a0bddf90d8b",
+    "document_id": "90d34d1c112fa1807d21abe77437f03890c906bf53d4c2c869c2ae8db7579a58",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4127-configure-simple-network-management-protocol-snmp-on-rv320-a.html",
     "objective": null,
@@ -74544,7 +74544,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "cae1d6010b4faf9e0db0453786b4367cb684f577ef24d39ba320dac5684ecdc4",
+    "document_id": "a1914d44f899350eaf91cfe2e0a384aeab5259d9284158401a1651142bc1b6ce",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4176-configure-dynamic-domain-name-server-on-rv320-and-rv325-vpn.html",
     "objective": null,
@@ -74563,7 +74563,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "384ef07762e41f0bff5d0a0d36d62d2ea61fb9acba9248bbff6785a7d8f7ec16",
+    "document_id": "7a520b05f90c13a5eec2ab9149414bc9c5ff994e490735e52d8a160c3ed64546",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4165-bandwidth-management-configuration-on-rv320-and-rv325-vpn-ro.html",
     "objective": null,
@@ -74582,7 +74582,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "419d615cf468676e2af21c792a14b770473f40c415925dd1168f1c159eb65024",
+    "document_id": "99de87d12826dbec2248bc9ed94be9a6421e48473ad20c8935750a13cfea2b60",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5046-configuration-of-universal-plug-and-play-upnp-on-rv320-and-r.html",
     "objective": null,
@@ -75050,7 +75050,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "0b78334996ad0f5fad9867639f5f549f033464dfec47a23bd1a8427acdc835dd",
+    "document_id": "491d6ca665ad9c1d87eca7a7a2959c0e9a3fb93fb8584875bd8dd8e98e13af37",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4286-access-rules-configuration-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75069,7 +75069,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "8465bc43612ade1f206baee75b15b98984a8f6092a9998d148bec05f8d815143",
+    "document_id": "5076d6b1f23cb93c3d35d1511848f1fb053ba7d7da14892da83ce0d030ddd7b1",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4362-advanced-routing-configuration-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -75088,7 +75088,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c8a5e8949772a3dc6aa6ee959a492f23cdbe3b4eef82b49c8a3d5770d1f5d97d",
+    "document_id": "323f334ed8148e9c3e3fc65c53477aa18e0e0f1832e9f0ee91d5b4e66c46246a",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4226-manage-ip-and-mac-binding-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75107,7 +75107,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "933188df62ac4125832ec1d99ca5de212f85a3bf370c2d4a761b1f066794a4ee",
+    "document_id": "f2b2f05b1e97a4ccb1676e717bf9b49f3e016dbdc71030eb64cbc0f7952403f2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4274-access-rule-setup-wizard-on-rv32x-vpn-router-series.html",
     "objective": null,
@@ -75126,7 +75126,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "d4d6721c7dbba282a62173e26a9ebdd6935f360b335a4bd7e3e17248abd4222c",
+    "document_id": "cc008bb469f9dc73d6629e8803b483e5c7de774f3f2cdb925335c1341051f71a",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4336-basic-firewall-configuration-on-rv320-and-rv325-routers.html",
     "objective": null,
@@ -75145,7 +75145,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "7838630391cf20c7a44eafb6dc92f11ec9d8c3f019dada9ac8fb53aa1d5193b7",
+    "document_id": "2ee31cd9343786ab2f8311e715ab086de484d7a645d68a698abbc54591c9eedc",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4411-certificate-signing-request-csr-on-rv320-and-rv325-vpn-route.html",
     "objective": null,
@@ -75164,7 +75164,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "79a7d45cbce612026d5200f99f717e16ad7f131a00ff9b00618732a980df47b3",
+    "document_id": "9f091724ef9f2bfed9e189433603a5f984eb447d9571cf06a6fb43c56f38a690",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4328-resource-management-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75183,7 +75183,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "c38036a434053336812ba15d8d497ab5b36a2d2972ec25e8f26723ae177b88ef",
+    "document_id": "5a47e5c42baca1f99bcc64b9c88744ca1dbac6e3e65e30cbe506e74e2ef4c4db",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4253-option-82-configuration-on-rv32x-vpn-router-series.html",
     "objective": null,
@@ -75202,7 +75202,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "aecadf90e472ee70272322004c51a64517d43376abc8ccd4e568bd83149e0d4b",
+    "document_id": "48ab794f4a8e1eebe78435463d61e2c072be2c3e98896714ebe2f44dbdd2e0a6",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4221-system-log-configuration-on-rv320-and-rv325-vpn-router-serie.html",
     "objective": null,
@@ -75221,7 +75221,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "8efca1bbdd8c6d6e2da0f617859338300778ad981e8f24e89e15e414245189f1",
+    "document_id": "713d4c64b0b2ecd292b24b38ce547f24ac8ca0c0e6fc95c124e88810e78eade6",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4163-clone-mac-address-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75240,7 +75240,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "61a9334b3725e12206c5bb1a9c61bea62c4076654327067b04e505eb0618a35e",
+    "document_id": "369282f231f625f525337b4815cc95717e2181a3d8ad4d842d45209ee0ed8dc6",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4159-port-forwarding-and-port-triggering-on-rv320-and-rv325-vpn-r.html",
     "objective": null,
@@ -75259,7 +75259,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "a61fd152eb67d98c4bce8c708ecd75955cd8e4e9d7eefe69733b5ffcf8a4b888",
+    "document_id": "a551da91bf15caeaa19de822660dc60dc643ad960c949fdc5e7d507a6d865bca",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4195-manage-router-advertisement-on-rv320-and-rv325-vpn-router-se.html",
     "objective": null,
@@ -75278,7 +75278,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1ef79e3275209875e09cdd1e0db35bb4c5c833b7dd29233546c3924b9ddb5d15",
+    "document_id": "7371162aa46fc917136735fe3c9eca28f65518ae47807b9930803c04d785a77f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4147-password-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75297,7 +75297,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "dc9023abe58e92cc7f014ac171ad6126c9832247fdd748fa3d05191ca76ade57",
+    "document_id": "93f71d9d33956e0015b5899d3bf42457e2b2fdce772a61dab1c5e8144d4e226d",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4222-manage-dns-domain-name-system-local-database-on-rv320-and-rv.html",
     "objective": null,
@@ -75316,7 +75316,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "dfcc23f89fc0211fd737c9afc158be7ce57c4a157df68521cd0e2048a8ae450b",
+    "document_id": "3c9a9a5b4b9175ba4aacacfc05304fc63404ff036dc3e314eeae22f5c5b35d87",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4125-backup-and-restore-the-configuration-files-on-rv320-and-rv32.html",
     "objective": null,
@@ -75507,7 +75507,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "a9338a864f21203e7882f33a9ca26ad0a353a58de36b93f8af81e8f855369162",
+    "document_id": "08bb12a4674b3e7b7a778c86211574341332e1a3197b680e33626337028a105d",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4148-8021x-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75526,7 +75526,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "526748fd687f1b700a8743580c02912eea3e2bf92ba5887828f8a96ab76a82ab",
+    "document_id": "94347698e42efe751bdd77dd7998645f50bb65bdb38a8de4b0efcdb91d385641",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4242-dual-wan-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75545,7 +75545,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "236437a3710d441f41971c3b3e70053e070014cbd8be0f2032ab0507559a4543",
+    "document_id": "69871f0dd139b82199370a36645b6d0bdcf83303d37d57c95cfaf5923ede4bf1",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4255-dhcpv4-configuration-and-monitoring-on-rv32x-vpn-router-seri.html",
     "objective": null,
@@ -75564,7 +75564,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "bc8fa7c38e4acc0c9d8928801de348f6483497195dd04a97454c1d965bac7d7d",
+    "document_id": "83f6e505ecef871cdd075ad83084e1b7f6b5f90090d97d7e8fcf800b8d12efd2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4231-content-filter-configuration-on-rv320-and-rv325-vpn-router-s.html",
     "objective": null,
@@ -75583,7 +75583,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "81695c6f9f23aed10a246316e9bffa6b1bd520960a3227a8fddeb7357ea5d360",
+    "document_id": "f102e01ac2f7dc24d12da04253d1f07af74861c070d03bbf57f6a8c1d44049ad",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4280-dhcpv6-configuration-and-monitoring-on-rv32x-vpn-router-seri.html",
     "objective": null,
@@ -131625,8 +131625,8 @@
   {
     "series": "Cisco Catalyst 1200 Series Switches",
     "title": "IOS Configuration Converter",
-    "document_id": "1d11de85951b5004412bac6853f962b082ac7f927f1aff3b65836e751ee05079",
-    "category": "2. Configuration",
+    "document_id": "8fea519b81b4d516b39293decd2f648ca29b259d0070487d9c2f1af96ba1a98b",
+    "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/IOS-Configuration-Coverter.html",
     "objective": null,
     "applicable_devices": [],
@@ -132829,6 +132829,1028 @@
       {
         "revision": 1.0,
         "publish_date": "2023-08-07",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "Configure OSPF on Catalyst 1300X Switches Using the Web UI",
+    "document_id": "1765211003144138",
+    "category": "Configuration",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui.html",
+    "objective": "The objective of this article is to configure Open Shortest Path First (OSPF) on Cisco Catalyst 1300X series switches via the web user interface (UI).",
+    "applicable_devices": [
+      {
+        "device": "Cisco Catalyst 1300X Series Switches",
+        "software": "4.10.0.82",
+        "datasheet_url": null,
+        "software_url": null
+      }
+    ],
+    "intro": "OSPF is a dynamic link-state routing protocol widely used in networks for efficient and scalable route calculation. The Cisco Catalyst 1300X Series Switches support OSPFv2 (for IPv4) and OSPFv3 (for IPv6), allowing seamless interoperability with other OSPF-compliant devices. While advanced OSPF features are typically configured via CLI, the web UI provides a straightforward interface for basic OSPF setup, including process creation, area assignment, and interface configuration. This guide focuses on OSPFv2 (IPv4) configuration using the web UI, ensuring optimal routing performance and network stability. For more information on OSPF, check out the following articles: <ul> <li> <a href=\"https:/www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3843-understanding-ospf-in-catalyst-1300x-switches.html\"> Understanding OSPF in Catalyst 1300X Switches </a> </li> <li> <a href=\"https:/www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3844-configure-ospf-on-cisco-catalyst-1300x-switches-using-cli.html\"> Configure OSPF on Cisco Catalyst 1300X Series Switches Using CLI </a> </li> </ul>",
+    "steps": [
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 1,
+        "text": "Login to the Catalyst 1300X switch and go to Advanced mode.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image1.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": "The default username and password is cisco/cisco.",
+        "emphasized_text": [
+          "Advanced"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 2,
+        "text": "OSPFv2 is active only if IP routing is enabled on the device. To do this, navigate to IPV4 Configuration > IPv4 interfaces and enable IPv4 Routing .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image1a.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "IPV4 Configuration > IPv4 interfaces",
+          "IPv4 Routing"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 3,
+        "text": "Navigate to IPv4 Configuration > OSPFv2 > OSPFv2 Process .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image2.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "IPv4 Configuration > OSPFv2 > OSPFv2 Process"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 4,
+        "text": "Click Add to create a new OSPFv2 process.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image3.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Add"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 5,
+        "text": "Configure the following for an OSPFv2 process:\n\n- Process ID - Internally used identification parameter. It is locally assigned and can be any positive integer. The default value is 1 and the range is 1-65535.\n- Router ID - The router ID assigned to the process. Use either the default router ID or configure the router ID manually.\n- Shutdown - Enable this to create the process at the shutdown state.\n\nClick Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image4.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": "Modifying the router ID of a running OSPFv2 process will automatically restart the process. The Shutdown option allows you to configure the process settings without activating the traffic.",
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 6,
+        "text": "An OSPFv2 Area table is a data structure used in OSPFv2 to organize and manage routing information within different areas of an IPv4 network. OSPFv2 uses areas to optimize and manage routing efficiently. Navigate to OSPFv2 Area and click Add to create one or more areas.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image5.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "OSPFv2 Area",
+          "Add"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 7,
+        "text": "Configure the following fields in the Add OSPFv2 Area pop-up window:\n\n- Process ID - select the OSPFv2 process ID from the dropdown box the area will be associated with the selected process ID.\n- Area ID - Use the dotted decimal notation to define the area ID in Catalyst 1300X switches. For example, to add an interface to area 0, the area ID will be 0.0.0.0.\n- Shutdown - select enable to create the area in the shutdown state. This allows to configure the area settings while keeping the area in the inactive state.\n- Area Networks - select one or more Ipv4 networks to add to the area.\n- Stub/NSSA Area: - select to set this area as a stub area or NSSA (Not So Stubby Area). This option is available only if the area is not a backbone area (area ID does not equal 0.0.0.0). If this option is selected, continue to configure the following fields:\n- Stub/NSSA - select if this area is a stub area or NSSA.\n- Default Summary Route Cost - specify a cost for the default summary route that is sent into a stub area or not-so-stubby area (NSSA). Select one of the available options.\n\n1. Default - value of 1\n2. User defined - Range: 1 - 16777214\n\n- ABR Summary Advertisement- enables Area Border Router (ABR) to send summary link advertisements into the stub area.\n\nThe Translator Role and Translator Stability Interval can be configured only if the area was defined as an NSSA.\n\n- Translator Role - Specifies whether or not an NSSA border router will unconditionally translate Type-7 LSAs into Type-5 LSAs.\n\n1. Select Always to specify that NSSA border router always translates Type-7 LSAs into Type-5 LSAs regardless of the translator state of other NSSA border routers.\n2. Select Candidate to specify that an NSSA border router participates in the translator election process described in RFC 3101, Section 3.1.\n\n- Translator Stability Interval - Specifies the number of seconds after an elected translator determines its services are no longer required, that it should continue to perform its translation duties. The default value is 40 seconds.\n\nClick Apply to create the area.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image6.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": "Area 0 (0.0.0.0) is the backbone area and must be present in all OSPF deployments. Use stub or NSSA areas to optimize routing in specific network segments.",
+        "emphasized_text": [
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 8,
+        "text": "Go to OSPFv2 IPv4 Networks in the navigation pane to view, edit or configure the OSPFv2 IPv4 area networks.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image7.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "OSPFv2 IPv4 Networks"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 9,
+        "text": "To edit the OSPFv2 IPV4 Area Network Table, select the OSPFv2 process from the table, click the Edit icon .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image8.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Edit icon"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure OSPFv2 Using Web UI",
+        "step_num": 10,
+        "text": "Configure the following:\n\n- Select the\n  *Process ID*\n  ,\n  *Area ID*\n  , and\n  *Area network*\n  to configure.\n- Configure the interface cost- selected the Default cost or a User Defined cost (Range 1-65535). The path cost is calculated using the formula Cost = Reference Bandwidth / Interface Bandwidth, with a reference bandwidth of 10 Gbps.\n- Shutdown - Optionally set the OSPFv2 Network to administrative down state.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3845-configure-ospf-on-catalyst-1300x-using-web-ui-image9.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": "Interface cost influences OSPF path selection. Adjust costs to control routing preferences if necessary.",
+        "emphasized_text": [],
+        "emphasized_tags": []
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2025-12-12",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "Configure OSPF on Cisco Catalyst 1300X Series Switches Using CLI",
+    "document_id": "1764022906540112",
+    "category": "Configuration",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3844-configure-ospf-on-cisco-catalyst-1300x-switches-using-cli.html",
+    "objective": "This objective of this article is to provide a comprehensive guide to configuring Open Shortest Path First (OSPF) routing protocols on Cisco Catalyst 1300X series switches using the Command Line Interface (CLI).",
+    "applicable_devices": [
+      {
+        "device": "Catalyst 1300X Series",
+        "software": "4.10.0.82",
+        "datasheet_url": null,
+        "software_url": null
+      }
+    ],
+    "intro": "Open Shortest Path First (OSPF) is a widely used link-state routing protocol that enables dynamic routing and efficient path selection in IP networks. On Cisco Catalyst 1300X series switches, OSPFv2 is supported for IPv4 routing and OSPFv3 for IPv6 routing providing robust scalability, fast convergence, and support for hierarchical network design through areas. For more information on OSPF, check out the articleUnderstanding OSPF in Catalyst 1300X Switches. Configuring OSPF on these switches allows for automatic route advertisement, redundancy, and optimal traffic flow. Key features include support for single and multi-area deployments, interface-specific settings such as cost and authentication, and advanced troubleshooting and verification capabilities. This article details the CLI-based configuration process, ensuring a secure and resilient OSPF deployment tailored to the Catalyst 1300X platform.",
+    "steps": [
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 1,
+        "text": "Connect to the Catalyst 1300X switch via console, SSH, or Telnet and enter global configuration mode.\n\n`Switch#`\n`configure terminal`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 2,
+        "text": "Create an OSPFv2 process by running router ospf followed by the process ID (example: router ospf 1). This\nwill take you to the config-ospf prompt.\n\n`Switch(config)#`\n`router ospf 1`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 3,
+        "text": "Set the router ID by entering router-id and the four-digit dotted decimal notation router ID.\n\n`Switch(config-ospf)#`\n`router-id 100.100.100.100`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": "If you do not set the router-id, it will either use the loopback ip address or if there is no loopback interface, the highest IP address on a physical interface or Switch Virtual Interface (SVI) will be used. It is highly recommended to set the router id as interfaces may go up or down, and may cause excess traffic as new neighbor relationships are formed.",
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 5,
+        "text": "To turn on logging adjacency changes, use the command log adjacency changes .\n\n`Switch(config-ospf)#`\n`log adjacency changes`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 6,
+        "text": "On the C1300X switch, interface configuration is done on the IP interface.\n\n`Switch(config)#`\n`interface ip 192.168.200.254`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 7,
+        "text": "Once you are in config-ip mode, you can configure settings using the ip ospf commands. You can set authentication settings, costs, timings, and configure passive interfaces.\n\n`Switch(config-ip)#`\n`ip ospf`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 8,
+        "text": "To set OSPF cost on an interface, use the command ip ospf cost (value) .\n\n`Switch(config-ip)#`\n`ip ospf cost 100`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configuration of OSPF via CLI",
+        "step_num": 9,
+        "text": "Set the interface as passive if it should not send or receive OSPF packets.\n\n`Switch(config-ip)#`\n`ip ospf passive-interface`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configure Multi-Area OSPF",
+        "step_num": 2,
+        "text": "To set Area 1 as a stub area, the command would be area 0.0.0.1 stub .\n\n`Switch(config-ospf)#`\n`area 0.0.0.1 stub`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configure Multi-Area OSPF",
+        "step_num": 3,
+        "text": "If you want to create a route summarization for all networks in the 10.100.0.0/16 range, the command would be area 0.0.0.1 range 10.100.0.0 255.255.0.0 .\n\n`Switch(config-ospf)#`\n`area 0.0.0.1 range 10.100.0.0 255.255.0.0`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "OSPFv3 Configuration",
+        "step_num": 1,
+        "text": "Enable IPv6 routing by running the command ipv6 unicast-routing from global config mode.\n\n`Switch(config)#`\n`ipv6 unicast-routing`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "OSPFv3 Configuration",
+        "step_num": 2,
+        "text": "Create OSPFv3 process by running the command ipv6 router ospf (process ID) .\n\n`Switch(config)#`\n`ipv6 router ospf 1`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "OSPFv3 Configuration",
+        "step_num": 3,
+        "text": "Set the router ID by entering router-id and the four-digit dotted decimal notation router ID.\n\n`switch(config-ipv6-ospf)#`\n`router-id x.x.x.x`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "OSPFv3 Configuration",
+        "step_num": 4,
+        "text": "Add IPv6 networks in interface config mode or IP interface config mode. Examples include:\n\n`switch(config)#`\n`interface te 1/0/1`\n\n`switch(config-if)#`\n`no switchport`\n\nTo assign static IPv6 address:\n\n`switch(config-if)#`\n`ipv6 address 2008:1:2:1000::1/64`\n\nTo obtain IPv6 address from a router advertisement or DHCPv6:\n\n`switch(config-if)#`\n`ipv6 enable`\n\n`switch(config-if)#`\n`ipv6 router ospf 1 area 0.0.0.0`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "OSPFv3 Configuration",
+        "step_num": 5,
+        "text": "The command to clear the OSPF process is clear ipv6 ospf process .\n\n`switch(config-if)#`\n`clear ipv6 ospf process`",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2025-11-24",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "Downloadable ACL in Catalyst 1300 Switches",
+    "document_id": "1750267398033263",
+    "category": "Configuration",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3743-downloadable-acl-catalyst-1300-switches.html",
+    "objective": "The objective of this article is to demonstrate how the downloadable Access Control List (DACL) works on Cisco Catalyst 1300 switches with Cisco Identity Service Engine (ISE).",
+    "applicable_devices": [
+      {
+        "device": "Catalyst 1300 series",
+        "software": "4.1.6.54",
+        "datasheet_url": null,
+        "software_url": null
+      }
+    ],
+    "intro": "Dynamic ACLs are ACLs assigned to a switch port based off a policy or criteria such as user account group membership, time of day, and more. They could be local ACLs that are specified by filter-ID or downloadable ACLs (DACL). Downloadable ACL are dynamic ACLs that are created and downloaded from the Cisco ISE server. They dynamically apply access control rules based on user identity and device type. DACL has the benefit of allowing you to have one central repository for ACLs, so you don’t need to manually create them on each switch. When a user connects to a switch, they just need to authenticate, and the switch will download the applicable ACLs from the Cisco ISE server.",
+    "steps": [
+      {
+        "section": "Configure RADIUS Client",
+        "step_num": 1,
+        "text": "Login to the Catalyst 1300 switch and navigate to Security > RADIUS Client menu.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-1.png",
+        "alt": "A screenshot of a phone\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Security > RADIUS Client"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure RADIUS Client",
+        "step_num": 2,
+        "text": "For RADIUS Accounting , select Port Based Access Control option.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-2.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "RADIUS Accounting",
+          "Port Based Access Control"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure RADIUS Client",
+        "step_num": 3,
+        "text": "Under RADIUS Table , click on the plus icon to add the Cisco ISE Server.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-3.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "RADIUS Table",
+          "plus icon"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure RADIUS Client",
+        "step_num": 4,
+        "text": "Enter the Cisco ISE Server details and click Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-4.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": "The Usage Type must be selected as 802.1x .",
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Configure 802.1x Authentication",
+        "step_num": 1,
+        "text": "Navigate to Security > 802.1X Authentication > Properties menu.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-5.png",
+        "alt": "A screenshot of a phone\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Security > 802.1X Authentication > Properties"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure 802.1x Authentication",
+        "step_num": 2,
+        "text": "Click the check box to enable Port-Based Authentication .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-6.png",
+        "alt": "A close-up of a white background\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Port-Based Authentication"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Configure 802.1x Authentication",
+        "step_num": 3,
+        "text": "Under Authentication Method , select RADIUS and click Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-7.png",
+        "alt": "A white rectangular object with a black border\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Authentication Method",
+          "RADIUS",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure 802.1x Authentication",
+        "step_num": 4,
+        "text": "Go to Security > 802.1X Authentication > Port Authentication menu. Select the port to which your laptop is connected and click on the edit icon. In this example, GE8 is selected.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-8.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Security > 802.1X Authentication",
+          "Port Authentication",
+          "edit",
+          "GE8"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong",
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Configure 802.1x Authentication",
+        "step_num": 5,
+        "text": "Select the Administrative Port Control as Auto and enable 802.1x Based Authentication . Click Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-9.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Administrative Port Control",
+          "Auto",
+          "802.1x Based Authentication",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 1,
+        "text": "Login to your Cisco ISE server and navigate to Administration > Network Resources > Network Devices and add the Catalyst switch device.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-10.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Administration > Network Resources > Network Devices"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 2,
+        "text": "To create User Identity Groups , navigate to the Groups tab and add the User Identity Groups.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-11.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "User Identity Groups",
+          "Groups"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 3,
+        "text": "Go to the Administration > Identity Management > Identities menu to define the users and to map the users to the groups.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-12.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Administration > Identity Management > Identities"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 4,
+        "text": "Navigate to Policy > Policy Elements > Results menu. Under Authorization , click on Downloadable ACLs .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-13.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Policy > Policy Elements > Results",
+          "Authorization",
+          "Downloadable ACLs"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 5,
+        "text": "Click on the Add icon to create the downloadable ACL.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-14.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Add icon"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 6,
+        "text": "Configure the Name, Description , select the IP version, and enter the access control entries (ACEs) that will make up the downloadable ACL in the DACL Content field. Click Save .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-15.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": "Only IP ACLs are supported, and the source must be ANY . For ACL on ISE, only IPv4 is supported now. If an ACL is entered with another source, while the syntax may be fine as far as ISE is concerned, it will fail when applied to the switch.",
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 7,
+        "text": "Create authorization profiles that will be used to logically associate your DACL and other policies together inside the ISE policy sets. To do this, navigate to Policy > Policy Elements > Results > Authorization > Authorization Profiles and click on Add.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-16.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Policy > Policy Elements > Results > Authorization > Authorization Profiles",
+          "Add."
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 8,
+        "text": "In the Authorization Profile page, configure the following:\n\n- *Name*\n- *Description*\n- *Access Type*\n  - this should be set to ACCESS\\_ACCEPT. If set to ACCESS\\_REJECT it will reject the authentication.\n- *Network Device Profile*\n  – this should be selected as Cisco.\n- *Passive Identity Tracking*\n  - may need to be enabled for some authentication scenarios. It is required for EasyConnect\\_PassiveID scenarios linked to AD.\n- *Common Tasks*\n  – This section has many options. For this example,\n  *DACL Name*\n  is configured.\n\nClick Save .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-17.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Save"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 9,
+        "text": "To configure policy sets that are logical groupings of authentication and authorization policies, click on Policy > Policy Sets menu. You can view the following when looking at a list of policy sets:\n\n- *Status*\n  - A green check indicates enabled, empty white circle indicates disabled, and an eye icon is for a monitor only configuration.\n- *Policy Set Name*\n  and\n  *Description - a*\n  re self-explanatory\n- *Conditions*\n  - define where the policy set applies.\n- *Allowed Protocols/Server Sequence*\n  - sets more advanced controls.\n- *Hits*\n  - show the number of times the policy set has been used.\n- *Actions -*\n  allow you to change the order where policy sets could be applied, copy an existing policy set, or delete an existing policy set.\n- *View*\n  - allows you to edit the policy set details.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-18.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 10,
+        "text": "To create a policy set, click on the add button.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-19.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "add"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 11,
+        "text": "Define a Policy Set Name .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-20.png",
+        "alt": "A screenshot of a policy set number\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Policy Set Name"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 12,
+        "text": "Under Conditions , click the add button . This opens the Conditions Studio where you can define where this authentication profile will be used. In this example, it has been applied to the Radius-NAS-IP-Address (the switch) which is 172.19.1.250 and wired_802.1x traffic.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-21.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Conditions",
+          "add button",
+          "Conditions Studio",
+          "Radius-NAS-IP-Address"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "em",
+          "em"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 13,
+        "text": "Configure the Allowed Protocols to the Default Network Access and click Save.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-22.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Allowed Protocols",
+          "Default Network Access",
+          "Save."
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 14,
+        "text": "Under View , click on the arrow icon to configure authentication and authorization policies based on your network set up and requirements or you can choose the default settings. In this example, click on Authorization policy.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-23.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "View",
+          "arrow"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 15,
+        "text": "Click on the plus icon to add a policy.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-24.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "plus"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 16,
+        "text": "Enter the Rule Name .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-25.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Rule Name"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 17,
+        "text": "Under Conditions , click on the plus icon and select the identity group. Click Use .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-26.png",
+        "alt": "A white rectangular object with black lines\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Conditions",
+          "plus",
+          "Use"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Cisco ISE Server Configuration for Downloadable ACL",
+        "step_num": 18,
+        "text": "Apply the required Profile and click Save .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-28.png",
+        "alt": "A screenshot of a login form\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Save"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Client Configurations",
+        "step_num": 1,
+        "text": "On the client laptop, navigate to Network Connections > Ethernet and click on Properties .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-29.png",
+        "alt": "A computer screen shot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Network Connections > Ethernet",
+          "Properties"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Client Configurations",
+        "step_num": 2,
+        "text": "Click on the Authentication tab and make sure 802.1X authentication is enabled.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-30.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Authentication",
+          "802.1X authentication"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Client Configurations",
+        "step_num": 3,
+        "text": "Under Additional Settings , select User authentication as authentication mode. Click Save Credentials and then OK .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-31.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Additional Settings",
+          "User authentication",
+          "Save",
+          "Credentials",
+          "OK"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "strong",
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "Client Configurations",
+        "step_num": 4,
+        "text": "Click on Settings and make sure the box next to Verify the server’s identity by validating the certificate is unchecked. Click OK .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-32.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Settings",
+          "Verify the server’s identity by validating the certificate",
+          "OK"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Client Configurations",
+        "step_num": 5,
+        "text": "Under Services , enable Wired AutoConfig settings.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-33.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Services",
+          "Wired AutoConfig"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "DACL Verification",
+        "step_num": 1,
+        "text": "Login to the Catalyst 1300 switch and navigate to Access Control > IPv4-Based ACL menu.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-34.png",
+        "alt": "A screenshot of a phone\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Access Control > IPv4-Based ACL"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "DACL Verification",
+        "step_num": 2,
+        "text": "The IPv4-Based ACL Table will display the downloaded ACL.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-35.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": "Downloadable ACLs cannot be edited.",
+        "emphasized_text": [
+          "IPv4-Based ACL Table"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "DACL Verification",
+        "step_num": 3,
+        "text": "Another way to verify is to navigate to IPv4-Based ACE , select the downloadable ACL from the ACL Name drop-down menu, and click Go . The rules that were configured in ISE will be displayed.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-36.png",
+        "alt": "A screenshot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "IPv4-Based ACE",
+          "ACL Name",
+          "Go"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "DACL Verification",
+        "step_num": 4,
+        "text": "Navigate to Security > 802.1 Authentication > Authenticated Hosts menu. You can verify the users that are authenticated. Click on Authenticated Sessions to see more details.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-38.png",
+        "alt": "A screenshot of a phone\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Security > 802.1 Authentication",
+          "> Authenticated Hosts",
+          "Authenticated Sessions"
+        ],
+        "emphasized_tags": [
+          "strong",
+          "strong",
+          "strong"
+        ]
+      },
+      {
+        "section": "DACL Verification",
+        "step_num": 5,
+        "text": "From the CLI, run the command show ip access-lists interface followed by the interface ID. In this example, ACLs and ACEs applied to Gigabit Ethernet 3 can be seen.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-40.png",
+        "alt": "A screen shot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "show ip access-lists interface",
+          "interface ID."
+        ],
+        "emphasized_tags": [
+          "strong",
+          "em"
+        ]
+      },
+      {
+        "section": "DACL Verification",
+        "step_num": 6,
+        "text": "You can also see settings relating to the ISE connection and ACL downloads using the command show dot1x sessions interface  detailed. You can view the status, 802.1x authentication state, and the ACLs downloaded.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/switches/Catalyst-switches/images/kmgmt3743-downloadable-acl-catalyst-1300-switches-image-41.png",
+        "alt": "A screen shot of a computer\n\nAI-generated content may be incorrect.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "show dot1x sessions interface <ID> detailed."
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2025-06-18",
         "comments": "Initial Release"
       }
     ],
@@ -135539,6 +136561,89 @@
   },
   {
     "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "Understanding OSPF in Catalyst 1300X Switches",
+    "document_id": "1761547855220101",
+    "category": "Maintain and Operate",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3843-understanding-ospf-in-catalyst-1300x-switches.html",
+    "objective": "The objective of this article is to provide a comprehensive understanding of Open Shortest Path First (OSPF) routing protocol, its fundamental concepts, operational mechanisms, and its application within Cisco Catalyst 1300X series switches.",
+    "applicable_devices": [
+      {
+        "device": "Catalyst 1300X / 4.1.7.17",
+        "software": null,
+        "datasheet_url": null,
+        "software_url": null
+      }
+    ],
+    "intro": "In today's dynamic network landscapes, efficient and reliable data routing is paramount. Open Shortest Path First (OSPF) is a widely adopted dynamic routing protocol, specifically an Interior Gateway Protocol (IGP), designed to determine the most optimal paths for data traffic within an autonomous system. Traditionally, dynamic routing was exclusive to dedicated routers, but with advancements in network technology, sophisticated switches like the Cisco Catalyst 1300X series now support OSPF. This integration empowers your switches to make intelligent routing decisions, significantly boosting network performance and resilience. As an open standard, OSPF ensures interoperability across various vendor devices, making it a versatile choice for diverse network infrastructures. It is renowned for its fast convergence, quickly identifying new routes when network conditions change, and its ability to scale large networks efficiently through hierarchical design using areas.",
+    "steps": [
+      {
+        "section": "General",
+        "step_num": 1,
+        "text": "No steps found."
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2025-10-26",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "IOS Configuration Converter",
+    "document_id": "c2bcad6fc89ca90658178878347adf164bd30ec2acce31bfdb3722773e868346",
+    "category": "Configuration",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/IOS-Configuration-Coverter.html",
+    "objective": null,
+    "applicable_devices": [],
+    "intro": null,
+    "steps": [
+      {
+        "section": "General",
+        "step_num": 1,
+        "text": "No steps found."
+      }
+    ],
+    "revision_history": [],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "Overview of Downloadable ACL in Catalyst 1300 Switches",
+    "document_id": "1750806081046281",
+    "category": "Maintain and Operate",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3829-overview-of-downloadable-acl-in-catalyst-1300-switches.html",
+    "objective": "The objective of this article is to provide you with an overview of downloadable ACL (DACL) feature in Catalyst 1300 switches.",
+    "applicable_devices": [
+      {
+        "device": "Catalyst 1300 series",
+        "software": "4.1.6.54",
+        "datasheet_url": null,
+        "software_url": null
+      }
+    ],
+    "intro": "Dynamic ACLs are ACLs assigned to a switch port based off a policy or criteria such as user account group membership, time of day, and more. They could be local ACLs that are specified by filter-ID or downloadable ACLs (DACL). Downloadable ACLs are dynamic ACLs that are created and downloaded from the Cisco ISE server. They dynamically apply access control rules based on user identity and device type. DACL has the benefit of allowing you to have one central repository for ACLs, so you don’t need to manually create them on each switch. When a user connects to a switch, they just need to authenticate, and the switch will download the applicable ACLs from the Cisco ISE server.",
+    "steps": [
+      {
+        "section": "General",
+        "step_num": 1,
+        "text": "No steps found."
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2025-06-24",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
     "title": "Triggering Configuration File Copies to a TFTP Server via SNMP",
     "document_id": "1742846905226201",
     "category": "Configuration",
@@ -136152,6 +137257,31 @@
       {
         "revision": 1.0,
         "publish_date": "2023-08-08",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "Cisco Business Switches Reboot with Fatal Error from DNSC Process",
+    "document_id": "1767916364268164",
+    "category": "Troubleshooting",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Catalyst-switches/kmgmt3846-cbs-reboot-with-fatal-error-from-dnsc-process.html",
+    "objective": null,
+    "applicable_devices": [],
+    "intro": null,
+    "steps": [
+      {
+        "section": "General",
+        "step_num": 1,
+        "text": "No steps found."
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2026-01-08",
         "comments": "Initial Release"
       }
     ],
@@ -180608,6 +181738,125 @@
   },
   {
     "series": "Cisco Business Wireless AC",
+    "title": "RF Channels on a Cisco Business Wireless Network",
+    "document_id": "1590767168079739",
+    "category": "Maintain and Operate",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
+    "applicable_devices": [
+      {
+        "device": "140AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "141ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "142ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "143ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "145AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "240AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324934"
+      }
+    ],
+    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
+    "steps": [
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 1,
+        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 2,
+        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
+        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 3,
+        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Radio 1",
+          "Radio 2",
+          "Automatic",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 4,
+        "text": "Click the Save icon to permanently save the new channel assignments.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
+        "alt": "Click the Save icon to permanently save the new channel assignments. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Save icon"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-05-29",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Business Wireless AC",
     "title": "Application Profiling",
     "document_id": "1589477197880547",
     "category": "Maintain and Operate",
@@ -180829,125 +182078,6 @@
       {
         "revision": 1.0,
         "publish_date": "2020-05-14",
-        "comments": "Initial Release"
-      }
-    ],
-    "type": "article"
-  },
-  {
-    "series": "Cisco Business Wireless AC",
-    "title": "RF Channels on a Cisco Business Wireless Network",
-    "document_id": "1590767168079739",
-    "category": "Maintain and Operate",
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
-    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
-    "applicable_devices": [
-      {
-        "device": "140AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "141ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "142ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "143ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "145AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "240AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324934"
-      }
-    ],
-    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
-    "steps": [
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 1,
-        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 2,
-        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
-        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 3,
-        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Radio 1",
-          "Radio 2",
-          "Automatic",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 4,
-        "text": "Click the Save icon to permanently save the new channel assignments.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
-        "alt": "Click the Save icon to permanently save the new channel assignments. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save icon"
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      }
-    ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2020-05-29",
         "comments": "Initial Release"
       }
     ],
@@ -183890,7 +185020,7 @@
   },
   {
     "series": "Cisco Business Wireless AX",
-    "title": "LED Normal Boot Pattern for a CBW150AX AP",
+    "title": "LED Normal Boot Pattern for CBW150AX and CBW151AXM",
     "document_id": "1656525725412165",
     "category": "Install",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CBW-AX/kmgmt-3377-led-pattern-normal-boot-cbw150ax.html",
