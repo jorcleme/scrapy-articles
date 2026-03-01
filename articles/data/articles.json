@@ -9955,7 +9955,7 @@
   },
   {
     "series": "Cisco Business 350 Series Managed Switches",
-    "title": "Configure IPv4 Static Routes Settings on a Switch through the CLI",
+    "title": "Configure IPv4 Static Routes on a CBS Switch via CLI",
     "document_id": "1595269207649173",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2257-configure-ipv4-static-routes-settings-on-a-switch-through-th.html",
@@ -10121,7 +10121,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-07-21",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -10739,7 +10745,7 @@
   },
   {
     "series": "Cisco Business 350 Series Managed Switches",
-    "title": "Configure Subnet-based VLAN Groups on a Switch through the CLI",
+    "title": "Configure Subnet-based VLAN Groups on a CBS Switch via CLI",
     "document_id": "1594819818035715",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2242-configure-subnet-based-vlan-groups-on-a-switch-through-the-c.html",
@@ -10982,7 +10988,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-07-15",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -13500,7 +13512,7 @@
   },
   {
     "series": "Cisco 350X Series Stackable Managed Switches",
-    "title": "Configure IPv4 Static Routes Settings on a Switch through the CLI",
+    "title": "Configure IPv4 Static Routes on a CBS Switch via CLI",
     "document_id": "1595269207649173",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2257-configure-ipv4-static-routes-settings-on-a-switch-through-th.html",
@@ -13666,7 +13678,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-07-21",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -30934,7 +30952,7 @@
   },
   {
     "series": "Cisco 350X Series Stackable Managed Switches",
-    "title": "Configure Subnet-based VLAN Groups on a Switch through the CLI",
+    "title": "Configure Subnet-based VLAN Groups on an SMB Switch via CLI",
     "document_id": "SMB5658",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-350-series-managed-switches/smb5658-configure-subnet-based-vlan-groups-on-a-switch-through-the-c.html",
@@ -31526,7 +31544,7 @@
   },
   {
     "series": "Cisco 350X Series Stackable Managed Switches",
-    "title": "Configure IPv4 Static Routes Settings on a Switch through the CLI",
+    "title": "Configure IPv4 Static Routes on an SMB Switch via CLI",
     "document_id": "SMB5724",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-small-business-300-series-managed-switches/smb5724-configure-ipv4-static-routes-settings-on-a-switch-through-th.html",
@@ -31712,7 +31730,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2018-12-13",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -53542,7 +53566,7 @@
   {
     "series": "Cisco 350X Series Stackable Managed Switches",
     "title": "Switches - Retired Products",
-    "document_id": "aad76f994b1a21789de21cf3755ec69c85164f5a2157d4f5f536d8d0b7f613cd",
+    "document_id": "f127dda6f9af99919d076d79ab46c46d594fd8f6f8aae96111264d99c51fc88d",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/cisco-250-series-smart-switches/smb2698-configure-simple-network-management-protocol-snmp-notificati.html",
     "objective": null,
@@ -61409,7 +61433,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "518027a1043d7aad3cea793863fd22eb870626b607d51f7b74f1e5d90cd7c27c",
+    "document_id": "f11d7776e5a2455e4b8c97761fb6101a294e5be1e17cf9d3656ae8c54d9d8fc2",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5016-basic-firewall-settings-on-the-rv130-and-rv130w.html",
     "objective": null,
@@ -63680,7 +63704,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "0529fea7d8cee36cb56b22462dbcc8539359a3bb04936d754ded1a146d6f443e",
+    "document_id": "59bf461535e5a06bee58a09353c3a5912a9cb01bf89ad927b7589d82bb4a186e",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5056-one-to-one-network-address-translation-nat-on-rv130-and-rv13.html",
     "objective": null,
@@ -67373,7 +67397,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "0c25b68ab98e0efee4a5265221a80665466ded2439358c1fa8908eb8d059e1dd",
+    "document_id": "1b78278592322431f8f32cb24d0b74300500db0073be5acc0f5930c29d165194",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5041-configuring-tunneling-on-the-rv130w.html",
     "objective": null,
@@ -67557,7 +67581,7 @@
   {
     "series": "RV100 Product Family",
     "title": "Support",
-    "document_id": "7c9acc317d91db0f7a6d609b43930368743886f2f974bfd339b8bdc4e404baab",
+    "document_id": "42aaf754021a56167b050f3ff808249855b047c2207cc55606a64602c2548bcc",
     "category": "Maintain & Operate",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5013-configuration-of-captive-portal-on-the-rv130w.html",
     "objective": null,
@@ -73813,7 +73837,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "8e5620b39e98c931b6997e3f56540513957d0bea35ac71601041ac5367fb6251",
+    "document_id": "399d75757bb0a1cbf79795c50562542846043c58f8410b616ee4976158e09421",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/Configure-MAC-Client-RV32X.html",
     "objective": null,
@@ -73832,7 +73856,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "82a23681e0a533dc47aee9ce9a69916899700ee736cace60948f1fcb19a25505",
+    "document_id": "30ba3977c8f313660c44cfe37d961344d233001331cffe4598478356609217e6",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4296-configure-easy-client-to-gateway-virtual-private-network-vpn.html",
     "objective": null,
@@ -73851,7 +73875,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "da9a8070daace23ffaebc7c1233f04080a9f2f1a1210178ab5e6d143ee491c6e",
+    "document_id": "a9769da5515200c985ecc7bf7b9ef9312cc2a1c49f31a59ee38d83d58f198614",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4166-configure-dmz-host-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -73870,7 +73894,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "70d731997ecc2cd39a9650fa2a7110655f1dafae47ac6f9343cd814fec00d991",
+    "document_id": "654d1715118e4150c2760ed3129af8d9c14ba94117d6cdd9a83ac8a7a22da548",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4347-reset-to-factory-default-settings-on-rv320-and-rv325-vpn-rou.html",
     "objective": null,
@@ -73914,7 +73938,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "b6ab032d421ac3e16b71cd1cd72238cae2093b1a60ffa1e4f83be8167b89c085",
+    "document_id": "10a46a8f9f56376ee4a27c5659e37a4b12528f38d6651427b9b4d4b42696564f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4270-gateway-to-gateway-virtual-private-network-vpn-configuration.html",
     "objective": null,
@@ -73933,7 +73957,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1940a4a3b6546a2f2ad5e44772beda79db923d2fcdba9859d00f8c9521ba8b40",
+    "document_id": "e932ca625be52448b229b4cc776b53516da3cedfb43cde77584f1b2d6899b71a",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4301-configure-virtual-private-network-vpn-passthrough-on-rv320-a.html",
     "objective": null,
@@ -73952,7 +73976,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "5efd23eec3d5be3cc259af6d3b2196b4e18ffac70885e9347d7a32fdbc40dbd2",
+    "document_id": "5b3467d30cef213eef2d8f63615fb10fbe2a6591968b379112d05c3234cb2726",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4377-configure-inbound-load-balance-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -73971,7 +73995,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "b7f42b5154bf26ceb3620d658fb8de138bc565601f09c3ec5d52d14b75ad0e6f",
+    "document_id": "f4bba84b5f50e7efc157ec830f5d785b7074b237246dbcd215d6fc35ef4825a2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4261-configure-qos-quality-of-service-queue-mapping-on-the-rv320.html",
     "objective": null,
@@ -73990,7 +74014,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ad2e4fa888981af62b439ac64939f6ca3eacf7f9398257186991595b511ce084",
+    "document_id": "e291fe72125cb275461ad6c848ffb71b079dbf9e1f6d7f523d8ae46194442f97",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4122-configure-time-and-date-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74354,7 +74378,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "4f659ac6b5c1de416c72bf90bf454c8a5a2f75ceba16182dae8c7de77fe862f5",
+    "document_id": "bd145b9ed02e08ab31e908a873dc68a6f6c89ec46cc2bdb772f46476f5a45345",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4939-configuring-a-site-to-site-vpn-tunnel-between-cisco-rv320-gi.html",
     "objective": null,
@@ -74373,7 +74397,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "e0fdb465851b6cc71067935c0c5188392bed5febbd92941d489d980f30bb2346",
+    "document_id": "69c98d821aa8e76d37505c4d3eb97ca6dcc0fda9c5034555985708fe204c1f60",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4288-configure-single-client-to-gateway-virtual-private-network-v.html",
     "objective": null,
@@ -74392,7 +74416,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "fa42a148eae47648927d919fc30a41cc59e8dbb0927be7e102d97d8ce6ee2a9b",
+    "document_id": "113056d7b851ef18c46e841ad008b978079e0beaca97cd590a1d70fa43bdddc3",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4359-configure-point-to-point-tunneling-protocol-pptp-server-on-r.html",
     "objective": null,
@@ -74411,7 +74435,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "bf70bb5fb6ff560b436abd1bcd28ddb3ff0b4d7275bdb740b8736f32cd8733aa",
+    "document_id": "34d58a18e9a540536c6c56721be14054663c0d9f811b0f8e2f947ec49f90341f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4348-configure-advanced-secure-sockets-layer-virtual-private-netw.html",
     "objective": null,
@@ -74430,7 +74454,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "223be8c5a242686f8ed0b155871ee60d234b4a33b432271828f4b051f481ba0d",
+    "document_id": "3bb97ad42a63f718bfbfda947163e84feee9fa9beb7c6a7dddbbf0558223cd84",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4381-configure-my-certificate-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74449,7 +74473,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "b9aea62ae328382435ba65710aa2189028b8cbc246e3d5fef5df01f2c4b4a79b",
+    "document_id": "fe50984e027e11ce9c22ff2223f3145a763992e6e4962cef171861e083213506",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4295-configure-group-client-to-gateway-virtual-private-network-vp.html",
     "objective": null,
@@ -74468,7 +74492,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "f73009bcb9543d38c3beaac26f223bba076aa28ae11101398aff8712e85e87b3",
+    "document_id": "2f87f8cc9ff534c745f49b4dc495fb792d0960f5992998839706d1e2fd97ee2f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4154-configure-one-to-one-network-address-translation-nat-on-rv32.html",
     "objective": null,
@@ -74487,7 +74511,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "65ebf59a891f422b5eb7bda700428d9e8fcfd3350a0de9a89999cd4f3fd008ff",
+    "document_id": "16da6b17c1be64d2797a21d38af721005c02dec9116e0ebbadb50c2d3585779f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4152-configure-port-address-translation-pat-on-rv320-and-rv325-vp.html",
     "objective": null,
@@ -74506,7 +74530,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ec8c55c42c3ca82cbe679102b1d22b9efdfc05043cd58792d0e6687bfb86b744",
+    "document_id": "3f7487877c0df89b04b8a67cb1969468f1d6d231bf1e15dce5e66fbb59145385",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4142-configure-vlan-membership-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -74525,7 +74549,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "14386c455dc80e99690288e97917d72eb179294930bc5029ab46ca70da43af5f",
+    "document_id": "4a639f0b900d00f9e96cce975b966d77651a684fd088946e51e87c8762101dfd",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4127-configure-simple-network-management-protocol-snmp-on-rv320-a.html",
     "objective": null,
@@ -74544,7 +74568,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "bc7392434c0184008f26ec1fa9c49ebc43a0cbce266f9d28e61528039f776f63",
+    "document_id": "8e135fd6352d5da59546cd3a316742eefb7953003b22878cb113291ee07cdb4e",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4176-configure-dynamic-domain-name-server-on-rv320-and-rv325-vpn.html",
     "objective": null,
@@ -74563,7 +74587,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "81e69bee8875ad68154037cb5f1d51319c0489552e15c93e785d575401a7ec3d",
+    "document_id": "d180255834f842a8e460f8e461fccb7d37f663e8ab186054fbccb54c606488f0",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4165-bandwidth-management-configuration-on-rv320-and-rv325-vpn-ro.html",
     "objective": null,
@@ -74582,7 +74606,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "169740a812b2213ed5109695b8ff4e872fa30fea912cd93cd60337f40cc705b3",
+    "document_id": "675f69a1855774aa7340da3266612b9a1c5d355151b457dec890c2a5fbd04a25",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb5046-configuration-of-universal-plug-and-play-upnp-on-rv320-and-r.html",
     "objective": null,
@@ -75050,7 +75074,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "b6fcffadf359d49d2c711ee349398de1ac2a8c1861ae310d7847fa22bb702506",
+    "document_id": "fd99f9cfe56098ac0f87ed370221506a8f852b86e1d8183e3907c77fdca88c42",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4286-access-rules-configuration-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75069,7 +75093,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "1c34e77cc05938c6bd408e5f1a0420fbc8eb090a8d402a7554c48be280e6bb97",
+    "document_id": "f913b7f8469ab0c81046c4bc7687d74cab029550201bdc2fbf3e893ee6449367",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4362-advanced-routing-configuration-on-rv320-and-rv325-vpn-router.html",
     "objective": null,
@@ -75088,7 +75112,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "7b0a576c7a62043189f3e3268703cd214ce5629e8a5fb536940ad50c1a54ff71",
+    "document_id": "40a43c38a0b291593c1d5afb4b29b95044957d2e3752c72a839aac694c22bb6c",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4226-manage-ip-and-mac-binding-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75107,7 +75131,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "559f8262d52fee4f90436627ad4f8860eb3da5dad8ca43aae33ebe340244539f",
+    "document_id": "77cba91f1be3a22cdd07f7c8362d1b3b2279710c0d3571394b34281d4bcccf60",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4274-access-rule-setup-wizard-on-rv32x-vpn-router-series.html",
     "objective": null,
@@ -75126,7 +75150,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "7bc99026e9162ceedec2ed333e5245e3c54db2e45ac0cd40897f8ff90a8f9f74",
+    "document_id": "cc5a7fbacd347a3fe26f3199d14450e3116de34939cdf161544a62a8b792087f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4336-basic-firewall-configuration-on-rv320-and-rv325-routers.html",
     "objective": null,
@@ -75145,7 +75169,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "d4571c91d3997db454addc6ed5e2c4abd6b4bf671e91f5a4ae25d41fc320de7c",
+    "document_id": "9380a2e1a2d64607dbf049211c864237fa07eaca61fb7b3a3e3a5606b3eb632e",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4411-certificate-signing-request-csr-on-rv320-and-rv325-vpn-route.html",
     "objective": null,
@@ -75164,7 +75188,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "275d165b939e6b12d50764cc25a8c0783ef3747d1c9c906673d314ca6a57931a",
+    "document_id": "e1aea5c13c020721404fef4dd3a457b11f3e22b3a1a0f135b36702783d38411b",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4328-resource-management-on-rv320-and-rv325-vpn-routers.html",
     "objective": null,
@@ -75183,7 +75207,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "83b1077a9dddaa30f14f478dad8937b721195ea32cc451f1dab89e4f8cd3daa2",
+    "document_id": "ea609cf08594756637d0af8ee60f94554ae5e06a23a1b094845d402d04bf7dd9",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4253-option-82-configuration-on-rv32x-vpn-router-series.html",
     "objective": null,
@@ -75202,7 +75226,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "5bb95e2d9ed761501c788697e676f57a61500c276408354d9e1c0fbe4388152a",
+    "document_id": "36e460289561db9b74c4d550a13e988b490200efd3ac01650dc8ea81f641d7a2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4221-system-log-configuration-on-rv320-and-rv325-vpn-router-serie.html",
     "objective": null,
@@ -75221,7 +75245,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "4e331c2508c1f06f278dbee32bf274ebfad36233bd8a31b50ab7d76ec28eed9d",
+    "document_id": "a625c1c7b76d6616e098dc961bcd6ca3ee59b32ae39bd70536c2fd0a035ceb71",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4163-clone-mac-address-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75240,7 +75264,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "a98ad1f7fbf4c6cbc5f0d3bd25adad2e08b675feeba4ee487e169af2e7e16f7b",
+    "document_id": "86d32eca9c1e111ccc3cd6338237f104264885a01b4a0cb613c568e98e9a73e2",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4159-port-forwarding-and-port-triggering-on-rv320-and-rv325-vpn-r.html",
     "objective": null,
@@ -75259,7 +75283,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "58d44a7cfb94ac9fbff374e30e9dcf3f6e8f037c169c35b7119f6cf5461efe4f",
+    "document_id": "a76d2146016896baf635ee7965bcb21d80899a162df0f64008d94c49e4ad8d3f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4195-manage-router-advertisement-on-rv320-and-rv325-vpn-router-se.html",
     "objective": null,
@@ -75278,7 +75302,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "83f312bc2547149a886aaced01a9b63949f6b75c6eb69128ecdf1ef37b9b4cde",
+    "document_id": "bb76376624924608f94c82f9ebc43414a2d8b199803a3732a68e975a391c6d13",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4147-password-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75297,7 +75321,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "38b3d2ed7fa96bd48975789644084d5261a1ce7e92e177f9ad48416987e3ea03",
+    "document_id": "889b6caccfb84bb8bef4ba04fc44bb9f716867e8def1b543202520142d450a05",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4222-manage-dns-domain-name-system-local-database-on-rv320-and-rv.html",
     "objective": null,
@@ -75316,7 +75340,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "a556ed04f976a13b03dab2191854242423b65dda7d98d6229d805612f5773a63",
+    "document_id": "6343b20b29fbe9d5632a563012dbe84d13ca0230cd28f7dd24ed3af453671111",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4125-backup-and-restore-the-configuration-files-on-rv320-and-rv32.html",
     "objective": null,
@@ -75507,7 +75531,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ef1190da73116b1ee63f56e7814117f062be50d25d74d64642437c99e8a5b1fa",
+    "document_id": "da5546bdcf6a986339506cc1ceda12f7a51d0afdf6bdafa5b01963365ec61ddc",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4148-8021x-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75526,7 +75550,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "7d0365b93ccc0367da73d701bc1172627d8b431db6cf5a460bcbd0e345f62734",
+    "document_id": "0bb7e2ac22f61dba94b064c1341aaa55cd57d48d464a6da231bce0a5e46a8f7b",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4242-dual-wan-configuration-on-rv320-and-rv325-vpn-router-series.html",
     "objective": null,
@@ -75545,7 +75569,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "ad5832ab04565241f6122334dd2b01edbceecbe4c17bd63ee32d31a20c37fef4",
+    "document_id": "5ec71e666e0aea55a01d8bf1844157ef56eb79f28e85d0d5e5c89fd012327d8f",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4255-dhcpv4-configuration-and-monitoring-on-rv32x-vpn-router-seri.html",
     "objective": null,
@@ -75564,7 +75588,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "15d6c50cd5f5e7f2d0f3915d71b6cf4625915335e41901fd6207c129db9f2258",
+    "document_id": "7c2214ab88fccc444b39940fe7d611b7f079c4ed57f053f4b706e523e29cd123",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4231-content-filter-configuration-on-rv320-and-rv325-vpn-router-s.html",
     "objective": null,
@@ -75583,7 +75607,7 @@
   {
     "series": "RV320 Product Family",
     "title": "Cisco Small Business RV Series Routers",
-    "document_id": "5f14d1e37950bdb9e54bd2030f3ea7e0ed9ca17da20620671ca50710e2cc1e52",
+    "document_id": "1d768fdd28cb26e1256a2fc3ab093c271dff9dd118f1be87f70d46cdfd63f071",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/smb4280-dhcpv6-configuration-and-monitoring-on-rv32x-vpn-router-seri.html",
     "objective": null,
@@ -125283,7 +125307,7 @@
   },
   {
     "series": "Cisco Business 250 Series Smart Switches",
-    "title": "Configure IPv4 Static Routes Settings on a Switch through the CLI",
+    "title": "Configure IPv4 Static Routes on a CBS Switch via CLI",
     "document_id": "1595269207649173",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2257-configure-ipv4-static-routes-settings-on-a-switch-through-th.html",
@@ -125449,7 +125473,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-07-21",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -126067,7 +126097,7 @@
   },
   {
     "series": "Cisco Business 250 Series Smart Switches",
-    "title": "Configure Subnet-based VLAN Groups on a Switch through the CLI",
+    "title": "Configure Subnet-based VLAN Groups on a CBS Switch via CLI",
     "document_id": "1594819818035715",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2242-configure-subnet-based-vlan-groups-on-a-switch-through-the-c.html",
@@ -126310,7 +126340,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-07-15",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -131625,7 +131661,7 @@
   {
     "series": "Cisco Catalyst 1200 Series Switches",
     "title": "Cisco IOS CLI Migration Assistant",
-    "document_id": "cd8eea6f7c803213bc84b12d5eacb911712071c656701567abb6c9eb024ccceb",
+    "document_id": "f3a0816e8f0a062a24263ffd014c37857162386217d6223d79c61fe17f8c8cd7",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/IOS-Configuration-Coverter.html",
     "objective": null,
@@ -136586,6 +136622,25 @@
   },
   {
     "series": "Cisco Catalyst 1300 Series Switches",
+    "title": "Cisco IOS CLI Migration Assistant",
+    "document_id": "2f880d0e8bf836901def2c26052aa8b93c909a27ae1f6b4654bff17d4a0cb9f6",
+    "category": "Configuration",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/IOS-Configuration-Coverter.html",
+    "objective": null,
+    "applicable_devices": [],
+    "intro": null,
+    "steps": [
+      {
+        "section": "General",
+        "step_num": 1,
+        "text": "No steps found."
+      }
+    ],
+    "revision_history": [],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Catalyst 1300 Series Switches",
     "title": "Understanding OSPF in Catalyst 1300X Switches",
     "document_id": "1761547855220101",
     "category": "Maintain and Operate",
@@ -136614,25 +136669,6 @@
         "comments": "Initial Release"
       }
     ],
-    "type": "article"
-  },
-  {
-    "series": "Cisco Catalyst 1300 Series Switches",
-    "title": "Cisco IOS CLI Migration Assistant",
-    "document_id": "bc059cdc3d441357cf4a8f685648123ff11f264060ad1acfac7e44684f9f6702",
-    "category": "Configuration",
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/IOS-Configuration-Coverter.html",
-    "objective": null,
-    "applicable_devices": [],
-    "intro": null,
-    "steps": [
-      {
-        "section": "General",
-        "step_num": 1,
-        "text": "No steps found."
-      }
-    ],
-    "revision_history": [],
     "type": "article"
   },
   {
@@ -138441,7 +138477,7 @@
   },
   {
     "series": "Cisco 350 Series Managed Switches",
-    "title": "Configure IPv4 Static Routes Settings on a Switch through the CLI",
+    "title": "Configure IPv4 Static Routes on a CBS Switch via CLI",
     "document_id": "1595269207649173",
     "category": "Configuration",
     "url": "http://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2257-configure-ipv4-static-routes-settings-on-a-switch-through-th.html",
@@ -138607,7 +138643,13 @@
         ]
       }
     ],
-    "revision_history": [],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-07-21",
+        "comments": "Initial Release"
+      }
+    ],
     "type": "article"
   },
   {
@@ -181763,6 +181805,125 @@
   },
   {
     "series": "Cisco Business Wireless AC",
+    "title": "RF Channels on a Cisco Business Wireless Network",
+    "document_id": "1590767168079739",
+    "category": "Maintain and Operate",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
+    "applicable_devices": [
+      {
+        "device": "140AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "141ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "142ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "143ACM",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "145AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "240AC",
+        "software": "10.4.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324934"
+      }
+    ],
+    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
+    "steps": [
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 1,
+        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 2,
+        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
+        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 3,
+        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
+        "alt": "Related diagram, image, or screenshot",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Radio 1",
+          "Radio 2",
+          "Automatic",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 4,
+        "text": "Click the Save icon to permanently save the new channel assignments.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
+        "alt": "Click the Save icon to permanently save the new channel assignments. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Save icon"
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-05-29",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Business Wireless AC",
     "title": "Application Profiling",
     "document_id": "1589477197880547",
     "category": "Maintain and Operate",
@@ -181984,125 +182145,6 @@
       {
         "revision": 1.0,
         "publish_date": "2020-05-14",
-        "comments": "Initial Release"
-      }
-    ],
-    "type": "article"
-  },
-  {
-    "series": "Cisco Business Wireless AC",
-    "title": "RF Channels on a Cisco Business Wireless Network",
-    "document_id": "1590767168079739",
-    "category": "Maintain and Operate",
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
-    "objective": "This article explains Radio Frequency (RF) channels along with how/why you might want to change them when managing a Cisco Business Wireless (CBW) traditional or mesh network. If you are unfamiliar with terms in this document, check outCisco Business: Glossary of New Terms.",
-    "applicable_devices": [
-      {
-        "device": "140AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "141ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "142ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "143ACM",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "145AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "240AC",
-        "software": "10.4.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324934"
-      }
-    ],
-    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. You can configure them as traditional standalone devices or as part of a mesh network. Channels are assigned by default. CBW Networks can operate at both 2.4 GHz and 5GHz. The Radio 1 tab corresponds to the 2.4 GHz (802.11 b/g/n) radio on all APs. The Radio 2 tab corresponds to only the 5 GHz (802.11a/n/ac) radio on all APs. <div class=\"cdt-note\"> <p> When you change channels, all APs will reboot so you might not want to change channels during office hours. This will cause interrupted service on the wireless network. </p> </div> Two of the reasons you might want to consider changing RF channels are interferers or rogues. If there are several interferers sharing the same channels, you might want to consider a change the channels you use. Think of it as finding yourself on a congested road, so you head to an open road for better performance as it will provide more space. It is important to note that on the CBW APs, the interferers and rogues shown only include those that are on the same channels or overlapping channels. There can be interferers on other channels that you can see once you change channels. There are other considerations to consider as well. Keep reading to see what might be best for your network. If you want to learn about interferers or rogues, check out the links at the bottom of this article.",
-    "steps": [
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 1,
-        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 2,
-        "text": "Navigate to Wireless Settings > Access Points . Click on the edit icon of an AP.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-1.png",
-        "alt": "Navigate to Wireless Settings > Access Points. Click on the edit icon of an AP. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 3,
-        "text": "Click on Radio 1 or Radio 2 . Select Automatic or the channel you wish to assign to the AP. Repeat these steps if you are changing Radio 1 and Radio 2. Click Apply .",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-2.png",
-        "alt": "Related diagram, image, or screenshot",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Radio 1",
-          "Radio 2",
-          "Automatic",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 4,
-        "text": "Click the Save icon to permanently save the new channel assignments.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2069-tz-Changing-RF-Channels-image-3.png",
-        "alt": "Click the Save icon to permanently save the new channel assignments. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Save icon"
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      }
-    ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2020-05-29",
         "comments": "Initial Release"
       }
     ],
@@ -184159,240 +184201,6 @@
   },
   {
     "series": "Cisco Business Wireless AC",
-    "title": "Identifying Rogue Clients in a Cisco Business Wireless Network",
-    "document_id": "1589471408510478",
-    "category": "Troubleshooting",
-    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
-    "objective": null,
-    "applicable_devices": [
-      {
-        "device": "140AC",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "141ACM",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "142ACM",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "143ACM",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      },
-      {
-        "device": "145AC",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "240AC",
-        "software": "10.0.1.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
-        "software_url": "https://software.cisco.com/download/home/286324934"
-      },
-      {
-        "device": "150AX",
-        "software": "10.3.2.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/business-access-point-ds.html",
-        "software_url": "https://software.cisco.com/download/home/286324929"
-      },
-      {
-        "device": "151AXM",
-        "software": "10.3.2.0",
-        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/busines-mesh-extender-ds.html",
-        "software_url": "https://software.cisco.com/download/home/286325124"
-      }
-    ],
-    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. They can be used as traditional standalone devices or as part of a mesh network. In a perfect world, everyone would be respectful and honest when using your wireless network. Unfortunately, we don’t live in a perfect world. As an administrator, your job is to be aware of any potential problems. Rogue APs are APs that have been installed on a network without your permission. Rogue clients are any other detected devices that do not belong to your company. These connections could be totally innocent, but there is always a risk that these rogues will attempt to attack your network or steal sensitive information. To keep on top of this, you can view the rogue APs and rogue clients. Once detected, these rogues cannot be blocked through the AP, but it does give you information to investigate further. <div class=\"cdt-note\"> <p> The CBW APs will only detect rogues on channels you are currently using or channels that overlap. </p> </div>",
-    "steps": [
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 1,
-        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. If you are unfamiliar with the terms used, check out Cisco Business: Glossary of New Terms .",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 2,
-        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View .",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
-        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 3,
-        "text": "Navigate to Monitoring > Network Summary > Rogues > Access Points.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-2.png",
-        "alt": "Navigate to Monitoring > Network Summary > Rogues > Access Points. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Monitoring > Network Summary > Rogues > Access Points."
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 4,
-        "text": "Once this page opens, you can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified. The AP does not change the labels for the rogue APs, that is something you would manually do.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-3.png",
-        "alt": "You can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified.",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 5,
-        "text": "The rogue APs are listed, you can click on any of them to investigate further.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-4.png",
-        "alt": "The rogue APs are listed, you can click on any of them to investigate further. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 6,
-        "text": "If you want to classify any of the APs as Friendly or Malicious , you can select either option from the drop-down menu under Update Class . You might want to do this so that when you look at Unclassified Access Points in the future, you won’t have to sort through an entire list. Be sure to click Apply when done.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-5.png",
-        "alt": "If you want to classify any of the APs as Friendly or Malicious, you can select either option from the drop-down menu under Update Class.",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Friendly",
-          "Malicious",
-          "Update Class",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "step_num": 7,
-        "text": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-6.png",
-        "alt": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Internal",
-          "External",
-          "Update Status",
-          "Apply"
-        ],
-        "emphasized_tags": [
-          "em",
-          "em",
-          "em",
-          "strong"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 1,
-        "text": "Log into the Web UI of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. For some actions, you can go us the Cisco Business Mobile app.",
-        "src": null,
-        "alt": null,
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "https:/<ipaddress>"
-        ],
-        "emphasized_tags": [
-          "em"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 2,
-        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View . For details on setting up a RADIUS server, check out Radius",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
-        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Expert View",
-          "arrow icon",
-          "Expert View"
-        ],
-        "emphasized_tags": [
-          "em",
-          "strong",
-          "em"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 3,
-        "text": "Navigate to Monitoring > Network Summary > Rogues > Clients.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-7.png",
-        "alt": "Navigate to Monitoring > Network Summary > Rogues > Clients. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [
-          "Monitoring > Network Summary > Rogues > Clients."
-        ],
-        "emphasized_tags": [
-          "strong"
-        ]
-      },
-      {
-        "section": "View Rogue Clients",
-        "step_num": 4,
-        "text": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected.",
-        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-8.png",
-        "alt": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected. ",
-        "video_src": null,
-        "note": null,
-        "emphasized_text": [],
-        "emphasized_tags": []
-      }
-    ],
-    "revision_history": [
-      {
-        "revision": 1.0,
-        "publish_date": "2020-06-24",
-        "comments": "Initial Release"
-      }
-    ],
-    "type": "article"
-  },
-  {
-    "series": "Cisco Business Wireless AC",
     "title": "Detecting Interferers",
     "document_id": "1589480530956561",
     "category": "Troubleshooting",
@@ -184633,6 +184441,240 @@
           "em",
           "em"
         ]
+      }
+    ],
+    "revision_history": [
+      {
+        "revision": 1.0,
+        "publish_date": "2020-06-24",
+        "comments": "Initial Release"
+      }
+    ],
+    "type": "article"
+  },
+  {
+    "series": "Cisco Business Wireless AC",
+    "title": "Identifying Rogue Clients in a Cisco Business Wireless Network",
+    "document_id": "1589471408510478",
+    "category": "Troubleshooting",
+    "url": "http://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2074-Rogue-Clients-CBW-Master-AP.html",
+    "objective": null,
+    "applicable_devices": [
+      {
+        "device": "140AC",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "141ACM",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "142ACM",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "143ACM",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/smb-01-bus-100-mesh-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      },
+      {
+        "device": "145AC",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "240AC",
+        "software": "10.0.1.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
+        "software_url": "https://software.cisco.com/download/home/286324934"
+      },
+      {
+        "device": "150AX",
+        "software": "10.3.2.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/business-access-point-ds.html",
+        "software_url": "https://software.cisco.com/download/home/286324929"
+      },
+      {
+        "device": "151AXM",
+        "software": "10.3.2.0",
+        "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/busines-mesh-extender-ds.html",
+        "software_url": "https://software.cisco.com/download/home/286325124"
+      }
+    ],
+    "intro": "CBW Access Points (APs) are 802.11 a/b/g/n/ac (Wave 2) based, with internal antennas. They can be used as traditional standalone devices or as part of a mesh network. In a perfect world, everyone would be respectful and honest when using your wireless network. Unfortunately, we don’t live in a perfect world. As an administrator, your job is to be aware of any potential problems. Rogue APs are APs that have been installed on a network without your permission. Rogue clients are any other detected devices that do not belong to your company. These connections could be totally innocent, but there is always a risk that these rogues will attempt to attack your network or steal sensitive information. To keep on top of this, you can view the rogue APs and rogue clients. Once detected, these rogues cannot be blocked through the AP, but it does give you information to investigate further. <div class=\"cdt-note\"> <p> The CBW APs will only detect rogues on channels you are currently using or channels that overlap. </p> </div>",
+    "steps": [
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 1,
+        "text": "Log into the Web User Interface (UI) of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. If you are unfamiliar with the terms used, check out Cisco Business: Glossary of New Terms .",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 2,
+        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View .",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
+        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 3,
+        "text": "Navigate to Monitoring > Network Summary > Rogues > Access Points.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-2.png",
+        "alt": "Navigate to Monitoring > Network Summary > Rogues > Access Points. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Monitoring > Network Summary > Rogues > Access Points."
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 4,
+        "text": "Once this page opens, you can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified. The AP does not change the labels for the rogue APs, that is something you would manually do.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-3.png",
+        "alt": "You can select to see 2.4 GHz or 5 GHz by clicking on the tab. By default, all rogue APs are labeled Unclassified.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 5,
+        "text": "The rogue APs are listed, you can click on any of them to investigate further.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-4.png",
+        "alt": "The rogue APs are listed, you can click on any of them to investigate further. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 6,
+        "text": "If you want to classify any of the APs as Friendly or Malicious , you can select either option from the drop-down menu under Update Class . You might want to do this so that when you look at Unclassified Access Points in the future, you won’t have to sort through an entire list. Be sure to click Apply when done.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-5.png",
+        "alt": "If you want to classify any of the APs as Friendly or Malicious, you can select either option from the drop-down menu under Update Class.",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Friendly",
+          "Malicious",
+          "Update Class",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "Frequently Asked Questions",
+        "step_num": 7,
+        "text": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-6.png",
+        "alt": "If you want to label an AP as Internal (in network) or External (possibly a neighboring company) you can do that under the Update Status section. Click Apply when done. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Internal",
+          "External",
+          "Update Status",
+          "Apply"
+        ],
+        "emphasized_tags": [
+          "em",
+          "em",
+          "em",
+          "strong"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 1,
+        "text": "Log into the Web UI of the Primary AP. To do this, open a web browser and enter https://ciscobusiness.cisco . You may receive a warning before proceeding. Enter your credentials. You can also access the Primary AP by entering https:// (of the Primary AP) into a web browser. For some actions, you can go us the Cisco Business Mobile app.",
+        "src": null,
+        "alt": null,
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "https:/<ipaddress>"
+        ],
+        "emphasized_tags": [
+          "em"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 2,
+        "text": "To make these configurations, you need to be in Expert View . Click on the arrow icon on the top-right menu of the Web UI to switch to Expert View . For details on setting up a RADIUS server, check out Radius",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-1.png",
+        "alt": "This shows the left and right arrow icon that needs to be selected to switch to Expert View. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Expert View",
+          "arrow icon",
+          "Expert View"
+        ],
+        "emphasized_tags": [
+          "em",
+          "strong",
+          "em"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 3,
+        "text": "Navigate to Monitoring > Network Summary > Rogues > Clients.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-7.png",
+        "alt": "Navigate to Monitoring > Network Summary > Rogues > Clients. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [
+          "Monitoring > Network Summary > Rogues > Clients."
+        ],
+        "emphasized_tags": [
+          "strong"
+        ]
+      },
+      {
+        "section": "View Rogue Clients",
+        "step_num": 4,
+        "text": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected.",
+        "src": "https://www.cisco.com/c/dam/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/images/2074-Rogue-Clients-CBW-Master-AP-image-8.png",
+        "alt": "If there are any rogue clients, they will be listed. In this example, no rogue clients have been detected. ",
+        "video_src": null,
+        "note": null,
+        "emphasized_text": [],
+        "emphasized_tags": []
       }
     ],
     "revision_history": [
