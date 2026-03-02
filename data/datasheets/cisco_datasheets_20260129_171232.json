@@ -185,7 +185,7 @@
             "information_on_electronic_waste_laws_and_regulations_including_products_batteries_and_packaging": "https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html"
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/business-110-series-unmanaged-switches/datasheet-c78-744158.html?ccid=cc001531",
-        "last_scraped_at": "2025-08-21T17:42:31.498412+00:00"
+        "last_scraped_at": "2026-01-29T17:12:28.277419+00:00"
     },
     {
         "family": "Cisco Business 220 Series Smart Switches",
@@ -691,7 +691,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/business-220-series-smart-switches/datasheet-c78-744915.html",
-        "last_scraped_at": "2025-08-21T17:42:31.917408+00:00"
+        "last_scraped_at": "2026-01-29T17:12:28.484012+00:00"
     },
     {
         "family": "Cisco Business 250 Series Smart Switches",
@@ -1283,7 +1283,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/business-250-series-smart-switches/nb-06-bus250-smart-switch-ds-cte-en.html",
-        "last_scraped_at": "2025-08-21T17:42:32.646716+00:00"
+        "last_scraped_at": "2026-01-29T17:12:28.790829+00:00"
     },
     {
         "family": "Cisco Business 350 Series Managed Switches",
@@ -2239,7 +2239,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html",
-        "last_scraped_at": "2025-08-21T17:42:33.197685+00:00"
+        "last_scraped_at": "2026-01-29T17:12:29.106441+00:00"
     },
     {
         "family": "Cisco Catalyst 1000 Series Switches",
@@ -2593,7 +2593,7 @@
             ]
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/nb-06-cat1k-ser-switch-ds-cte-en.html",
-        "last_scraped_at": "2025-08-21T17:42:33.720935+00:00"
+        "last_scraped_at": "2026-01-29T17:12:29.338805+00:00"
     },
     {
         "family": "Cisco Catalyst 1200 Series Switches",
@@ -3137,7 +3137,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1200-series-switches/nb-06-cat1200-ser-data-sheet-cte-en.html",
-        "last_scraped_at": "2025-08-21T17:42:34.233457+00:00"
+        "last_scraped_at": "2026-01-29T17:12:29.552135+00:00"
     },
     {
         "family": "Cisco Catalyst 1300 Series Switches",
@@ -3155,10 +3155,10 @@
                 "rj-45_ports": "8 x Gigabit Ethernet",
                 "uplink_ports": "2 x Gigabit Ethernet combo",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 297 x 44 mm (10.56 x 11.71 x 1.73 in)",
+                "unit_dimensions": "268 x 297 x 43.94 mm (10.55 x 11.71 x 1.73 in)",
                 "unit_weight": "3.05 kg (6.72 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 2865360
             },
             "C1300-8T-E-2G": {
@@ -3172,10 +3172,10 @@
                 "rj-45_ports": "8 x Gigabit Ethernet",
                 "uplink_ports": "2 x Gigabit Ethernet combo",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 185 x 44 mm (10.56 x 7.28 x 1.73 in)",
+                "unit_dimensions": "268 x 185 x 43.94 mm (10.55 x 7.28 x 1.73 in)",
                 "unit_weight": "1.39 kg (3.06 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 2865360
             },
             "C1300-8P-E-2G": {
@@ -3191,10 +3191,10 @@
                 "rj-45_ports": "8 x Gigabit Ethernet",
                 "uplink_ports": "2 x Gigabit Ethernet combo",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 185 x 44 mm (10.56 x 7.28 x 1.73 in)",
+                "unit_dimensions": "268 x 185 x 43.94 mm (10.55 x 7.28 x 1.73 in)",
                 "unit_weight": "1.72 kg (3.79 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 2865360
             },
             "C1300-16T-2G": {
@@ -3208,10 +3208,10 @@
                 "rj-45_ports": "16 x Gigabit Ethernet",
                 "uplink_ports": "2 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 272 x 44 mm (10.56 x 10.69 x 1.73 in)",
+                "unit_dimensions": "268 x 272 x 43.94 mm (10.55 x 10.69 x 1.73 in)",
                 "unit_weight": "2.18 kg (4.80 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 912776
             },
             "C1300-16P-2G": {
@@ -3227,10 +3227,10 @@
                 "rj-45_ports": "16 x Gigabit Ethernet",
                 "uplink_ports": "2 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 297 x 44 mm (10.56 x 11.69 x 1.73 in)",
+                "unit_dimensions": "268 x 297 x 43.94 mm (10.55 x 11.69 x 1.73 in)",
                 "unit_weight": "2.38 kg (5.25 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 412959
             },
             "C1300-16FP-2G": {
@@ -3246,10 +3246,10 @@
                 "rj-45_ports": "16 x Gigabit Ethernet",
                 "uplink_ports": "2 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 323.3 x 43.94 mm (10.56 x 12.72 x 1.73 in)",
+                "unit_dimensions": "268 x 323.3 x 43.94 mm (10.55 x 12.72 x 1.73 in)",
                 "unit_weight": "2.49 kg (5.49 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 309224
             },
             "C1300-24T-4G": {
@@ -3263,10 +3263,10 @@
                 "rj-45_ports": "24 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 240 x 44 mm (17.5 x 9.45 x 1.73 in)",
+                "unit_dimensions": "444.3 x 240 x 43.94 mm (17.49 x 9.45 x 1.73 in)",
                 "unit_weight": "2.63 kg (5.80 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 664987
             },
             "C1300-24P-4G": {
@@ -3282,10 +3282,10 @@
                 "rj-45_ports": "24 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 299 x 44 mm (17.5 x 11.77 x 1.73 in)",
+                "unit_dimensions": "444.3 x 299 x 43.94 mm (17.49 x 11.77 x 1.73 in)",
                 "unit_weight": "3.53 kg (7.78 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 396413
             },
             "C1300-24FP-4G": {
@@ -3304,7 +3304,7 @@
                 "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.77 x 1.73 in)",
                 "unit_weight": "4.6 kg (10.14 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 39 dBA",
+                "acoustic_noise": "25\u00b0C: 39 dBA",
                 "mtbf": 500161
             },
             "C1300-48T-4G": {
@@ -3318,10 +3318,10 @@
                 "rj-45_ports": "48 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 288 x 44 mm (17.5 x 11.33 x 1.73 in)",
+                "unit_dimensions": "444.3 x 288 x 43.94 mm (17.49 x 11.33 x 1.73 in)",
                 "unit_weight": "3.95 kg (8.71 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 29.7 dBA",
+                "acoustic_noise": "25\u00b0C: 29.7 dBA",
                 "mtbf": 1473382
             },
             "C1300-48P-4G": {
@@ -3337,10 +3337,10 @@
                 "rj-45_ports": "48 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 350 x 44 mm (17.5 x 13.78 x 1.73 in)",
+                "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.78 x 1.73 in)",
                 "unit_weight": "5.43 kg (11.97 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 37.3 dBA",
+                "acoustic_noise": "25\u00b0C: 37.3 dBA",
                 "mtbf": 1662884
             },
             "C1300-48FP-4G": {
@@ -3356,10 +3356,10 @@
                 "rj-45_ports": "48 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 350 x 44 mm (17.5 x 13.78 x 1.73 in)",
+                "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.78 x 1.73 in)",
                 "unit_weight": "6.48 kg (14.28 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 48.7 dBA",
+                "acoustic_noise": "25\u00b0C: 48.7 dBA",
                 "mtbf": 1469406
             },
             "C1300-16P-4X": {
@@ -3375,10 +3375,10 @@
                 "rj-45_ports": "16 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 297 x 44 mm (10.56 x 11.69 x 1.73 in)",
+                "unit_dimensions": "268 x 297 x 43.94 mm (10.55 x 11.69 x 1.73 in)",
                 "unit_weight": "2.49 kg (5.49 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 426778
             },
             "C1300-24T-4X": {
@@ -3392,10 +3392,10 @@
                 "rj-45_ports": "24 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 240 x 44 mm (17.5 x 9.45 x 1.73 in)",
+                "unit_dimensions": "444.3 x 240 x 43.94 mm (17.49 x 9.45 x 1.73 in)",
                 "unit_weight": "3.14 kg (6.92 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 646083
             },
             "C1300-24P-4X": {
@@ -3411,10 +3411,10 @@
                 "rj-45_ports": "24 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 299 x 44 mm (17.5 x 11.77 x 1.73 in)",
+                "unit_dimensions": "444.3 x 299 x 43.94 mm (17.49 x 11.77 x 1.73 in)",
                 "unit_weight": "3.95 kg (8.70 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 337232
             },
             "C1300-24FP-4X": {
@@ -3430,10 +3430,10 @@
                 "rj-45_ports": "24 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 350 x 44 mm (17.5 x 13.78 x 1.73 in)",
+                "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.78 x 1.73 in)",
                 "unit_weight": "4.92 kg (10.84 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 39 dBA",
+                "acoustic_noise": "25\u00b0C: 39 dBA",
                 "mtbf": 389607
             },
             "C1300-48T-4X": {
@@ -3447,10 +3447,10 @@
                 "rj-45_ports": "48 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 288 x 44 mm (17.5 x 11.33 x 1.73 in)",
+                "unit_dimensions": "444.3 x 288 x 43.94 mm (17.49 x 11.33 x 1.73 in)",
                 "unit_weight": "4.35 kg (9.59 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 29.7 dBA",
+                "acoustic_noise": "25\u00b0C: 29.7 dBA",
                 "mtbf": 1473382
             },
             "C1300-48P-4X": {
@@ -3466,10 +3466,10 @@
                 "rj-45_ports": "48x Gigabit Ethernet",
                 "uplink_ports": "4x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 350 x 44 mm (17.5 x 13.78 x 1.73 in)",
+                "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.78 x 1.73 in)",
                 "unit_weight": "6.37 kg (14.04 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 37.3 dBA",
+                "acoustic_noise": "25\u00b0C: 37.3 dBA",
                 "mtbf": 1469406
             },
             "C1300-48FP-4X": {
@@ -3485,10 +3485,10 @@
                 "rj-45_ports": "48 x Gigabit Ethernet",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 350 x 44 mm (17.5 x 13.78 x 1.73 in)",
+                "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.78 x 1.73 in)",
                 "unit_weight": "5.16 kg (11.38 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 48.7 dBA",
+                "acoustic_noise": "25\u00b0C: 48.7 dBA",
                 "mtbf": 1469406
             },
             "C1300-8MGP-2X": {
@@ -3500,14 +3500,14 @@
                 "power_consumption": "110V=145.1W 220V=143.4W",
                 "heat_dissipation": 494.79,
                 "idle_power": "110V=10.4W 220V=10.3W",
-                "total_system_ports": "4 Gigabit Ethernet + 4 x 2.5G + 2 x 10G",
-                "rj-45_ports": "4 x Gigabit Ethernet + 4 x 2.5G",
+                "total_system_ports": "4 Gigabit Ethernet + 4 x 2.5G mGig + 2 x 10G",
+                "rj-45_ports": "4 x Gigabit Ethernet + 4 x 2.5G mGig",
                 "uplink_ports": "2 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "268 x 298 x 44 mm (10.55 x 11.73 x 1.73 in)",
+                "unit_dimensions": "268 x 298 x 43.94 mm (10.55 x 11.73 x 1.73 in)",
                 "unit_weight": "2.64kg (5.83 lb)",
                 "fan": "Fanless",
-                "acousticnoise": "\u2013",
+                "acoustic_noise": "\u2013",
                 "mtbf": 561618
             },
             "C1300-24MGP-4X": {
@@ -3519,14 +3519,14 @@
                 "power_consumption": "110V=459W 220V=443.6W",
                 "heat_dissipation": 1565.19,
                 "idle_power": "110V=23.4W 220V=23.6W",
-                "total_system_ports": "16 Gigabit Ethernet + 8 x 2.5G + 4 x 10G",
-                "rj-45_ports": "16 Gigabit Ethernet + 8 x 2.5G",
+                "total_system_ports": "16 Gigabit Ethernet + 8 x 2.5G mGig + 4 x 10G",
+                "rj-45_ports": "16 Gigabit Ethernet + 8 x 2.5G mGig",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "1.5 MB",
-                "unit_dimensions": "445 x 350 x 44 mm (17.5 x 13.78 x 1.73 in)",
+                "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.78 x 1.73 in)",
                 "unit_weight": "5.53kg (12.2 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: <39 dBA",
+                "acoustic_noise": "25\u00b0C: <39 dBA",
                 "mtbf": 359908
             },
             "C1300-48MGP-4X": {
@@ -3538,14 +3538,14 @@
                 "power_consumption": "110V=883.4W 220V=883W",
                 "heat_dissipation": 3012.39,
                 "idle_power": "110V=54.6W 220V=54.9W",
-                "total_system_ports": "32 Gigabit Ethernet + 16 x 2.5G + 4 x 10G",
-                "rj-45_ports": "32Gigabit Ethernet + 16 x 2.5G",
+                "total_system_ports": "32 Gigabit Ethernet + 16 x 2.5G mGig + 4 x 10G",
+                "rj-45_ports": "32 Gigabit Ethernet + 16 x 2.5G mGig",
                 "uplink_ports": "4 x SFP+",
                 "packet_buffer": "3 MB",
-                "unit_dimensions": "445 x 350 x 44 mm (17.5 x 13.78 x 1.73 in)",
+                "unit_dimensions": "444.3 x 350 x 43.94 mm (17.49 x 13.78 x 1.73 in)",
                 "unit_weight": "5.83kg (12.86 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: <39 dBA",
+                "acoustic_noise": "25\u00b0C: <39 dBA",
                 "mtbf": 310984
             },
             "C1300-12XT-2X": {
@@ -3559,10 +3559,10 @@
                 "rj-45_ports": "12 x 10G Copper",
                 "uplink_ports": "2 x SFP+",
                 "packet_buffer": "3 MB",
-                "unit_dimensions": "300 x 268 x 44 mm (11.81 x 10.55 x 1.73 in)",
+                "unit_dimensions": "268 x 300 x 43.94 mm (10.55 x 11.81 x 1.73 in)",
                 "unit_weight": "2.64 kg (5.82 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 28.5 dBA",
+                "acoustic_noise": "25\u00b0C: 28.5 dBA",
                 "mtbf": 1198404
             },
             "C1300-12XS": {
@@ -3576,10 +3576,10 @@
                 "rj-45_ports": "10 x 10G SFP+",
                 "uplink_ports": "2 x 10G copper/SFP+ combo",
                 "packet_buffer": "3 MB",
-                "unit_dimensions": "300 x 268 x 44 mm (11.81 x 10.55 x 1.73 in)",
+                "unit_dimensions": "268 x 300 x 43.94 mm (10.55 x 11.81 x 1.73 in)",
                 "unit_weight": "2.67 kg (5.89 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 29.5 dBA",
+                "acoustic_noise": "25\u00b0C: 29.5 dBA",
                 "mtbf": 1226587
             },
             "C1300-16XTS": {
@@ -3593,10 +3593,10 @@
                 "rj-45_ports": "8 x 10G copper",
                 "uplink_ports": "8 x SFP+",
                 "packet_buffer": "3 MB",
-                "unit_dimensions": "300 x 268 x 44 mm (11.81 x 10.55 x 1.73 in)",
+                "unit_dimensions": "268 x 300 x 43.94 mm (10.55 x 11.815 x 1.73 in)",
                 "unit_weight": "2.68 kg (5.91 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 28.7 dBA",
+                "acoustic_noise": "25\u00b0C: 28.7 dBA",
                 "mtbf": 1201527
             },
             "C1300-24XS": {
@@ -3610,10 +3610,10 @@
                 "rj-45_ports": "20 x 10G SFP+",
                 "uplink_ports": "4 x 10G copper/SFP+ combo",
                 "packet_buffer": "8 MB",
-                "unit_dimensions": "444 x 286 x 44 mm (17.49 x 11.26 x 1.73 in)",
+                "unit_dimensions": "444.3 x 286 x 43.94 mm (17.49 x 11.26 x 1.73 in)",
                 "unit_weight": "4.15 kg (9.15 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 27.6 dBA",
+                "acoustic_noise": "25\u00b0C: 27.6 dBA",
                 "mtbf": 993232
             },
             "C1300-24XT": {
@@ -3627,10 +3627,10 @@
                 "rj-45_ports": "20 x 10G copper",
                 "uplink_ports": "4 x 10G copper/SFP+ combo",
                 "packet_buffer": "8 MB",
-                "unit_dimensions": "444 x 286 x 44 mm (17.49 x 11.26 x 1.73 in)",
+                "unit_dimensions": "444.3 x 286 x 43.94 mm (17.49 x 11.26 x 1.73 in)",
                 "unit_weight": "4.29 kg (9.45 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: 28.7 dBA",
+                "acoustic_noise": "25\u00b0C: 28.7 dBA",
                 "mtbf": 945878
             },
             "C1300-24XTS": {
@@ -3644,25 +3644,174 @@
                 "rj-45_ports": "12x10G Copper",
                 "uplink_ports": "12 x 10G SFP+",
                 "packet_buffer": "8 MB",
-                "unit_dimensions": "445 x 273 x 44 mm (17.5 x 10.76 x 1.73 in)",
+                "unit_dimensions": "444.3 x 273 x 43.94 mm (17.49 x 11.26 x 1.73 in)",
                 "unit_weight": "4.2kg (9.25 lb)",
                 "fan": "1",
-                "acousticnoise": "25\u00b0C: <39 dBA",
+                "acoustic_noise": "25\u00b0C: <39 dBA",
                 "mtbf": 427188
+            },
+            "C1300X-24T-4X": {
+                "forwarding_rate": 95.23,
+                "switching_capacity": 128.0,
+                "system_power_consumption": "110V=31.7W 220V=32.1W",
+                "power_consumption": "NA",
+                "heat_dissipation": 136.14,
+                "idle_power": "110V=50.3W 220V=52W",
+                "total_system_ports": "24 x Gigabit Ethernet + 4 x 10G",
+                "rj-45_ports": "24 x Gigabit Ethernet",
+                "uplink_ports": "4 x SFP28(10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "3 MB",
+                "unit_dimensions": "444.3 x 270 x 43.94 mm (17.49 x 10.63 x 1.73 in )",
+                "unit_weight": "3.28kg (7.23 lb)",
+                "fan": "1",
+                "acoustic_noise": "25\u00b0C: 20.3 dBA",
+                "mtbf": 458135
+            },
+            "C1300X-48T-4X": {
+                "forwarding_rate": 130.95,
+                "switching_capacity": 176.0,
+                "system_power_consumption": "110V=66.7W 220V=72.1W",
+                "power_consumption": "NA",
+                "heat_dissipation": 285.6,
+                "idle_power": "110V=18.5W 220V=20W",
+                "total_system_ports": "48 x Gigabit Ethernet + 4 x 10G",
+                "rj-45_ports": "48 x Gigabit Ethernet",
+                "uplink_ports": "4 x SFP28 (10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "3 MB",
+                "unit_dimensions": "444.3 x 270 x 43.94 mm (17.49 x 10.63 x 1.73 in )",
+                "unit_weight": "3.6kg (7.94lb)",
+                "fan": "1",
+                "acoustic_noise": "25\u00b0C: 21.6 dBA",
+                "mtbf": 324549
+            },
+            "C1300X-24P-4X": {
+                "forwarding_rate": 95.23,
+                "switching_capacity": 128.0,
+                "power_dedicated_to_poe": "385W",
+                "number_of_ports_that_support_poe": 24,
+                "system_power_consumption": "110V=81.3W 220V=84.6W",
+                "power_consumption": "110V=487W 220V=474W",
+                "heat_dissipation": 1661.71,
+                "idle_power": "110V=13.6W 220V=16.6W",
+                "total_system_ports": "24 x Gigabit Ethernet + 4 x 10G",
+                "rj-45_ports": "24 x Gigabit Ethernet",
+                "uplink_ports": "4 x SFP28 (10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "3 MB",
+                "unit_dimensions": "444.3 x 270 x 43.94 mm (17.49 x 10.63 x 1.73 in )",
+                "unit_weight": "3.96kg (8.73lb)",
+                "fan": "1",
+                "acoustic_noise": "25\u00b0C: 44.5 dBA",
+                "mtbf": 368309
+            },
+            "C1300X-48P-4X": {
+                "forwarding_rate": 130.95,
+                "switching_capacity": 176.0,
+                "power_dedicated_to_poe": "740W",
+                "number_of_ports_that_support_poe": 48,
+                "system_power_consumption": "110V=102.3W 220V=111W",
+                "power_consumption": "110V=881W 220V=891.3W",
+                "heat_dissipation": 3096.18,
+                "idle_power": "110V=29.5W 220V=37.7W",
+                "total_system_ports": "48 x Gigabit Ethernet + 4 x 10G",
+                "rj-45_ports": "48 x Gigabit Ethernet",
+                "uplink_ports": "4 x SFP28 (10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "3 MB",
+                "unit_dimensions": "444.3 x 340 x 43.94 mm (17.49 x 13.38 x 1.73 in)",
+                "unit_weight": "5.06kg (11.16lb)",
+                "fan": "1",
+                "acoustic_noise": "25\u00b0C: 48.6 dBA",
+                "mtbf": 251255
+            },
+            "C1300X-24MU-4X": {
+                "forwarding_rate": 148.8,
+                "switching_capacity": 200.0,
+                "power_dedicated_to_poe": "740W",
+                "number_of_ports_that_support_poe": 24,
+                "system_power_consumption": "110V=92W 220V=86.2W",
+                "power_consumption": "110V=870.4W 220V=866.5W",
+                "heat_dissipation": 2989.04,
+                "idle_power": "110V=22.3W 220V=24.8W",
+                "total_system_ports": "24 x 2.5G mGig + 4x10G",
+                "rj-45_ports": "24 x 2.5G mGig",
+                "uplink_ports": "4 x SFP28 (10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "3 MB",
+                "unit_dimensions": "444.3 x 270 x 43.94 mm (17.49 x 10.63 x 1.73 in )",
+                "unit_weight": "4.28kg (9.44lb)",
+                "fan": "1",
+                "acoustic_noise": "25\u00b0C: 47.9 dBA",
+                "mtbf": 321420
+            },
+            "C1300X-10NU-2X": {
+                "forwarding_rate": 104.16,
+                "switching_capacity": 140.0,
+                "power_dedicated_to_poe": "385W",
+                "number_of_ports_that_support_poe": 10,
+                "system_power_consumption": "110V=51.9W 220V=52.5W",
+                "power_consumption": "110V=453.2W 220V=442.2W",
+                "heat_dissipation": 1546.38,
+                "idle_power": "110V=24.5W 220V=27.2W",
+                "total_system_ports": "10 x 5G mGig + 2x10G",
+                "rj-45_ports": "10 x 5G mGig",
+                "uplink_ports": "2 x SFP28(10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "3 MB",
+                "unit_dimensions": "268 x 308 x 43.94 mm (10.55 x 12.13 x 1.73 in)",
+                "unit_weight": "3.03kg (6.68lb)",
+                "fan": "1",
+                "acoustic_noise": "25\u00b0C: 38.9 dBA",
+                "mtbf": 470352
+            },
+            "C1300X-24NGU-4X": {
+                "forwarding_rate": 142.85,
+                "switching_capacity": 192.0,
+                "power_dedicated_to_poe": "740W",
+                "number_of_ports_that_support_poe": 24,
+                "system_power_consumption": "110V=104.2W 220V=103.9W",
+                "power_consumption": "110V=909.8W 220V=870.8W",
+                "heat_dissipation": 3104.3,
+                "idle_power": "110V=25.5W 220V=26.8W",
+                "total_system_ports": "16 x Gigabit Ethernet + 8 x 5G mGig + 4 x 10G",
+                "rj-45_ports": "16 x 1G + 8 x 5G mGig",
+                "uplink_ports": "4 x SFP28 (10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "3 MB",
+                "unit_dimensions": "444.3 x 270 x 43.94 mm (17.49 x 10.63 x 1.73 in )",
+                "unit_weight": "4.23kg (9.33lb)",
+                "fan": "1",
+                "acoustic_noise": "25\u00b0C: 49.5 dBA",
+                "mtbf": 343272
+            },
+            "C1300X-48NGU-4X": {
+                "forwarding_rate": 178.57,
+                "switching_capacity": 240.0,
+                "power_dedicated_to_poe": "740W",
+                "number_of_ports_that_support_poe": 48,
+                "system_power_consumption": "110V=113.2W 220V=122.4W",
+                "power_consumption": "110V=858.4W 220V=869.1W",
+                "heat_dissipation": 3079.46,
+                "idle_power": "110V=31.6W 220V=41.5W",
+                "total_system_ports": "40 x Gigabit Ethernet + 8 x 5G mGig + 4 x 10G",
+                "rj-45_ports": "40 x 1G + 8 x 5G mGig",
+                "uplink_ports": "4 x SFP28 (10G Uplink, 25G available for stacking only)",
+                "packet_buffer": "8 MB",
+                "unit_dimensions": "444.3 x 340 x 43.94 mm (17.49 x 13.38 x 1.73 in)",
+                "unit_weight": "5.15kg (11.35lb)",
+                "fan": "2",
+                "acoustic_noise": "25\u00b0C: 49.2 dBA",
+                "mtbf": 216091
             },
             "spanning_tree_protocol": [
                 "Standard 802.1d Spanning Tree support",
-                "Fast convergence using 802.1w (Rapid Spanning Tree [RSTP]), enabled by default Multiple Spanning Tree instances using 802.1s (MSTP); 8 instances are supported",
+                "Fast convergence using 802.1w (Rapid Spanning Tree [RSTP]), enabled by default Multiple Spanning Tree instances using 802.1s (MSTP); 16 instances are supported",
                 "Per-VLAN Spanning Tree Plus (PVST+) and Rapid PVST+ (RPVST+); 126 instances are supported"
             ],
             "port_grouping_link_aggregation": "\u25cfSupport for IEEE 802.3ad Link Aggregation Control Protocol (LACP)\u25cfUp to 8 groups\u25cfUp to 8 ports per group with 16 candidate ports for each (dynamic) 802.3ad link aggregation",
             "vlan": [
-                "Support for up to 4093 VLANs simultaneously",
+                "Support for up to 4094 VLANs (4078 \u2013 4094 are for internal usage) simultaneously",
                 "Port-based and 802.1Q tag-based VLANs, MAC-based VLAN, protocol-based VLAN, IP subnet-based VLAN",
                 "Management VLAN",
                 "Private VLAN with promiscuous, isolated, and community port",
                 "Private VLAN Edge (PVE), also known as protected ports, with multiple uplinks Guest VLAN, unauthenticated VLAN",
-                "Dynamic VLAN assignment via RADIUS server along with 802.1X client authentication Customer premises equipment (CPE) VLAN",
+                "Dynamic VLAN assignment via RADIUS server along with 802.1X client authentication",
+                "Customer premises equipment (CPE) VLAN",
                 "Auto surveillance VLAN (ASV)"
             ],
             "voice_vlan": "Voice traffic is automatically assigned to a voice-specific VLAN and treated with appropriate levels of QoS. Voice Services Discovery Protocol (VSDP) delivers networkwide zero-touch deployment of voice endpoints and call control devices",
@@ -3678,20 +3827,21 @@
             "unidirectional_link": "UDLD monitors physical connections to detect unidirectional links caused by incorrect",
             "detection": "wiring or cable/port faults to prevent forwarding loops and blackholing of traffic in switched networks",
             "dhcp_relay_at_layer_2": "Relay of DHCP traffic to a DHCP server in a different VLAN; works with DHCP Option 82",
-            "internet_group_management_protocol_versions_1_2_and_3_snooping": "IGMP limits bandwidth-intensive multicast traffic to only the requesters; it supports 2000 multicast groups (source-specific multicasting is also supported)",
+            "internet_group_management_protocol_versions_1_2_and_3_snooping": "\u25cfIGMP limits bandwidth-intensive multicast traffic to only the requesters; it supports 2000 multicast groups (in C1300 1 Gigabit Ethernet SKUs) and 4000 multicast groups (in C1300 10 Gigabit Ethernet SKUs and C1300X SKUs)\u25cfSource-specific multicasting is also supported",
             "igmp_querier": "IGMP querier is used to support a Layer 2 multicast domain of snooping switches in the absence of a multicast router",
-            "igmp_proxy": "The IGMP proxy provides a mechanism for multicast forwarding based on IGMP membership information without the need for more complicated multicast routing protocols",
+            "igmp_proxy": [
+                "The IGMP proxy provides a mechanism for multicast forwarding based on IGMP",
+                "membership information without the need for more complicated multicast routing protocols"
+            ],
             "head-of-line_blocking": "HOL blocking prevention",
             "loopback_detection": "Loopback detection provides protection against loops by transmitting loop protocol packets out of ports on which loop protection has been enabled. It operates independently of STP",
-            "ipv4_routing": [
-                "Wire-speed routing of IPv4 packets",
-                "Up to 990 static routes and up to 128 IP interfaces"
-            ],
+            "ipv4_routing": "Wire-speed routing of IPv4 packets",
             "ipv6_routing": "Wire-speed routing of IPv6 packets",
             "layer_3_interface": "Configuration of a Layer 3 interface on a physical port, LAG, VLAN interface, or loopback interface",
             "classless_interdomain_routing": "Support for CIDR",
             "routing_information_protocol_v2": "Support for RIP v2 for dynamic routing",
             "policy-based_routing": "Flexible routing control to direct packets to a different next hop based on an IPv4 or IPv6 Access Control List (ACL)",
+            "open_shortest_path_first": "Support for OSPF v2 and v3 (in C1300X SKUs only)",
             "dhcp_server": [
                 "Switch functions as an IPv4 DHCP server, serving IP addresses for multiple DHCP pools or scopes",
                 "Support for DHCP options"
@@ -3699,12 +3849,14 @@
             "dhcp_relay_at_layer_3": "Relay of DHCP traffic across IP domains",
             "user_datagram_protocol_relay": "Relay of broadcast information across Layer 3 domains for application discovery or relaying of Bootstrap Protocol (BOOTP)/DHCP packets",
             "hardware_stacking": [
-                "Up to 8 switches in a stack. Up to 200 ports managed as a single system with hardware failover",
+                "Stacking information for C1300 and C1300X",
+                "C1300/X supports up to 8 switches in a stack. Up to 400 ports managed as a single system with hardware failover",
                 "Stacking is supported on the following models:"
             ],
             "high_availability": "Fast stack failover delivers minimal traffic loss. Support for LAG across multiple units in a stack",
             "plug-and-play_stacking_configuration_management": [
-                "Active/standby for resilient stack control Auto-numbering",
+                "Active/standby for resilient stack control",
+                "Auto-numbering",
                 "Hot swap of units in stack",
                 "Ring and chain stacking options, auto stacking port speed, flexible stacking port options"
             ],
@@ -3723,12 +3875,13 @@
             "dhcp_snooping": "Filters out DHCP messages with unregistered IP addresses and/or from unexpected or untrusted interfaces. This prevents rogue devices from behaving as DHCP servers",
             "ip_source_guard": "When IPSG is enabled at a port, the switch filters out IP packets received from the port if the source IP addresses of the packets have not been statically configured or dynamically learned from DHCP snooping. This prevents IP address spoofing",
             "dynamic_arp_inspection": "The switch discards ARP packets from a port if there are no static or dynamic IP/MAC bindings or if there is a discrepancy between the source or destination addresses in the ARP packet. This prevents man-in-the-middle attacks",
-            "ip_mac_port_binding": "The preceding features (DHCP snooping, IPSG, and DAI) work together to prevent Denial-of-Service (DoS) attacks in the network, thereby increasing network availability",
+            "ip_mac_port_binding": "The preceding features (DHCP snooping, IP Source Guard, and Dynamic ARP Inspection) work together to prevent Denial of-Service (DoS) attacks in the network, thereby increasing network availability",
             "secure_core_technology": "Makes sure that the switch will receive and process management and protocol traffic no matter how much traffic is received",
-            "secure_sensitive_data": "A mechanism to manage sensitive data (such as passwords, keys, and so on) securely on the switch, populating this data to other devices and a secure auto-configuration. Access to view the sensitive data as plain text or encrypted is provided according to the user-configured access level and the access method of the user",
+            "secure_sensitive_data": "A mechanism to manage sensitive data (such as passwords, keys, and so on) securely on the switch, populating this data to other devices and a secure auto-configuration. Access to view the sensitive data as plain text or encrypted is provided according to the user configured access level and the access method of the user",
             "trustworthy_systems": [
                 "Trustworthy systems provide a highly secure foundation for Cisco products",
-                "Run-time defenses (Executable Space Protection [X-Space], Address Space Layout Randomization [ASLR], Built-In Object Size Checking [BOSC])"
+                "Run-time defenses (Executable Space Protection [X-Space], Address Space Layout",
+                "Randomization [ASLR], Built-In Object Size Checking [BOSC])"
             ],
             "private_vlan": "Provides security and isolation between switch ports, which helps ensure that users cannot snoop on other users\u2019 traffic; supports multiple uplinks.",
             "layer_2_isolation_private_vlan_edge": "PVE (also known as protected ports) provides Layer 2 isolation between devices in the same VLAN; supports multiple uplinks",
@@ -3739,8 +3892,7 @@
             "dos_prevention": "DoS attack prevention",
             "multiple_user_privilege_levels_in_cli": "Level 1, 7, and 15 privilege levels",
             "acls": [
-                "Support for up to 1024 rules",
-                "Drop or rate limit based on source and destination MAC, VLAN ID, IPv4 or IPv6 address, IPv6 flow label, protocol, port, Differentiated Services Code Point (DSCP)/IP precedence, TCP/UDP source and destination ports, 802.1p priority, Ethernet type, Internet Control Message Protocol (ICMP) packets, IGMP packets, TCP flag; ACL can be applied on both ingress and egress sides",
+                "Support for up to 1024 rules (in Catalyst 1300 1Gigabit Ethernet SKUs) and up to 2048 rules (in Catalyst 1300 10Gigabit Ethernet SKUs) and 3072 rules (in Catalyst 1300X SKUs) Drop or rate limit based on source and destination MAC, VLAN ID, IPv4 or IPv6 address, IPv6\u00a0flow label, protocol, port, Differentiated Services Code Point (DSCP)/IP precedence, TCP/UDP source and destination ports, 802.1p priority, Ethernet type, Internet Control Message Protocol (ICMP) packets, IGMP packets, TCP flag; ACL can be applied on both ingress and egress sides",
                 "Time-based ACLs supported"
             ],
             "priority_levels": "8 hardware queues",
@@ -3749,7 +3901,7 @@
                 "Port-based, 802.1p VLAN priority-based, IPv4/IPv6 IP precedence/Type of Service (ToS)/DSCP-based, Differentiated Services (DiffServ), classification and remarking ACLs, trusted QoS",
                 "Queue assignment based on DSCP and Class of Service (802.1p/CoS)"
             ],
-            "rate_limiting": "Ingress policer; egress shaping and rate control per VLAN, per port, and flow based; dual-rate 3-color (2R3C) policing",
+            "rate_limiting": "Ingress policer; egress shaping and rate control per VLAN, per port, and flow based; dualrate 3-color (2R3C) policing",
             "congestion_avoidance": "A TCP congestion avoidance algorithm is required to minimize and prevent global TCP loss synchronization",
             "iscsi_traffic_optimization": "A mechanism for giving priority to iSCSI traffic over other types of traffic",
             "standards": [
@@ -3781,7 +3933,11 @@
             ],
             "multicast_listener_discovery_snooping": "Deliver IPv6 multicast packets only to the required receivers",
             "mld_proxy": "The MLD proxy provides a mechanism for multicast forwarding based on MLD membership information without the need for more complicated multicast routing protocols",
-            "ipv6_applications": "Web/SSL, Telnet server/SSH, ping, traceroute, Simple Network Time Protocol (SNTP), Trivial File Transfer Protocol (TFTP), SNMP, RADIUS, syslog, DNS client, Telnet client, DHCP client, DHCP auto-config, IPv6 DHCP relay, TACACS+",
+            "ipv6_applications": [
+                "Web/SSL, Telnet server/SSH, ping, traceroute, Simple Network Time Protocol (SNTP),",
+                "Trivial File Transfer Protocol (TFTP), SNMP, RADIUS, syslog, DNS client, Telnet client,",
+                "DHCP client, DHCP auto-config, IPv6 DHCP relay, TACACS+"
+            ],
             "ipv6_rfcs_supported": [
                 "RFC 4443 (which obsoletes RFC 2463): ICMP version 6",
                 "RFC 4291 (which obsoletes RFC 3513): IPv6 address architecture RFC 4291: IPv6 addressing architecture",
@@ -3792,8 +3948,11 @@
                 "RFC 5214 (which obsoletes RFC 4214): ISATAP tunneling",
                 "RFC 4293: MIB IPv6: textual conventions and general group RFC 3595: textual conventions for IPv6 flow label"
             ],
-            "cisco_business_dashboard": "Support for embedded probe for Cisco Business Dashboard running on the switch. Eliminates the need to set up a separate hardware or virtual machine for the Cisco Business Dashboard Probe onsite",
-            "cisco_business_mobile_app": "Mobile app for Cisco Business and Catalyst 1200 and 1300 switches and wireless products. Helps to set up a local network in minutes and provide easy management at your fingertips",
+            "cisco_business_dashboard": [
+                "Support for embedded probe for Cisco Business Dashboard running on the switch.",
+                "Eliminates the need to set up a separate hardware or virtual machine for the Cisco Business Dashboard Probe onsite"
+            ],
+            "cisco_business_mobile_app": "Mobile app for Cisco Business and Catalyst 1200 and 1300/X switches and wireless products. Helps to set up a local network in minutes and provide easy management at your fingertips",
             "cisco_network_plug_and_play_agent": [
                 "The Cisco Network PnP solution provides a simple, secure, unified, and integrated offering to ease new branch or campus device rollouts or for provisioning updates to an existing network. The solution provides a unified approach to provision Cisco routers, switches, and wireless devices with a near-zero-touch deployment experience.",
                 "Supports Cisco PnP Connect"
@@ -3816,7 +3975,10 @@
             "auto-configuration_with_scp_file_download": "Enables secure mass deployment with protection of sensitive data",
             "text-editable_configuration_files": "Configuration files can be edited with a text editor and downloaded to another switch, facilitating easier mass deployment",
             "smartports": "Simplified configuration of QoS and security capabilities",
-            "auto_smartports": "Applies the intelligence delivered through the Smartport roles and applies it automatically to the port based on the devices discovered over Cisco Discovery Protocol or LLDP-MED. This facilitates zero-touch deployments",
+            "auto_smartports": [
+                "Applies the intelligence delivered through the Smartport roles and applies it automatically to the port based on the devices discovered over Cisco Discovery Protocol or LLDP-MED.",
+                "This facilitates zero-touch deployments"
+            ],
             "text_view_cli": "Scriptable CLI. A full CLI as well as a menu-based CLI is supported. User privilege levels 1, 7, and 15 are supported for the CLI",
             "localization": "Localization of GUI and documentation into multiple languages",
             "login_banner": "Configurable multiple banners for web as well as CLI",
@@ -3829,7 +3991,7 @@
             "time-based_poe": "PoE power can be on or off based on a user-defined schedule to save energy",
             "persistent_poe": "Provides PoE power while the device is rebooting",
             "jumbo_frames": "Frame sizes up to 9000 bytes. The default MTU is 2000 bytes",
-            "mac_table": "16,000 addresses",
+            "mac_table": "16,000 addresses (in Catalyst 1300 1 Gigabit Ethernet SKUs) and up to 32,000 rules (in Catalyst 1300 10 Gigabit Ethernet SKUs and Catalyst 1300X SKUs)",
             "chip_guard": "Detects tampering attempts and responds during bootup",
             "boot_integrity": "Boot integrity visibility allows Cisco's platform identity and software integrity information to be visible and actionable",
             "bonjour": "The switch advertises itself using the Bonjour protocol",
@@ -3840,228 +4002,323 @@
             "buttons": "Reset button",
             "cabling_type": "Unshielded Twisted Pair (UTP) Category 5e or better for 1000BASE-T",
             "leds": "System, Link/Act, PoE, Speed",
-            "flash": "512 MB",
-            "cpu": "ARM dual-core at 1.4 GHz",
-            "dram": "1 GB DDR4",
+            "flash": "1GB SLC",
+            "cpu": "ARM dual-core at 1.5 GHz",
+            "dram": "1 GB DDR4 (C1300); 2 GB DDR4 (C1300X)",
             "MGBSX1": {
                 "media": "Multimode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "500 m"
+                "maximum_distance": "500 m"
             },
             "MGBLX1": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
             "MGBLH1": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "40 km"
+                "maximum_distance": "40 km"
             },
             "MGBT1": {
                 "media": "UTP Cat 5e",
                 "speed": "1000 Mbps",
-                "maximumdistance": "100 m"
+                "maximum_distance": "100 m"
             },
             "GLC-SX-MMD": {
                 "media": "Multimode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "550 m"
+                "maximum_distance": "550 m"
             },
             "GLC-EX-SMD": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "40 km"
+                "maximum_distance": "40 km"
             },
             "GLC-ZX-SMD": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "70 km"
+                "maximum_distance": "70 km"
             },
             "GLC-LH-SMD": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
             "GLC-BX-U": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
             "GLC-BX-D": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
             "GLC-TE": {
                 "media": "UTP Cat 5e",
                 "speed": "1000 Mbps",
-                "maximumdistance": "100 m"
+                "maximum_distance": "100 m"
             },
             "CWDM-SFP-1470": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "CWDM-SFP-1490": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "CWDM-SFP-1510": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "CWDM-SFP-1530": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "CWDM-SFP-1550": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "CWDM-SFP-1570": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "CWDM-SFP-1590": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "CWDM-SFP-1610": {
                 "media": "Single-mode fiber",
                 "speed": "1000 Mbps",
-                "maximumdistance": "80 km"
+                "maximum_distance": "80 km"
             },
             "SFP-H10GB-CU1M": {
                 "media": "Copper coax",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "1 m"
+                "maximum_distance": "1 m"
             },
             "SFP-H10GB-CU3M": {
                 "media": "Copper coax",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "3 m"
+                "maximum_distance": "3 m"
             },
             "SFP-H10GB-CU5M": {
                 "media": "Copper coax",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "5 m"
+                "maximum_distance": "5 m"
             },
             "SFP-10G-SR": {
                 "media": "Multimode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "26 m to 400 m"
+                "maximum_distance": "26 m to 400 m"
             },
             "SFP-10G-LR": {
                 "media": "Single-mode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
             "SFP-10G-SR-S": {
                 "media": "Multimode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "26 m to 400 m"
+                "maximum_distance": "26 m to 400 m"
             },
             "SFP-10G-LR-S": {
                 "media": "Single-mode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
             "SFP-10G-ER": {
                 "media": "Single-mode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "40 km"
+                "maximum_distance": "40 km"
             },
             "SFP-10G-ER-S": {
                 "media": "Single-mode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "40 km"
+                "maximum_distance": "40 km"
             },
             "SFP-10G-T-X": {
                 "media": "UTP CAT6A/CAT7 or better",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "30 m"
+                "maximum_distance": "30 m"
             },
             "SFP-10G-BXD-I": {
                 "media": "Single-mode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
             "SFP-10G-BXU-I": {
                 "media": "Single-mode fiber",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "10 km"
+                "maximum_distance": "10 km"
             },
-            "SFP-H10GB-CU1-5M": {
+            "SFP-H10GB-CU15M": {
                 "media": "Twinax cable, passive, 30AWG cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "5 m"
+                "maximum_distance": "5 m"
             },
             "SFP-H10GB-CU2M": {
                 "media": "Twinax cable, passive, 30AWG cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "2 m"
+                "maximum_distance": "2 m"
             },
-            "SFP-H10GB-CU2-5M": {
+            "SFP-H10GB-CU25M": {
                 "media": "Twinax cable, passive, 30AWG cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "2.5 m"
+                "maximum_distance": "2.5 m"
             },
             "SFP-H10GB-ACU7M": {
                 "media": "Twinax cable, passive, 30AWG cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "7 m"
+                "maximum_distance": "7 m"
             },
-            "SFP-H10GB-ACU10M": {
+            "SFP-H10GBACU10M": {
                 "media": "Twinax cable, passive, 30AWG cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "10 m"
+                "maximum_distance": "10 m"
             },
             "SFP-10G-AOC1M": {
                 "media": "Active Optical Cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "1 m"
+                "maximum_distance": "1 m"
             },
             "SFP-10G-AOC2M": {
                 "media": "Active Optical Cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "2 m"
+                "maximum_distance": "2 m"
             },
             "SFP-10G-AOC3M": {
                 "media": "Active Optical Cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "3 m"
+                "maximum_distance": "3 m"
             },
             "SFP-10G-AOC5M": {
                 "media": "Active Optical Cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "5 m"
+                "maximum_distance": "5 m"
             },
             "SFP-10G-AOC7M": {
                 "media": "Active Optical Cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "7 m"
+                "maximum_distance": "7 m"
             },
             "SFP-10G-AOC10M": {
                 "media": "Active Optical Cable assembly",
                 "speed": "10 Gigabit Ethernet",
-                "maximumdistance": "10 m"
+                "maximum_distance": "10 m"
+            },
+            "SFP-25G-AOC1M": {
+                "media": "Active Optical Cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "1 m"
+            },
+            "SFP-25G-AOC2M": {
+                "media": "Active Optical Cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "2 m"
+            },
+            "SFP-25G-AOC3M": {
+                "media": "Active Optical Cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "3 m"
+            },
+            "SFP-25G-AOC4M": {
+                "media": "Active Optical Cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "4 m"
+            },
+            "SFP-25G-AOC5M": {
+                "media": "Active Optical Cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "5 m"
+            },
+            "SFP-25G-AOC7M": {
+                "media": "Active Optical Cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "7 m"
+            },
+            "SFP-25G-AOC10M": {
+                "media": "Active Optical Cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "10 m"
+            },
+            "SFP-H25G-CU1M": {
+                "media": "Twinax cable, passive, 28AWG cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "1 m"
+            },
+            "SFP-H25G-CU1.5M": {
+                "media": "Twinax cable, passive, 24AWG cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "1.5 m"
+            },
+            "SFP-H25G-CU2M": {
+                "media": "Twinax cable, passive, 24AWG cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "2 m"
+            },
+            "SFP-H25G-CU2.5M": {
+                "media": "Twinax cable, passive, 24AWG cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "2.5 m"
+            },
+            "SFP-H25G-CU3M": {
+                "media": "Twinax cable, passive, 24AWG cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "3 m"
+            },
+            "SFP-H25G-CU4M": {
+                "media": "Twinax cable, passive, 24AWG cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "4 m"
+            },
+            "SFP-H25G-CU5M": {
+                "media": "Twinax cable, passive, 24AWG cable assembly",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "5 m"
+            },
+            "SFP-25G-SL": {
+                "media": "Multimode fiber",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "20/30m (OM3/OM4)"
+            },
+            "SFP-25G-SR-S": {
+                "media": "Multimode fiber",
+                "speed": "25 Gigabit Ethernet",
+                "maximum_distance": "70/100m (OM3/OM4)"
+            },
+            "SFP-10/25G-CSR-S": {
+                "media": "Multimode fiber",
+                "speed": "10/25 Gigabit Ethernet",
+                "maximum_distance": "300/400m (OM3/OM4) *"
+            },
+            "SFP-10/25G-LR-S": {
+                "media": "Single-mode fiber",
+                "speed": "10/25 Gigabit Ethernet",
+                "maximum_distance": "10km"
+            },
+            "SFP-10/25G-LR-I": {
+                "media": "Single-mode fiber",
+                "speed": "10/25 Gigabit Ethernet",
+                "maximum_distance": "10km **"
             },
             "power": [
-                "100-240V 50-60 Hz, internal, universal: C1300-8FP-2G, C1300-16T-2G, C1300-16P-2G,C1300-16FP-2G, C1300-24T-4G, C1300-24P-4G, C1300-24FP-4G, C1300-48T-4G, C1300-48P-4G, C1300-48FP-4G, C1300-16P-4X, C1300-24T-4X, C1300-24P-4X, C1300-24FP-4X, C1300-48T-4X, C1300-48P-4X, C1300-48FP-4X, C1300-12XT-2X, C1300-12XS, C1300-16XTS, C1300-24XS, C1300-24XT, C1300-8MGP-2X, C1300-24MGP-4X, C1300-48MGP-4X, C1300-24XTS",
+                "100-240V 50-60 Hz, internal, universal: C1300-8FP-2G, C1300-16T-2G, C1300-16P-2G,C1300-16FP-2G, C1300-24T-4G, C1300-24P-4G, C1300-24FP-4G, C1300-48T-4G, C1300-48P-4G, C1300-48FP-4G, C1300-16P-4X, C1300-24T-4X, C1300-24P-4X, C1300-24FP-4X, C1300-48T-4X, C1300-48P-4X, C1300-48FP-4X, C1300-12XT-2X, C1300-12XS, C1300-16XTS, C1300-24XS, C1300-24XT, C1300-8MGP-2X, C130024MGP-4X, C1300-48MGP-4X, C1300-24XTS, C1300X-24T-4X, C1300X-48T-4X, C1300X-24P-4X, C1300X-48P-4X, C1300X-24MU-4X, C1300X-10NU-2X, C1300X-24NGU-4X, C1300X-48NGU-4X.",
                 "100-240V 50-60 Hz, external: C1300-8T-E-2G, C1300-8P-E-2G,"
             ],
             "certifications": "UL (UL 62368), CSA (CSA 22.2), CE mark, FCC Part 15 (CFR 47) Class A",
             "operating_temperature": [
                 "23\u00b0 to 122\u00b0F (-5\u00b0 to 50\u00b0C)",
-                "C1300-8T-E-2G, C1300-8P-E-2G, C1300-8FP-2G, C1300-16T-2G, C1300-16P-2G, C1300-16FP-2G, C1300-24T-4G, C1300-24P-4G, C1300-24FP-4G, C1300-48T-4G, C1300-48P-4G, C1300-48FP-4G, C1300-16P-4X, C1300-24T-4X, C1300-24P-4X, C1300-24FP-4X, C1300-48T-4X, C1300-48P-4X, C1300-48FP-4X, C1300-8MGP-2X, C1300-12XT-2X, C1300-12XS, C1300-16XTS, C1300-24XS, C1300-24XT, C1300-24MGP-4X, C1300-48MGP-4X, C1300-24XTS",
-                "32\u00b0 to 122\u00b0F (0\u00b0 to 50\u00b0C)"
+                "C1300-8T-E-2G, C1300-8P-E-2G, C1300-8FP-2G, C1300-16T-2G, C1300-16P-2G, C1300-16FP-2G, C1300-24T-4G, C1300-24P-4G, C1300-24FP-4G, C1300-48T-4G, C1300-48P-4G, C1300-48FP-4G, C1300-16P-4X, C1300-24T-4X, C1300-24P-4X, C1300-24FP-4X, C1300-48T-4X, C1300-48P-4X, C1300-48FP-4X, C1300-8MGP-2X, C1300-12XT-2X, C1300-12XS, C1300-16XTS, C1300-24XS, C1300-24XT, C130024MGP-4X, C1300-48MGP-4X, C1300-24XTS, C1300X-24T-4X, C1300X-48T-4X, C1300X-24P-4X, C1300X-48P-4X, C1300X-24MU-4X, C1300X-10NU-2X, C1300X-24NGU-4X, C1300X-48NGU-4X.",
+                "Minimum ambient temperature for cold start is 32\u00b0F (0\u00b0C )"
             ],
             "storage_temperature": "-13\u00b0 to 158\u00b0F (-25\u00b0 to 70\u00b0C)",
             "operating_humidity": "10% to 90%, relative, noncondensing",
@@ -4080,7 +4337,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html",
-        "last_scraped_at": "2025-08-21T17:42:34.809917+00:00"
+        "last_scraped_at": "2026-01-29T17:12:29.771746+00:00"
     },
     {
         "family": "Cisco 350 Series Managed Switches",
@@ -4587,7 +4844,7 @@
             "mgbt1": "1000BASE-T SFP transceiver for Category 5 copper wire, supports up to 100 m"
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/small-business-smart-switches/data-sheet-c78-737359.html",
-        "last_scraped_at": "2025-08-21T17:42:35.758239+00:00"
+        "last_scraped_at": "2026-01-29T17:12:30.023168+00:00"
     },
     {
         "family": "Cisco 350X Series Stackable Managed Switches",
@@ -5081,7 +5338,7 @@
             "unit_weight": "Table 1 . Specifications"
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/350x-series-stackable-managed-switches/datasheet-c78-735986.html",
-        "last_scraped_at": "2025-08-21T17:42:36.256218+00:00"
+        "last_scraped_at": "2026-01-29T17:12:30.189155+00:00"
     },
     {
         "family": "Cisco 550X Series Stackable Managed Switches",
@@ -5772,7 +6029,7 @@
             "information_on_electronic_waste_laws_and_regulations_including_products_batteries_and_packaging": "https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html"
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/550x-series-stackable-managed-switches/datasheet-c78-735874.html",
-        "last_scraped_at": "2025-08-21T17:42:36.738485+00:00"
+        "last_scraped_at": "2026-01-29T17:12:30.387127+00:00"
     },
     {
         "family": "Cisco 250 Series Smart Switches",
@@ -6330,7 +6587,7 @@
             "information_on_electronic_waste_laws_and_regulations_including_products_batteries_and_packaging": "https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html"
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/250-series-smart-switches/datasheet-c78-737061.html",
-        "last_scraped_at": "2025-08-21T17:42:37.259936+00:00"
+        "last_scraped_at": "2026-01-29T17:12:30.678088+00:00"
     },
     {
         "family": "Cisco 220 Series Smart Switches",
@@ -6643,693 +6900,13 @@
             "suffix": "Country/region"
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/small-business-220-series-smart-plus-switches/datasheet-c78-731284.html",
-        "last_scraped_at": "2025-08-21T17:42:37.660993+00:00"
+        "last_scraped_at": "2026-01-29T17:12:30.817535+00:00"
     },
     {
         "family": "Cisco 300 Series Managed Switches",
-        "features": {
-            "SF300-08": {
-                "forwarding_rate": 1.19,
-                "switching_capacity": 1.6,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=6.1W 220V=7.2W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "24.57",
-                "total_system_ports": "8 Fast Ethernet",
-                "rj-45_ports": "8 Fast Ethernet",
-                "uplink_ports": "N/A",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 71006
-            },
-            "SF302-08": {
-                "forwarding_rate": 4.17,
-                "switching_capacity": 5.6,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=8.0W 220V=8.6W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "29.34",
-                "total_system_ports": "8 Fast Ethernet + 2 Gigabit Ethernet",
-                "rj-45_ports": "8 Fast Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 69825
-            },
-            "SF302-08P": {
-                "forwarding_rate": 4.17,
-                "switching_capacity": 5.6,
-                "power_dedicated_to_poe": "62W",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=10.3W 220V=11.5W",
-                "power_consumption_case": "110V=81.3W 220V=82.1W",
-                "heat_dissipation_worst_case": "280.13",
-                "total_system_ports": "8 Fast Ethernet + 2 Gigabit Ethernet",
-                "rj-45_ports": "8 Fast Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 65527
-            },
-            "SF302-08PP": {
-                "forwarding_rate": 4.17,
-                "switching_capacity": 5.6,
-                "power_dedicated_to_poe": "62W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=9.12W 220V=9.31W",
-                "power_consumption_case": "110V=80.68W 220V=79.62W",
-                "heat_dissipation_worst_case": "271.67",
-                "total_system_ports": "8 Fast Ethernet + 2 Gigabit Ethernet",
-                "rj-45_ports": "8 Fast Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 899905
-            },
-            "SF302-08MP": {
-                "forwarding_rate": 4.17,
-                "switching_capacity": 5.6,
-                "power_dedicated_to_poe": "124W",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=9.5W 220V=10.3W",
-                "power_consumption_case": "110V=150.1W 220V=149.9W",
-                "heat_dissipation_worst_case": "512.14",
-                "total_system_ports": "8 Fast Ethernet + 2 Gigabit Ethernet",
-                "rj-45_ports": "8 Fast Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 63569
-            },
-            "SF302-08MPP": {
-                "forwarding_rate": 4.17,
-                "switching_capacity": 5.6,
-                "power_dedicated_to_poe": "124W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=9.66W 220V=9.83W",
-                "power_consumption_case": "110V=143.89W 220V=142.97W",
-                "heat_dissipation_worst_case": "487.83",
-                "total_system_ports": "8 Fast Ethernet + 2 Gigabit Ethernet",
-                "rj-45_ports": "8 Fast Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 899905
-            },
-            "SF300-24": {
-                "forwarding_rate": 9.52,
-                "switching_capacity": 12.8,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=16.4W 220V=17.1W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "58.35",
-                "total_system_ports": "24 Fast Ethernet + 4 Gigabit Ethernet",
-                "rj-45_ports": "24 Fast Ethernet 2 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": "282,775.3"
-            },
-            "SF300-24P": {
-                "forwarding_rate": 9.52,
-                "switching_capacity": 12.8,
-                "power_dedicated_to_poe": "180W",
-                "number_of_ports_that_support_poe": 24,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=25.8W 220V=27.3W",
-                "power_consumption_case": "110V=223W 220V=217.9W",
-                "heat_dissipation_worst_case": "760.88",
-                "total_system_ports": "24 Fast Ethernet + 4 Gigabit Ethernet",
-                "rj-45_ports": "24 Fast Ethernet 2 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "2 pcs",
-                "acoustic_noise": "41.0 dB",
-                "mtbf": "241,995.9"
-            },
-            "SF300-24PP": {
-                "forwarding_rate": 9.52,
-                "switching_capacity": 12.8,
-                "power_dedicated_to_poe": "180W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 24,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=26.7W 220V=27.9W",
-                "power_consumption_case": "110V=218.57W 220V=213.35W",
-                "heat_dissipation_worst_case": "727.98",
-                "total_system_ports": "24 Fast Ethernet + 4 Gigabit Ethernet",
-                "rj-45_ports": "24 Fast Ethernet 2 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "2 pcs",
-                "acoustic_noise": "40.4 dB",
-                "mtbf": "171,504 (at 50 \u00b0 C)"
-            },
-            "SF300-24MP": {
-                "forwarding_rate": 9.52,
-                "switching_capacity": 12.8,
-                "power_dedicated_to_poe": "375W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 24,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=37.7W 220V=38.0W",
-                "power_consumption_case": "110V=441W 220V=431W",
-                "heat_dissipation_worst_case": "1504.69",
-                "total_system_ports": "24 Fast Ethernet + 4 Gigabit Ethernet",
-                "rj-45_ports": "24 Fast Ethernet + 2 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "4 pcs",
-                "acoustic_noise": "41.6 dB at 30 \u00b0 C 53.9dB at 50 \u00b0 C",
-                "mtbf": "135,669.9 (at 50 \u00b0 C)"
-            },
-            "SF300-48": {
-                "forwarding_rate": 13.1,
-                "switching_capacity": 17.6,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=24W 220V=24.8W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "84.62",
-                "total_system_ports": "48 Fast Ethernet + 4 Gigabit Ethernet",
-                "rj-45_ports": "48 Fast Ethernet 2 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb * 2",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": "199,664.2"
-            },
-            "SF300-48P": {
-                "forwarding_rate": 13.1,
-                "switching_capacity": 17.6,
-                "power_dedicated_to_poe": "375W",
-                "number_of_ports_that_support_poe": 48,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=46.4W 220V=46.3W",
-                "power_consumption_case": "110V=465W 220V=449W",
-                "heat_dissipation_worst_case": "1531.99",
-                "total_system_ports": "48 Fast Ethernet + 4 Gigabit Ethernet",
-                "rj-45_ports": "48 Fast Ethernet 2 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb * 2",
-                "fan": "3 pcs w/Fan speed control",
-                "acoustic_noise": "43.1 dB at 30 \u00b0 C 54.3 dB at 40 \u00b0 C",
-                "mtbf": "182,540.0"
-            },
-            "SF300-48PP": {
-                "forwarding_rate": 13.1,
-                "switching_capacity": 17.6,
-                "power_dedicated_to_poe": "375W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 48,
-                "power_savingsmode": "Energy Detect",
-                "system_powerconsumption": "110V=47.7W 220V=48.2W",
-                "power_consumption_case": "110V=421.36W 220V=412.43W",
-                "heat_dissipation_worst_case": "1407.23",
-                "total_system_ports": "48 Fast Ethernet + 4 Gigabit Ethernet",
-                "rj-45_ports": "48 Fast Ethernet 2 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb * 2",
-                "fan": "4 pcs w/Fan speed control",
-                "acoustic_noise": "43.5 dB at 30 \u00b0 C 54.1 dB at 40 \u00b0 C",
-                "mtbf": "113,692 (at 50 \u00b0 C)"
-            },
-            "SG300-10": {
-                "forwarding_rate": 14.88,
-                "switching_capacity": 20.0,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=10.33W 220V=10.27W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "35.25",
-                "total_system_ports": "10 Gigabit Ethernet",
-                "rj-45_ports": "8 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 74294
-            },
-            "SG300-10SFP": {
-                "forwarding_rate": 14.88,
-                "switching_capacity": 20.0,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=18.10W 220V=17.71W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "61.76",
-                "total_system_ports": "10 Gigabit Ethernet",
-                "rj-45_ports": "8 SFP",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": "132,151 (at 45 \u00b0 C)"
-            },
-            "SG300-10P": {
-                "forwarding_rate": 14.88,
-                "switching_capacity": 20.0,
-                "power_dedicated_to_poe": "62W",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=13.13W 220V=13.48W",
-                "power_consumption_case": "110V=81.44W 220V=81.16W",
-                "heat_dissipation_worst_case": "277.87",
-                "total_system_ports": "10 Gigabit Ethernet",
-                "rj-45_ports": "8 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 67009
-            },
-            "SG300-10PP": {
-                "forwarding_rate": 14.88,
-                "switching_capacity": 20.0,
-                "power_dedicated_to_poe": "62W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=13.37W 220V=12.99W",
-                "power_consumption_case": "110V=83.47W 220V=81.58W",
-                "heat_dissipation_worst_case": "278.36",
-                "total_system_ports": "10 Gigabit Ethernet",
-                "rj-45_ports": "8 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 945042
-            },
-            "SG300-10MP": {
-                "forwarding_rate": 14.88,
-                "switching_capacity": 20.0,
-                "power_dedicated_to_poe": "124W",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=12.21W 220V=12.25W",
-                "power_consumption_case": "110V=154.36W 220V=152.42W",
-                "heat_dissipation_worst_case": "526.68",
-                "total_system_ports": "10 Gigabit Ethernet",
-                "rj-45_ports": "8 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 67008
-            },
-            "SG300-10MPP": {
-                "forwarding_rate": 14.88,
-                "switching_capacity": 20.0,
-                "power_dedicated_to_poe": "124W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 8,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=13.41W 220V=13.72W",
-                "power_consumption_case": "110V=145.7W 220V=144.5W",
-                "heat_dissipation_worst_case": "493.05",
-                "total_system_ports": "10 Gigabit Ethernet",
-                "rj-45_ports": "8 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 945042
-            },
-            "SG300-20": {
-                "forwarding_rate": 29.76,
-                "switching_capacity": 40.0,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=16.05W 220V=16.26W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "55.48",
-                "total_system_ports": "20 Gigabit Ethernet",
-                "rj-45_ports": "18 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": 144237
-            },
-            "SG300-28": {
-                "forwarding_rate": 41.67,
-                "switching_capacity": 56.0,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=19.8W 220V=20.6W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "70.29",
-                "total_system_ports": "28 Gigabit Ethernet",
-                "rj-45_ports": "26 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "Fanless",
-                "acoustic_noise": "N/A",
-                "mtbf": "179,141.0"
-            },
-            "SG300-28P": {
-                "forwarding_rate": 41.67,
-                "switching_capacity": 56.0,
-                "power_dedicated_to_poe": "180W",
-                "number_of_ports_that_support_poe": 24,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=29.7W 220V=30.7W",
-                "power_consumption_case": "110V=214.4W 220V=210W",
-                "heat_dissipation_worst_case": "731.53",
-                "total_system_ports": "28 Gigabit Ethernet",
-                "rj-45_ports": "26 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "2 pcs",
-                "acoustic_noise": "40.6 dB",
-                "mtbf": "187,334.9"
-            },
-            "SG300-28PP": {
-                "forwarding_rate": 41.67,
-                "switching_capacity": 56.0,
-                "power_dedicated_to_poe": "180W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 24,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=31.9W 220V=33.0W",
-                "power_consumption_case": "110V=222W 220V=217W",
-                "heat_dissipation_worst_case": "740.43",
-                "total_system_ports": "28 Gigabit Ethernet",
-                "rj-45_ports": "26 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "2 pcs",
-                "acoustic_noise": "40.4 dB",
-                "mtbf": "310,755 (at 45 \u00b0 C)"
-            },
-            "SG300-28MP": {
-                "forwarding_rate": 41.67,
-                "switching_capacity": 56.0,
-                "power_dedicated_to_poe": "375W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 24,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=42.4W 220V=43.1W",
-                "power_consumption_case": "110V=445W 220V=436W",
-                "heat_dissipation_worst_case": "1487.63",
-                "total_system_ports": "28 Gigabit Ethernet",
-                "rj-45_ports": "26 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "4 pcs",
-                "acoustic_noise": "41.7dB at 30 \u00b0 C 54dB at 50 \u00b0 C",
-                "mtbf": "138,676.92 (at 50 \u00b0 C)"
-            },
-            "SG300-52": {
-                "forwarding_rate": 77.38,
-                "switching_capacity": 104.0,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=45.9W 220V=45.3W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "156.61",
-                "total_system_ports": "52 Gigabit Ethernet",
-                "rj-45_ports": "50 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb * 2",
-                "fan": "2 pcs",
-                "acoustic_noise": "40.1dB",
-                "mtbf": "206,005.6"
-            },
-            "SG300-52P": {
-                "forwarding_rate": 77.38,
-                "switching_capacity": 104.0,
-                "power_dedicated_to_poe": "375W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 48,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=61.25W 220V=61.46W",
-                "power_consumption_case": "110V=473.62W 220V=461.88W",
-                "heat_dissipation_worst_case": "1617.29",
-                "total_system_ports": "52 Gigabit Ethernet",
-                "rj-45_ports": "50 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb * 2",
-                "fan": "4 pcs",
-                "acoustic_noise": "46.9dB",
-                "mtbf": "100,262 (at 45 \u00b0 C) 80,562 (at 50 \u00b0 C)"
-            },
-            "SG300-52MP": {
-                "forwarding_rate": 77.38,
-                "switching_capacity": 104.0,
-                "power_dedicated_to_poe": "740W (PoE+ supported)",
-                "number_of_ports_that_support_poe": 48,
-                "power_savingsmode": "Energy Detect Short Reach",
-                "system_powerconsumption": "110V=64.24W 220V=68.80W",
-                "power_consumption_case": "110V=873.05W 220V=843.57W",
-                "heat_dissipation_worst_case": "2978.85",
-                "total_system_ports": "52 Gigabit Ethernet",
-                "rj-45_ports": "50 Gigabit Ethernet",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb * 2",
-                "fan": "4 pcs",
-                "acoustic_noise": "47.4dB",
-                "mtbf": "117,130 (at 45 \u00b0 C) 93,132 (at 50 \u00b0 C)"
-            },
-            "spanning_tree_protocol": [
-                "Standard 802.1d Spanning Tree support",
-                "Fast convergence using 802.1w (Rapid Spanning Tree [RSTP]), enabled by default",
-                "8 instances are supported",
-                "Multiple Spanning Tree instances using 802.1s (MSTP)"
-            ],
-            "port_grouping": "Support for IEEE 802.3ad Link Aggregation Control Protocol (LACP)",
-            "vlan": [
-                "Support for up to 4096 VLANs simultaneously Port-based and 802.1Q tag-based VLANs MAC-based VLAN",
-                "Management VLAN",
-                "Private VLAN Edge (PVE), also known as protected ports, with multiple uplinks",
-                "Guest VLAN Unauthenticated VLAN",
-                "Dynamic VLAN assignment via Radius server along with 802.1x client authentication",
-                "CPE VLAN"
-            ],
-            "voice_vlan": [
-                "Voice traffic is automatically assigned to a voice-specific VLAN and treated with appropriate levels of QoS.",
-                "Auto voice capabilities deliver network-wide zero touch deployment of voice endpoints and call control devices."
-            ],
-            "multicast_tv_vlan": "Multicast TV VLAN allows the single multicast VLAN to be shared in the network while subscribers remain in separate VLANs (Also known as MVR)",
-            "q-in-q_vlan": "VLANs transparently cross a service provider network while isolating traffic among customers",
-            "generic_vlan_registration_protocol_generic_attribute_registration_protocol": "Protocols for automatically propagating and configuring VLANs in a bridged domain",
-            "unidirectional_link_detection": "UDLD monitors physical connection to detect unidirectional links caused by incorrect wiring or cable/port faults to prevent forwarding loops and blackholing of traffic in switched networks",
-            "dynamic_host_configurationprotocol_relay_at_layer_2": "Relay of DHCP traffic to DHCP server in different VLAN. Works with DHCP Option 82",
-            "internet_group_managementprotocol_versions_1_2_and3_snooping": "IGMP limits bandwidth-intensive multicast traffic to only the requesters; supports 1K multicast groups (source-specific multicasting is also supported)",
-            "igmp_querier": "IGMP querier is used to support a Layer 2 multicast domain of snooping switches in the absence of a multicast router",
-            "head-of-line_blocking": "HOL blocking prevention",
-            "jumbo_frames": "Frame sizes up to 9K (9216) bytes supported on 10/100 and Gigabit interfaces",
-            "ipv4_routing": [
-                "Wirespeed routing of IPv4 packets",
-                "Up to 512 static routes and up to 128 IP interfaces"
-            ],
-            "classless_inter-domain_routing": "Support for CIDR",
-            "layer_3_interface": "Configuration of layer 3 interface on physical port, LAG, VLAN interface or Loopback interface",
-            "dhcp_relay_at_layer_3": "Relay of DHCP traffic across IP domains",
-            "user_datagram_protocol_relay": "Relay of broadcast information across Layer 3 domains for application discovery or relaying of BootP/DHCP packets",
-            "dhcp_server": [
-                "Switch functions as an IPv4 DHCP Server serving IP addresses for multiple DHCP pools/scopes",
-                "Support for DHCP options"
-            ],
-            "secure_shell_protocol": "SSH is a secure replacement for Telnet traffic. SCP also uses SSH. SSH v1 and v2 are supported",
-            "secure_sockets_layer": "SSL support: Encrypts all HTTPS traffic, allowing highly secure access to the browser-based management GUI in the switch",
-            "ieee_802.1x": [
-                "802.1X: RADIUS authentication and accounting, MD5 hash; guest VLAN; unauthenticated VLAN, single/multiple host mode and single/multiple sessions",
-                "Supports time-based 802.1X Dynamic VLAN assignment"
-            ],
-            "web_based_authentication": "Web based authentication provides network admission control through web browser to any host devices and operating systems.",
-            "stp_bridge_protocol_data_unit_guard": "A security mechanism to protect the network from invalid configurations. A port enabled for BPDU Guard is shut down if a BPDU message is received on that port.",
-            "stp_root_guard": "This prevents edge devices not in the network administrator\u2019s control from becoming Spanning Tree Protocol root nodes.",
-            "dhcp_snooping": "Filters out DHCP messages with unregistered IP addresses and/or from unexpected or untrusted interfaces. This prevents rogue devices from behaving as a DHCP Server.",
-            "ip_source_guard": "When IP Source Guard is enabled at a port, the switch filters out IP packets received from the port if the source IP addresses of the packets have not been statically configured or dynamically learned from DHCP snooping. This prevents IP Address Spoofing.",
-            "dynamic_arp_inspection": "The switch discards ARP packets from a port if there is no static or dynamic IP/MAC bindings or if there is a discrepancy between the source or destination address in the ARP packet. This prevents man-in-the-middle attacks.",
-            "ip_mac_port_binding": "The features (DHCP Snooping, IP Source Guard, and Dynamic ARP Inspection) above work together to prevent DOS attacks in the network, thereby increasing network availability.",
-            "secure_core_technology": "Ensures that the switch will receive and process management and protocol traffic no matter how much traffic is received.",
-            "secure_sensitive_data": "A mechanism to manage sensitive data (such as passwords, keys, etc) securely on the switch, populating this data to other devices, and secure autoconfig. Access to view the sensitive data as plaintext or encrypted is provided according to the user configured access level and the access method of the user.",
-            "layer_2_isolation_private_vlan_edge_with_community_vlan": "PVE (also known as protected ports) provides Layer 2 isolation between devices in the same VLAN, supports multiple uplinks.",
-            "port_security": [
-                "The ability to lock Source MAC addresses to ports, and limits the number of learned MAC",
-                "addresses."
-            ],
-            "radius_tacacs+": "Supports RADIUS and TACACS authentication. Switch functions as a client.",
-            "storm_control": "Broadcast, multicast, and unknown unicast",
-            "radius_accounting": "The RADIUS accounting functions allow data to be sent at the start and end of services, indicating the amount of resources (such as time, packets, bytes, and so on) used during the session.",
-            "dos_prevention": "Denial-of-Service (DOS) attack prevention",
-            "acls": [
-                "Support for up to 512 rules",
-                "Drop or rate limit based on source and destination MAC, VLAN ID or IP address, protocol, port, differentiated services code point (DSCP)/IP precedence, TCP/UDP source and destination ports,",
-                "802.1p priority, Ethernet type, Internet Control Message Protocol (ICMP) packets, IGMP packets, TCP flag, Time-based ACLs supported."
-            ],
-            "priority_levels": "4 hardware queues",
-            "scheduling": [
-                "Strict priority and weighted round-robin (WRR)",
-                "Queue assignment based on DSCP and class of service (802.1p/CoS)"
-            ],
-            "class_of_service": "Port based; 802.1p VLAN priority based; IPv4/v6 IP precedence/type of service (ToS)/DSCP based; Differentiated Services (DiffServ); classification and re-marking ACLs, trusted QoS.",
-            "rate_limiting": "Ingress policer; egress shaping and rate control; per VLAN, per port, and flow based.",
-            "congestion_avoidance": "A TCP congestion avoidance algorithm is required to minimize and prevent global TCP loss synchronization.",
-            "standards": "IEEE 802.3 10BASE-T Ethernet, IEEE 802.3u 100BASE-TX Fast Ethernet, IEEE 802.3ab 1000BASE-T Gigabit Ethernet, IEEE 802.3ad LACP, IEEE 802.3z Gigabit Ethernet, IEEE 802.3x Flow Control, IEEE 802.1D (STP, GARP, and GVRP),IEEE 802.1Q/p VLAN, IEEE 802.1w RSTP, IEEE 802.1s Multiple STP, IEEE 802.1X Port Access Authentication, IEEE 802.3af, IEEE 802.3at, RFC 768, RFC 783, RFC 791, RFC 792, RFC 793, RFC 813, RFC 879, RFC 896, RFC 826, RFC 854, RFC 855, RFC 856, RFC 858, RFC 894, RFC 919, RFC 922, RFC 920, RFC 950, RFC 1042, RFC 1071, RFC 1123, RFC 1141, RFC 1155, RFC 1157, RFC 1350, RFC 1533, RFC 1541, RFC 1624, RFC 1700, RFC 1867, RFC 2030, RFC 2616, RFC 2131, RFC 2132, RFC 3164, RFC 3411, RFC 3412, RFC 3413, RFC 3414, RFC 3415, RFC 2576, RFC 4330, RFC 1213, RFC 1215, RFC 1286, RFC 1442, RFC 1451, RFC 1493, RFC 1573, RFC 1643, RFC 1757, RFC 1907, RFC 2011, RFC 2012, RFC 2013, RFC 2233, RFC 2618, RFC 2665, RFC 2666, RFC 2674, RFC 2737, RFC 2819, RFC 2863, RFC 1157, RFC 1493, RFC 1215, RFC 3416",
-            "ipv6": [
-                "IPv6 host mode",
-                "IPv6 over Ethernet Dual IPv6/IPv4 stack",
-                "IPv6 neighbor and router discovery (ND) IPv6 stateless address auto-configuration",
-                "Path maximum transmission unit (MTU) discovery",
-                "Duplicate address detection (DAD) ICMP version 6",
-                "IPv6 over IPv4 network with Intra-Site Automatic Tunnel Addressing Protocol (ISATAP) support",
-                "USGv6 and IPv6 Gold Logo certified"
-            ],
-            "ipv6_qos": "Prioritize IPv6 packets in hardware",
-            "ipv6_acl": "Drop or rate limit IPv6 packets in hardware",
-            "ipv6_first_hop_security": [
-                "RA guard",
-                "ND inspection",
-                "DHCPv6 guard",
-                "Neighbor binding table (Snooping and static entries)",
-                "Neighbor binding integrity check"
-            ],
-            "multicast_listener_discovery_snooping": "Deliver IPv6 multicast packets only to the required receivers",
-            "ipv6_applications": "Web/SSL, Telnet server/SSH, ping, traceroute, Simple Network Time Protocol (SNTP), Trivial File Transfer Protocol (TFTP), SNMP, RADIUS, syslog, DNS client, Telnet Client, DHCP Client, DHCP Autoconfig, IPv6 DHCP Relay, TACACS",
-            "ipv6_rfcs_supported": [
-                "RFC 4443 (which obsoletes RFC2463) \u2013 ICMP version 6",
-                "RFC 4291 (which obsoletes RFC 3513) \u2013 IPv6 address architecture",
-                "RFC 4291 \u2013 IPv6 addressing architecture",
-                "RFC 2460 \u2013 IPv6 specification",
-                "RFC 4861 (which obsoletes RFC 2461) \u2013 Neighbor discovery for IPv6",
-                "RFC 4862 (which obsoletes RFC 2462) \u2013 IPv6 stateless address auto-configuration",
-                "RFC 1981 \u2013 Path MTU discovery",
-                "RFC 4007 \u2013 IPv6 scoped address architecture",
-                "RFC 3484 \u2013 Default address selection mechanism",
-                "RFC 5214 (which obsoletes RFC 4214) \u2013 ISATAP tunneling RFC 4293 \u2013 MIB IPv6: Textual conventions and general group RFC 3595 \u2013 Textual conventions for IPv6 flow label"
-            ],
-            "web_user_interface": "Built-in switch configuration utility for easy browser-based device configuration (HTTP/HTTPS). Supports configuration, system dashboard, system maintenance, and monitoring.",
-            "snmp": "SNMP versions 1, 2c, and 3 with support for traps, and SNMP version 3 user-based security model (USM)",
-            "remote_monitoring": "Embedded RMON software agent supports 4 RMON groups (history, statistics, alarms, and events) for enhanced traffic management, monitoring, and analysis",
-            "ipv4_and_ipv6_dual_stack": "Coexistence of both protocol stacks to ease migration",
-            "firmware_upgrade": "\u25cfWeb browser upgrade (HTTP/HTTPS) and TFTP and upgrade over SCP running over SSH\u25cfUpgrade can be initiated through console port as well\u25cfDual images for resilient firmware upgrades",
-            "port_mirroring": "Traffic on a port can be mirrored to another port for analysis with a network analyzer or RMON probe. Up to 8 source ports can be mirrored to one destination port. A single session is supported.",
-            "vlan_mirroring": "Traffic from a VLAN can be mirrored to a port for analysis with a network analyzer or RMON probe. Up to 8 source VLANs can be mirrored to one destination port. A single session is supported.",
-            "dhcp": "DHCP Options facilitate tighter control from a central point (DHCP server) to obtain IP address, auto-configuration (with configuration file download), DHCP relay, and hostname.",
-            "secure_copy": "Securely transfer files to and from the switch",
-            "autoconfiguration_with_securecopy_file_download": "Enables secure mass deployment with protection of sensitive data",
-            "text-editable_config_files": "Config files can be edited with a text editor and downloaded to another switch, facilitating easier mass deployment",
-            "smartports": "Simplified configuration of QoS and security capabilities",
-            "auto_smartports": "Applies the intelligence delivered through the Smartport roles and applies it automatically to the port based on the devices discovered over CDP or LLDP-MED. This facilitates zero touch deployments.",
-            "textview_cli": "Scriptable command-line interface. A full CLI as well as a menu-based CLI is supported. User privilege levels 1, 7, and 15 is supported for the CLI.",
-            "cloud_services": "Support for Cisco Small Business FindIT Network and Cisco OnPlus",
-            "localization": "Localization of GUI and documentation into multiple languages",
-            "other_management": "Traceroute; single IP management; HTTP/HTTPS; SSH; RADIUS; port mirroring; TFTP upgrade; DHCP client; BOOTP; SNTP; Xmodem upgrade; cable diagnostics; ping; syslog; Telnet client (SSH secure support)",
-            "time-based_port_operation": "Link up or down based on user-defined schedule (when the port is administratively up)",
-            "login_banner": "Configurable multiple banners for web as well as CLI",
-            "eee_compliant": "Supports 802.3az on all copper ports (SG300 models)",
-            "energy_detect": [
-                "Automatically turns off power off on Gigabit Ethernet and 10/100 RJ-45 port when detecting link down",
-                "Active mode is resumed without loss of any packets when the switch detects the link up"
-            ],
-            "cable_length_detection": "Adjusts the signal strength based on the cable length for Gigabit Ethernet models. Reduces the power consumption for cables shorter than 10m.",
-            "disable_port_leds": "LEDs can be manually turned off to save on Energy",
-            "mac_table": "Up to 16K (16384) MAC addresses",
-            "bonjour": "The switch advertises itself using the Bonjour protocol.",
-            "link_layer_discovery_protocol_with_lldp-med_extensions": "LLDP allows the switch to advertise its identification, configuration, and capabilities to neighboring devices that store the data in a MIB. LLDP-MED is an enhancement to LLDP that adds the extensions needed for IP phones.",
-            "cisco_discovery_protocol": "The switch advertises itself using the Cisco Discovery Protocol. It also learns the connected device and its characteristics via CDP.",
-            "SG300-28SFP": {
-                "power_savingsmode": "Energy Detect/Short Reach",
-                "system_powerconsumption": "110V=28W 220V=28.2W",
-                "power_consumption_case": "N/A",
-                "heat_dissipation_worst_case": "96.2 BTU/hr",
-                "total_system_ports": "28 Gigabit Ethernet",
-                "rj-45_ports": "26 SFP",
-                "uplink_ports": "2 Gigabit Ethernet combo",
-                "packet_buffer": "8 Mb",
-                "fan": "2 pcs",
-                "acoustic_noise": "40.9 dB",
-                "mtbf": "614,062 (at 50C)"
-            },
-            "buttons": "Reset button",
-            "cabling_type": [
-                "Unshielded twisted pair (UTP) Category 5 or better for 10BASE-T/100BASE-TX; UTP Category 5",
-                "Ethernet or better for 1000BASE-T"
-            ],
-            "leds": "System, Link/Act, PoE, Speed, LED power saving option",
-            "flash": "16 MB",
-            "cpu_memory": "128 MB",
-            "MFEFX1": {
-                "media": "Multimode fiber",
-                "speed": "100 Mbps",
-                "maximum_distance": "2 km"
-            },
-            "MFELX1": {
-                "media": "Single-mode fiber",
-                "speed": "100 Mbps",
-                "maximum_distance": "10 km"
-            },
-            "MFEBX1": {
-                "media": "Single-mode fiber",
-                "speed": "100 Mbps",
-                "maximum_distance": "20 km"
-            },
-            "MGBBX1": {
-                "media": "Single-mode fiber",
-                "speed": "1000 Mbps",
-                "maximum_distance": "40 km"
-            },
-            "MGBSX1": {
-                "media": "Multimode fiber",
-                "speed": "1000 Mbps",
-                "maximum_distance": "300 m"
-            },
-            "MGBLH1": {
-                "media": "Single-mode fiber",
-                "speed": "1000 Mbps",
-                "maximum_distance": "40 km"
-            },
-            "MGBLX1": {
-                "media": "Single-mode fiber",
-                "speed": "1000 Mbps",
-                "maximum_distance": "10 km"
-            },
-            "MGBT1": {
-                "media": "UTP cat 5",
-                "speed": "1000 Mbps",
-                "maximum_distance": "100 m"
-            },
-            "dimensions": [
-                "SF300-08, SF302-08, SF302-08P, SF302-08PP, SF302-08MP, SF302-08MPP, SG300-10SFP, SG300-10, SG300-10P, SG300-10PP, SG300-10MP, SG300-10MPP",
-                "11 x 1.45 x 6.7 in. (279.4 x 44.45 x 170 mm)",
-                "SG300-20",
-                "17.3 x 1.45 x 7.97 in. (440 x 44.45 x 202.5 mm)",
-                "SF300-24, SF300-24P, SF300-24PP, SF300-48, SG300-28, SG300-28P, SG300-28PP, SG300-52 , SG300-28SFP",
-                "17.3 x 1.45 x 10.1 in. (440 x 44.45 x 257 mm)",
-                "SF300-24MP, SG300-28MP, SF300-48P, SF300-48PP, SG300-52P, SG300-52MP",
-                "17.3 x 1.45 x 13.78 in. (440 x 44.45 x 350 mm)"
-            ],
-            "power": [
-                "100-240V 47-63 Hz, internal, universal \u2013 SF300-24, SF300-24P, SF300-24PP, SG300-20, SG300-28, SG300-28P, SG300-28PP, SG300-52",
-                "100-240V 50-60 Hz, internal, universal \u2013 SF300-24MP, SF300-48PP, SG300-28MP, SG300-52P, SG300-52MP , SG300-28SFP",
-                "100-240V 50-60 Hz, 0.5A, external \u2013 SF300-08, SF302-08, SG300-10, SG300-10SFP",
-                "100-240V 50-60 Hz, 2A, external \u2013 SF302-08P, SF300-08PP, SG300-10P, SG300-10PP",
-                "100-240V 50-60 Hz, 2.5A, external \u2013 SF302-08MP, SF302-08MPP, SG300-10MP, SG300-10MPP"
-            ],
-            "certification": "UL (UL 60950), CSA (CSA 22.2), CE mark, FCC Part 15 (CFR 47) Class A",
-            "operating_temperature": [
-                "SF300-08, SF302-08, SF302-08P, SF302-08MP, SF300-24, SF300-24P, SF300-48, SF300-48P, SG300-10, SG300-10P, SG300-10MP, SG300-20, SG300-28, SG300-28P, SG300-52",
-                "32\u00b0to 104\u00b0F (0\u00b0to 40\u00b0C)",
-                "SF302-08MPP, SF302-08PP, SF300-24PP, SG300-52P, SG300-52MP, SG300-10SFP, SG300-10MPP, SG300-10PP, SG300-28PP",
-                "32\u00b0to 113\u00b0F (0\u00b0to 45\u00b0C)",
-                "SF300-24MP, SF300-48PP, SG300-28MP , SG300-28SFP",
-                "32\u00b0to 122\u00b0F (0\u00b0to 50\u00b0C)"
-            ],
-            "storage_temperature": "- 4\u00b0to 158\u00b0F ( - 20\u00b0to 70\u00b0C)",
-            "operating_humidity": "10% to 90%, relative, noncondensing",
-            "storage_humidity": "10% to 90%, relative, noncondensing",
-            "warranty": "Limited lifetime with next business day advance replacement (where available)",
-            "mfebx1": "100BASE-BX-20U SFP transceiver for single-mode fiber, 1310 nm wavelength, support up to 20 km",
-            "mfelx1": "100BASE-LX SFP transceiver, for single-mode fiber, 1310 nm wavelength, support up to 10 km",
-            "mfefx1": "100BASE-FX SFP transceiver, for multimode fiber, 1310 nm wavelength, support up to 2 km",
-            "mgbbx1": "1000BASE-BX-20U SFP transceiver, for single-mode fiber, 1310 nm wavelength, support up to 40 km",
-            "mgblh1": "1000BASE-LH SFP transceiver, for single-mode fiber, 1310 nm wavelength, support up to 40 km",
-            "mgblx1": "1000BASE-LX SFP transceiver, for single-mode fiber, 1310 nm wavelength, support up to 10 km",
-            "mgbsx1": "1000BASE-SX SFP transceiver, for multimode fiber, 850 nm wavelength, support up to 550 m"
-        },
+        "features": {},
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/switches/small-business-smart-switches/data_sheet_c78-610061.html",
-        "last_scraped_at": "2025-08-21T17:42:38.217236+00:00"
+        "last_scraped_at": "2026-01-29T17:12:31.216182+00:00"
     },
     {
         "family": "Cisco Business Wireless AC",
@@ -7412,7 +6989,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-140ac-ap-ds-cte-en.html",
-        "last_scraped_at": "2025-08-21T17:42:38.724382+00:00"
+        "last_scraped_at": "2026-01-29T17:12:31.387973+00:00"
     },
     {
         "family": "Cisco Business Wireless AC",
@@ -7490,7 +7067,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/smb-01-bus-145ac-ap-ds-cte-en.html",
-        "last_scraped_at": "2025-08-21T17:42:39.075030+00:00"
+        "last_scraped_at": "2026-01-29T17:12:31.556483+00:00"
     },
     {
         "family": "Cisco Business Wireless AC",
@@ -7601,7 +7178,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-200-series-access-points/smb-01-bus-240ac-ap-ds-cte-en.html",
-        "last_scraped_at": "2025-08-21T17:42:39.400501+00:00"
+        "last_scraped_at": "2026-01-29T17:12:31.776916+00:00"
     },
     {
         "family": "Cisco Business Wireless AX",
@@ -7700,7 +7277,7 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-access-points/business-access-point-ds.html",
-        "last_scraped_at": "2025-08-21T17:42:39.773960+00:00"
+        "last_scraped_at": "2026-01-29T17:12:31.917614+00:00"
     },
     {
         "family": "Cisco Business Wireless AX",
@@ -7796,6 +7373,6 @@
             }
         },
         "datasheet_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/business-100-series-mesh-extenders/busines-mesh-extender-ds.html",
-        "last_scraped_at": "2025-08-21T17:42:40.168935+00:00"
+        "last_scraped_at": "2026-01-29T17:12:32.009730+00:00"
     }
 ]

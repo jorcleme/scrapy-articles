@@ -4,21 +4,19 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-# Common paths
-CWD = Path.cwd()
-
 CURRENT_FILE = Path(__file__).resolve()
+PROJECT_ROOT = CURRENT_FILE.parent
 
-DATA_DIR = CWD / "data"
+DATA_DIR = PROJECT_ROOT / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-LOGS_DIR = CWD / "logs"
+LOGS_DIR = PROJECT_ROOT / "logs"
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
-SRC_DIR = CWD / "src"
+SRC_DIR = PROJECT_ROOT / "src"
 SRC_DIR.mkdir(parents=True, exist_ok=True)
 
-ARTICLES_DIR = CWD / "articles"
+ARTICLES_DIR = PROJECT_ROOT / "articles"
 ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
 
 ARTICLES_DATA_DIR = ARTICLES_DIR / "data"

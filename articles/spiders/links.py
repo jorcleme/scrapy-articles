@@ -1,5 +1,7 @@
 import scrapy
 import json
+import sys
+import time
 import scrapy.signals
 import subprocess
 import scrapy.http
@@ -9,12 +11,14 @@ from scrapy.signalmanager import dispatcher
 from scrapy.http.response.html import HtmlResponse
 from scrapy.http.response.text import TextResponse
 from urllib3.util import parse_url
+from config import ARTICLES_DATA_DIR
 
 
 class ArticleLinks(Spider):
     name = "article_links"
 
     start_urls = [
+        "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/CBS220.html",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/CBS220/jcr:content/Title/full/Full/widenarrow_5d4b_copy/WN-Wide-1/drawertabscontainer_/responsive-drawertab-parsys-container/drawertab_6b89/responsive-drawertab-parsys-forTabContent/list_dynamic_3fba.feed.json",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/CBS250.html",
         "https://www.cisco.com/c/en/us/support/smb/product-support/small-business/CBS350/jcr:content/Grid/widenarrow_5d4b/WN-Wide-1/drawertabscontainer_/responsive-drawertab-parsys-container/drawertab_6b89/responsive-drawertab-parsys-forTabContent/list_dynamic_3fba.feed.json",
@@ -41,7 +45,6 @@ class ArticleLinks(Spider):
         super().__init__(*args, **kwargs)
 
     def parse(self, response: scrapy.http.Response):
-
         if isinstance(response, HtmlResponse):
             family_name = parse_url(response.url).path.split("/")[-1].split(".")[0]
             yield response.follow(
@@ -75,6 +78,3 @@ class ArticleLinks(Spider):
                 "url": link,
                 "family": family,
             }
-
-    def spider_closed(self, spider: scrapy.Spider):
-        subprocess.call(["python", "-m", "articles.scrapers.articles"])

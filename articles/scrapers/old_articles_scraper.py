@@ -1,44 +1,36 @@
 import asyncio
-import asyncio
 import json
 import logging
 import os
-import random
 import re
 import time
-import aiohttp
-import requests
-
+import warnings
 from dataclasses import dataclass
 from datetime import date
 from enum import Enum
 from hashlib import sha256
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Sequence, TypedDict, Union
+from typing import Any, Dict, List, Optional, Sequence, TypedDict, TypeVar, Union
 from uuid import uuid4
-from bs4 import BeautifulSoup, Tag
+
+import aiohttp
+import html2text
+import requests
+from bs4 import BeautifulSoup, NavigableString, Tag
 from dotenv import find_dotenv, load_dotenv
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, Field, field_serializer, field_validator
-from config import ARTICLES_DATA_DIR, LOGS_DIR
 
 logger = logging.getLogger(__name__)
 
+CURRENT_FILE = Path(__file__).resolve()
+ARTICLES_DIR = CURRENT_FILE.parent.parent
+SERVICES_DIR = CURRENT_FILE.parent
+DATA_DIR = ARTICLES_DIR / "data"
 
 load_dotenv(find_dotenv(filename=".env"))
-
-
-class ArticleContextFilter(logging.Filter):
-    """Add article context to log records."""
-
-    def filter(self, record):
-        if not hasattr(record, "article_id"):
-            record.article_id = "-"
-        if not hasattr(record, "article_url"):
-            record.article_url = "-"
-        return True
 
 
 # Enhanced logging configuration
@@ -50,7 +42,7 @@ def setup_logger(name: str, log_file: Optional[Path] = None) -> logging.Logger:
 
     if not logger.handlers:
         formatter = logging.Formatter(
-            "%(asctime)s [%(name)s] %(levelname)s [%(article_id)s] [%(article_url)s]: %(message)s"
+            "%(asctime)s [%(name)s] %(levelname)s: %(message)s"
         )
 
         # Console handler
@@ -69,9 +61,6 @@ def setup_logger(name: str, log_file: Optional[Path] = None) -> logging.Logger:
                 logger.addHandler(file_handler)
             except Exception as e:
                 logger.warning(f"Failed to set up file logging: {e}")
-
-        # Add context filter
-        logger.addFilter(ArticleContextFilter())
 
     return logger
 
@@ -93,15 +82,12 @@ class ArticleCategory(Enum):
 class ParsingConfig:
     """Configuration for article parsing behavior."""
 
+    use_llm_fallback: bool = False
+    llm_timeout: float = 30.0
     max_retries: int = 3
     default_category: ArticleCategory = ArticleCategory.CONFIGURATION
     skip_empty_steps: bool = False
-    default_bs_parser: str = "lxml"  # Changed from html.parser for better performance
-    use_llm_for_categories: bool = True  # Enable/disable LLM for category detection
-    use_llm_for_backup_steps: bool = (
-        False  # Enable/disable LLM for backup step generation
-    )
-    cache_category_results: bool = True  # Cache category results to avoid reprocessing
+    default_bs_parser: str = "html.parser"
 
 
 class LinksDict(BaseModel):
@@ -122,7 +108,7 @@ class ArticleStep(BaseModel):
     section: str = Field(
         ..., description="The section header of this particular set of steps."
     )
-    step_number: int = Field(
+    step_num: int = Field(
         ...,
         description="The step number within the section usually prepended with the word 'Step'.",
     )
@@ -156,8 +142,8 @@ class ArticleSteps(BaseModel):
     steps: List[ArticleStep]
 
 
-def get_article_links_after_spidering() -> List[LinksDict]:
-    links = ARTICLES_DATA_DIR / "links.json"
+def fetch_links_from_fs() -> List[LinksDict]:
+    links = DATA_DIR / "links.json"
     with open(links, "r+", encoding="utf8") as f:
         data = json.load(f)
         return [LinksDict(**item) for item in data]
@@ -192,6 +178,20 @@ class Revision(BaseModel):
         return value.strftime("%Y-%m-%d")
 
 
+class ArticleDict(TypedDict, total=False):
+    series: str
+    title: str
+    document_id: str
+    category: str
+    url: str
+    objective: str
+    applicable_devices: List[dict]
+    intro: Optional[str]
+    steps: List[dict]
+    revision_history: Optional[List[Revision]]
+    type: str
+
+
 class Article(BaseModel):
     """Improved Article class with better validation."""
 
@@ -203,9 +203,9 @@ class Article(BaseModel):
     objective: Optional[str] = None
     applicable_devices: List[Dict[str, Any]] = Field(default_factory=list)
     intro: Optional[str] = None
-    steps: List[ArticleStep] = Field(default_factory=list)
+    steps: List[Dict[str, Any]] = Field(default_factory=list)
     revision_history: List[Revision] = Field(default_factory=list)
-    type: str = Field(default="article", alias="_type")
+    type: str = "article"
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary with proper serialization."""
@@ -218,7 +218,7 @@ class Article(BaseModel):
             "objective": self.objective,
             "applicable_devices": self.applicable_devices,
             "intro": self.intro,
-            "steps": [s.model_dump() for s in self.steps],
+            "steps": self.steps,
             "revision_history": [r.model_dump() for r in self.revision_history],
             "type": self.type,
         }
@@ -234,16 +234,13 @@ class InterfaceContext(Enum):
 class ArticleParser:
     """A class that parses HTML to extract Cisco SMB articles."""
 
-    # Class-level category cache to avoid reprocessing same titles
-    _category_cache: Dict[str, str] = {}
-
     def __init__(self, config: Optional[ParsingConfig] = None) -> None:
         self.config = config or ParsingConfig()
         self.logger = setup_logger(
             self.__class__.__name__,
-            LOGS_DIR / f"{self.__class__.__name__.lower()}.log",
+            CURRENT_FILE.parent / "logs" / f"{self.__class__.__name__.lower()}.log",
         )
-        self.headers = ["h1", "h2", "h3", "h4", "h5", "h6"]
+        self.headers = ["h6", "h5", "h4", "h3", "h2", "h1"]
 
     def parse(self, soup: BeautifulSoup, url: str, series: str) -> Article:
         """
@@ -258,23 +255,14 @@ class ArticleParser:
             Article: The parsed Article object.
 
         """
-        # Create basic logger first for early errors
-        article_logger = logging.LoggerAdapter(
-            self.logger, {"article_id": "-", "article_url": url}
-        )
+        # Clear article separator
+        self.logger.info("=" * 80)
+        self.logger.info(f"🔄 PARSING ARTICLE: {url}")
+        self.logger.info("=" * 80)
 
         try:
             title = self._get_title(soup)
             document_id = self._get_document_id(soup)
-
-            # Update logger adapter with actual article context
-            article_logger = logging.LoggerAdapter(
-                self.logger, {"article_id": document_id, "article_url": url}
-            )
-
-            # Clear article separator
-            article_logger.info(f"{'=' * 80}\n🔄 PARSING ARTICLE: {url}\n{'=' * 80}")
-
             category = self._get_category(soup, title)
             objective = self._get_objective(soup)
             applicable_devices = self._get_applicable_devices(soup)
@@ -284,7 +272,6 @@ class ArticleParser:
 
             # Concise summary log
             self.log_article_summary(
-                article_logger,
                 title,
                 document_id,
                 category,
@@ -306,13 +293,12 @@ class ArticleParser:
                 revision_history=revision_history,
             )
         except Exception as err:
-            article_logger.error(f"❌ Error parsing article from URL: {url}")
-            article_logger.error(f"Error details: {str(err)}")
-            raise
+            self.logger.error(f"❌ Error parsing article from URL: {url}")
+            self.logger.error(f"Error details: {str(err)}")
+            pass
 
     def log_article_summary(
         self,
-        article_logger,
         title,
         document_id,
         category,
@@ -321,15 +307,15 @@ class ArticleParser:
         revisions_count,
     ):
         """Log a concise summary of the parsed article components."""
-        article_logger.info(f"📋 Title: {title}")
-        article_logger.info(f"🆔 ID: {document_id} | 📂 Category: {category}")
-        article_logger.info(
+        self.logger.info(f"📋 Title: {title}")
+        self.logger.info(f"🆔 Doc ID: {document_id} | 📂 Category: {category}")
+        self.logger.info(
             f"📝 Steps: {steps_count} | 📱 Devices: {devices_count} | 🔄 Revisions: {revisions_count}"
         )
-        article_logger.info("✅ Article parsing completed successfully")
+        self.logger.info("✅ Article parsing completed successfully")
 
     @staticmethod
-    def get_category_with_llm(title: str) -> str:
+    def _get_category_with_llm(title: str) -> str:
         """
         Get the category for an article based on the given title.
 
@@ -373,7 +359,7 @@ class ArticleParser:
             """
         prompt = PromptTemplate.from_template(template)
         llm = ChatOpenAI(
-            api_key=os.getenv("OPENAI_API_KEY"), timeout=2.0, model="gpt-4o"
+            api_key=os.getenv("OPENAI_API_KEY"), timeout=2.0, model="gpt-5"
         )
         chain = prompt | llm | StrOutputParser()
         return chain.invoke({"title": title})
@@ -381,7 +367,7 @@ class ArticleParser:
     @staticmethod
     def is_blank_string(string: str | None) -> bool:
         if string is None:
-            return True
+            True
         return bool(re.match(r"^\s*$", string))
 
     @staticmethod
@@ -453,12 +439,6 @@ class ArticleParser:
         return sha256(uuid4().bytes).hexdigest()
 
     def _get_category(self, soup: BeautifulSoup, title: str) -> str:
-        # Check cache first if caching is enabled
-        if self.config.cache_category_results:
-            title_hash = sha256(title.encode()).hexdigest()
-            if title_hash in self._category_cache:
-                return self._category_cache[title_hash]
-
         category_pattern = re.compile(
             r"(?P<Troubleshooting>Troubleshoot(?:ing)?)|"
             r"(?P<Configuration>(?:Configure|Configuration|Configuration Examples and TechNotes))|"
@@ -471,38 +451,25 @@ class ArticleParser:
             '#fw-breadcrumb > ul > li:last-child > a > span[itemprop="name"]'
         )
 
-        category = None
         if element:
             match = category_pattern.search(element.get_text(strip=True))
             if match:
                 category = next(filter(None, match.groups()))
+                return category
             else:
-                # Fallback to LLM if enabled, otherwise use default
-                if self.config.use_llm_for_categories:
-                    category = self.get_category_with_llm(title)
-                else:
-                    category = self.config.default_category.value
-        else:
-            # No breadcrumb element - use LLM if enabled, otherwise use default
-            if self.config.use_llm_for_categories:
-                category = self.get_category_with_llm(title)
-            else:
-                category = self.config.default_category.value
-
-        # Store in cache if caching is enabled
-        if self.config.cache_category_results and category:
-            title_hash = sha256(title.encode()).hexdigest()
-            self._category_cache[title_hash] = category
-
+                category = self._get_category_with_llm(title)
+                return category
+        category = self._get_category_with_llm(title)
         return category
 
     def _get_objective(self, soup: BeautifulSoup) -> Optional[str]:
+
         def extract_objective_text(element: Tag) -> str:
             objective_text = []
             sibling = element.find_next_sibling()
             while sibling and sibling.name in ["p", "ul", "ol", "table"]:
                 if sibling.name in ["ul", "ol", "table"]:
-                    objective_text.append(str(sibling.extract()))
+                    objective_text.app(str(sibling.extract()))
                 elif sibling.name in ["p"]:
                     objective_text.append(sibling.get_text(strip=True))
 
@@ -529,7 +496,7 @@ class ArticleParser:
             re.IGNORECASE,
         )
         element = soup.find(["h2", "h3"], string=pattern)
-        contents = []
+        applicable_devices = []
 
         if element:
             sibling = element.find_next_sibling()
@@ -562,7 +529,7 @@ class ArticleParser:
                         )
                         is not None,
                     )
-                    contents.append(
+                    applicable_devices.append(
                         {
                             "device": device_name,
                             "software": version,
@@ -576,7 +543,7 @@ class ArticleParser:
                             ),
                         }
                     )
-        return contents
+        return applicable_devices
 
     def _get_intro(self, soup: BeautifulSoup) -> Union[str, None]:
         headers = ["h1", "h2", "h3", "h4", "h5", "h6"]
@@ -592,7 +559,7 @@ class ArticleParser:
                 if next_intro_element.find(headers):
                     break
                 if next_intro_element.name == "ul":
-                    intro_content.append(str(next_intro_element))
+                    intro_content.append(next_intro_element.prettify())
                 elif next_intro_element.name == "table":
                     table_text = " ".join(
                         [
@@ -606,7 +573,7 @@ class ArticleParser:
                     and next_intro_element.has_attr("class")
                     and "cdt-note" in next_intro_element["class"]
                 ):
-                    intro_content.append(str(next_intro_element))
+                    intro_content.append(next_intro_element.prettify())
                 elif next_intro_element.name == "p":
                     intro_content.append(next_intro_element.get_text(strip=True))
                 next_intro_element = next_intro_element.find_next_sibling()
@@ -624,7 +591,7 @@ class ArticleParser:
             List: A list of dictionaries, where each dictionary represents a step and contains the following keys:
              ```JSON
                 section: The section name of the step.
-                step_number: The step number.
+                step_num: The step number.
                 text: The text content of the step.
                 src: The source URL of any related diagram, image, or screenshot.
                 alt: The alternative text for the related diagram, image, or screenshot.
@@ -645,12 +612,8 @@ class ArticleParser:
                 if step:
                     steps.append(step)
 
-        # If traditional parsing found steps, return them
-        if steps:
-            return steps
-
         # Return default if nothing found
-        return [{"section": "General", "step_number": 1, "text": "No steps found."}]
+        return steps
 
     def _process_step(self, element: Tag):
         section, text, emphasized_text, emphasized_tags = (None, None, None, None)
@@ -666,20 +629,19 @@ class ArticleParser:
             text = self.sanitize_text(text)
             if note:
                 note = self.sanitize_text(note)
-            if src and (alt is None or alt == ""):
+            if src and not alt:
                 alt = "Related diagram, image, or screenshot"
-
-            return ArticleStep(
-                section=section,
-                step_number=step_number,
-                text=text,
-                src=src,
-                alt=alt,
-                video_src=video_src,
-                note=note,
-                emphasized_text=emphasized_text,
-                emphasized_tags=emphasized_tags,
-            )
+            return {
+                "section": section,
+                "step_num": step_number,
+                "text": text,
+                "src": src,
+                "alt": alt,
+                "video_src": video_src,
+                "note": note,
+                "emphasized_text": emphasized_text,
+                "emphasized_tags": emphasized_tags,
+            }
         else:
             self.logger.error("Could not parse step (element): %s", element)
             self.logger.error("Section: %s", section)
@@ -736,11 +698,9 @@ class ArticleParser:
         emphasized_tags = []
         emphasized_text = []
         try:
-            raw_text = element.get_text(separator=" ", strip=True)
-            if re.match(r"^Step\s*\d+\.\s*(.*)", raw_text, flags=re.IGNORECASE):
-                text = re.sub(
-                    r"^Step\s*\d+\.?\s*", "", raw_text, flags=re.IGNORECASE
-                ).strip()
+            if re.match(r"^Step\s*\d+\.\s*(.*)", string=next(element.strings, "")):
+                strngs = "".join(element.strings)
+                text = re.sub(r"^Step \d+\.?", "", strngs).strip()
         except AttributeError as e:
             self.logger.error("Error extracting step text: %s", str(e))
             self.logger.error(
@@ -765,7 +725,7 @@ class ArticleParser:
         while (
             next_element
             and next_element.name not in self.headers
-            and elements_processed < 10  # Safety limit to prevent infinite loops
+            and elements_processed < 50  # Safety limit to prevent infinite loops
         ):
             elements_processed += 1
 
@@ -816,6 +776,7 @@ class ArticleParser:
             # IMPROVED IMAGE EXTRACTION: Check for images FIRST, before other processing
             # This handles standard cases where images are in simple paragraphs
             if next_element.name in {"p"}:
+
                 # Extract images from this element before processing other content
                 images = next_element.find_all("img", recursive=True)
                 if (
@@ -931,7 +892,7 @@ class ArticleParser:
                     for kbd_class in ["kbd-cdt"]
                 )
             ):
-                text += str(next_element)
+                text += next_element.prettify()
 
             # Handle lists, code blocks, etc.
             if next_element.name in {
@@ -943,7 +904,7 @@ class ArticleParser:
                 "pre",
                 "code",
             } or (next_element.name == "a" and not next_element.has_attr("class")):
-                text += " " + str(next_element)
+                text += " " + next_element.prettify()
 
             # Handle videos
             if next_element.name in {"video"} or next_element.find("video"):
@@ -1068,12 +1029,16 @@ class ArticleScraper:
 
     DEFAULT_HEADERS = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.5",
-        "Accept-Encoding": "gzip, deflate",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
         "DNT": "1",
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
         "Cache-Control": "max-age=0",
     }
 
@@ -1084,17 +1049,13 @@ class ArticleScraper:
         urls: Sequence[str],
         series: Sequence[str],
         *,
-        requests_per_second: int = 2,  # Conservative rate to avoid 403/429 errors
+        requests_per_second: int = 1,  # Reduced from 2 to 1 to be gentler on the server
         continue_on_failure: bool = True,
         ssl_verify: bool = False,
         parser_config: Optional[ParsingConfig] = None,
-        timeout: int = 30,
+        timeout: int = 60,  # Increased timeout to 60 seconds for large pages
     ):
-        """Initialize scraper with improved configuration.
-
-        Note: Consider aiolimiter for true RPS rate limiting as future improvement.
-        Current implementation uses semaphore which limits concurrent connections.
-        """
+        """Initialize scraper with improved configuration."""
         if len(urls) != len(series):
             raise ValueError("URLs and series lists must have the same length")
 
@@ -1108,14 +1069,10 @@ class ArticleScraper:
         self.logger = setup_logger(self.__class__.__name__)
         self.parser = ArticleParser(parser_config)
 
-        # Setup sync session (for backward compatibility)
+        # Setup session
         self.session = requests.Session()
-        self.session.headers.update(self.DEFAULT_HEADERS)
+        self.session.headers.update(self.DEFAULT_HEADERS.copy())
         self.session.verify = ssl_verify
-
-        # Setup async session management (reused across all fetches)
-        self._session: Optional[aiohttp.ClientSession] = None
-        self._connector: Optional[aiohttp.TCPConnector] = None
 
     @staticmethod
     def _check_parser(parser: str) -> None:
@@ -1126,153 +1083,122 @@ class ArticleScraper:
                 "`parser` must be one of " + ", ".join(valid_parsers) + "."
             )
 
-    async def _get_or_create_session(self) -> aiohttp.ClientSession:
-        """Get or create reusable aiohttp session with connector.
-
-        This significantly improves performance by reusing TCP connections
-        across all HTTP requests instead of creating new sessions per retry.
-        """
-        if self._session is None or self._session.closed:
-            self._connector = aiohttp.TCPConnector(
-                limit=10,  # Max concurrent connections
-                ssl=None if not self.ssl_verify else True,
-            )
-            timeout = aiohttp.ClientTimeout(
-                connect=10,  # Connection timeout
-                sock_read=20,  # Socket read timeout
-                total=self.timeout,  # Total request timeout
-            )
-            self._session = aiohttp.ClientSession(
-                timeout=timeout, headers=self.DEFAULT_HEADERS, connector=self._connector
-            )
-        return self._session
-
-    async def _close_session(self):
-        """Close session and connector to free resources."""
-        if self._session and not self._session.closed:
-            await self._session.close()
-        if self._connector:
-            await self._connector.close()
-
-    async def scrape_all(self) -> List[Optional[Article]]:
-        """Scrape all articles with improved error handling."""
-        self.logger.info(f"Starting to scrape {len(self.urls)} articles")
-
-        try:
-            # Fetch all HTML content
-            html_contents = await self._fetch_all_urls()
-
-            # Parse articles (offload CPU-bound parsing to thread pool)
-            articles = []
-            for i, (url, series, html) in enumerate(
-                zip(self.urls, self.series, html_contents)
-            ):
+    async def _fetch(
+        self, url: str, retries: int = 3, cooldown: int = 2, backoff: float = 1.5
+    ) -> str:
+        timeout = aiohttp.ClientTimeout(total=self.timeout)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            for i in range(retries):
                 try:
-                    if html:
-                        # Offload CPU-intensive parsing to thread pool to avoid blocking event loop
-                        soup = await asyncio.to_thread(
-                            BeautifulSoup, html, self.DEFAULT_PARSER
+                    async with session.get(
+                        url,
+                        headers=self.session.headers,
+                        ssl=False,
+                    ) as response:
+                        if response.status == 200:
+                            return await response.text()
+                        else:
+                            raise aiohttp.ClientResponseError(
+                                request_info=response.request_info,
+                                history=response.history,
+                                status=response.status,
+                                message=f"HTTP {response.status}",
+                            )
+                except (
+                    aiohttp.ClientConnectionError,
+                    aiohttp.ServerTimeoutError,
+                    asyncio.TimeoutError,
+                    aiohttp.ClientResponseError,
+                ) as e:
+                    if i == retries - 1:
+                        self.logger.error(
+                            f"Failed to fetch {url} after {retries} attempts: {type(e).__name__}: {e}"
                         )
-                        await asyncio.to_thread(self._clean_soup, soup)
-                        article = await asyncio.to_thread(
-                            self.parser.parse, soup, url, series
-                        )
-                        articles.append(article)
-                    else:
-                        articles.append(None)
-
-                except Exception as e:
-                    self.logger.error(f"Error parsing article {i}: {e}")
-                    articles.append(None)
-
-                    if not self.continue_on_failure:
                         raise
-
-            successful = sum(1 for a in articles if a is not None)
-            self.logger.info(
-                f"Successfully scraped {successful}/{len(articles)} articles"
-            )
-
-            return articles
-
-        finally:
-            # Always close session to free resources
-            await self._close_session()
-
-    async def _fetch_all_urls(self) -> List[Optional[str]]:
-        """Fetch all URLs with rate limiting and retries."""
-        semaphore = asyncio.Semaphore(self.requests_per_second)
-
-        async def fetch_single(url: str) -> Optional[str]:
-            async with semaphore:
-                return await self._fetch_url_with_retries(url)
-
-        tasks = [fetch_single(url) for url in self.urls]
-
-        try:
-            # Use tqdm if available for progress tracking
-            from tqdm.asyncio import tqdm
-
-            results = await tqdm.gather(*tasks, desc="Fetching articles")
-        except ImportError:
-            results = await asyncio.gather(*tasks, return_exceptions=True)
-
-        # Handle exceptions
-        html_contents = []
-        for i, result in enumerate(results):
-            if isinstance(result, Exception):
-                self.logger.error(f"Failed to fetch {self.urls[i]}: {result}")
-                html_contents.append(None)
-            else:
-                html_contents.append(result)
-
-        return html_contents
-
-    async def _fetch_url_with_retries(
-        self, url: str, max_retries: int = 3
-    ) -> Optional[str]:
-        """Fetch single URL with retries using reusable session.
-
-        Features:
-        - Reuses aiohttp session across all requests (5-10x faster connection setup)
-        - Exponential backoff with jitter to prevent thundering herd
-        - Smart retry logic for retryable HTTP errors (429, 5xx)
-        """
-        # Get or create reusable session BEFORE retry loop
-        session = await self._get_or_create_session()
-
-        for attempt in range(max_retries):
-            try:
-                async with session.get(
-                    url, ssl=None if not self.ssl_verify else True
-                ) as response:
-                    if response.status == 200:
-                        return await response.text()
-                    elif response.status in (403, 429, 500, 502, 503, 504):
-                        # Retryable errors (forbidden/rate limit, server errors)
-                        self.logger.warning(
-                            f"HTTP {response.status} for {url}, attempt {attempt + 1}/{max_retries}"
-                        )
-                        if attempt < max_retries - 1:
-                            wait_time = 2**attempt  # Exponential backoff
-                            jitter = random.uniform(0, wait_time * 0.1)  # 10% jitter
-                            await asyncio.sleep(wait_time + jitter)
-                        # Continue to next attempt
                     else:
-                        # Non-retryable error (4xx except 429)
                         self.logger.warning(
-                            f"HTTP {response.status} for {url} - not retrying"
+                            f"Error fetching {url} with attempt "
+                            f"{i + 1}/{retries}: {type(e).__name__}: {e}. Retrying in {cooldown * backoff**i:.1f}s..."
                         )
-                        return None
+                        await asyncio.sleep(cooldown * backoff**i)
+        raise ValueError("retry count exceeded")
 
+    async def _fetch_with_rate_limit(
+        self, url: str, semaphore: asyncio.Semaphore
+    ) -> str:
+        async with semaphore:
+            try:
+                return await self._fetch(url)
+            except (
+                aiohttp.ClientConnectionError,
+                aiohttp.ServerTimeoutError,
+                asyncio.TimeoutError,
+            ) as e:
+                if self.continue_on_failure:
+                    logger.warning(
+                        f"Timeout/connection error fetching {url}: {type(e).__name__}: {e}. Skipping due to continue_on_failure=True"
+                    )
+                    return ""
+                logger.exception(
+                    f"Timeout/connection error fetching {url}: {type(e).__name__}: {e}. Aborting - use continue_on_failure=True to continue after errors."
+                )
+                raise e
             except Exception as e:
-                self.logger.warning(f"Attempt {attempt + 1} failed for {url}: {e}")
-                if attempt < max_retries - 1:
-                    wait_time = 2**attempt  # Exponential backoff
-                    jitter = random.uniform(0, wait_time * 0.1)  # 10% jitter
-                    await asyncio.sleep(wait_time + jitter)
+                if self.continue_on_failure:
+                    logger.warning(
+                        f"Unexpected error fetching {url}: {type(e).__name__}: {e}. Skipping due to continue_on_failure=True"
+                    )
+                    return ""
+                logger.exception(
+                    f"Unexpected error fetching {url}: {type(e).__name__}: {e}. Aborting - use continue_on_failure=True to continue after errors."
+                )
+                raise e
 
-        return None
+    async def scrape_all(
+        self, urls: List[str], parser: Union[str, None] = None
+    ) -> List[BeautifulSoup]:
+        """Fetch all urls, then return soups for all results."""
+        from bs4 import BeautifulSoup
+
+        results = await self.fetch_all(urls)
+        final_results = []
+        for i, result in enumerate(results):
+            url = urls[i]
+            if parser is None:
+                if url.endswith(".xml"):
+                    parser = "xml"
+                else:
+                    parser = self.DEFAULT_PARSER
+                self._check_parser(parser)
+            final_results.append(BeautifulSoup(result, parser))
+
+        return final_results
+
+    async def fetch_all(self, urls: List[str]) -> Any:
+        """Fetch all urls concurrently with rate limiting."""
+        semaphore = asyncio.Semaphore(self.requests_per_second)
+        tasks = []
+        for url in urls:
+            task = asyncio.ensure_future(self._fetch_with_rate_limit(url, semaphore))
+            tasks.append(task)
+        try:
+            from tqdm.asyncio import tqdm_asyncio
+
+            return await tqdm_asyncio.gather(
+                *tasks, desc="Fetching articles", ascii=True, mininterval=1
+            )
+        except ImportError:
+            warnings.warn("For better logging of progress, `pip install tqdm`")
+            return await asyncio.gather(*tasks)
+
+    async def scrape(self):
+        """Scrape the articles from the list of urls."""
+        soups = await self.scrape_all(self.urls)
+        for i, soup in enumerate(soups):
+            url = self.urls[i]
+            series = self.series[i]
+            self._clean_soup(soup)
+            yield self.parser.parse(soup, url, series)
 
     @staticmethod
     def _clean_soup(soup: BeautifulSoup):
@@ -1341,12 +1267,12 @@ def process_links() -> list[tuple[str, str]]:
     Build a list of (url, series_name) tuples from the scraped links so
     each url stays paired with its corresponding (converted) family/series.
     """
-    links = get_article_links_after_spidering()
+    links = fetch_links_from_fs()
     url_series_pairs: list[tuple[str, str]] = []
     for link in links:
         if "url" in link and "family" in link:
-            url = link["url"]
-            series_name = convert_series_to_product_family(link["family"])
+            url = link.url
+            series_name = convert_series_to_product_family(link.family)
             url_series_pairs.append((url, series_name))
         else:
             logger.info("Link missing expected keys 'url' and/or 'family': %s", link)
@@ -1355,7 +1281,7 @@ def process_links() -> list[tuple[str, str]]:
 
 def load_scraped_links() -> List[LinksDict]:
     """Load links from JSON file with validation."""
-    links_file = ARTICLES_DATA_DIR / "links.json"
+    links_file = DATA_DIR / "links.json"
 
     try:
         with links_file.open("r", encoding="utf8") as f:
@@ -1382,7 +1308,7 @@ def save_articles_to_filesystem(
 ):
     """Save articles to filesystem with error handling."""
     try:
-        output_file = ARTICLES_DATA_DIR / filename
+        output_file = DATA_DIR / filename
         output_file.parent.mkdir(parents=True, exist_ok=True)
 
         # Convert to dictionaries
@@ -1395,66 +1321,6 @@ def save_articles_to_filesystem(
 
     except Exception as e:
         logger.error(f"Error saving articles: {e}")
-        raise
-
-
-async def test_article_extraction(num_articles: int = 10) -> List[Article]:
-    """Test function to scrape only a limited number of articles for validation."""
-    logger.info(f"Starting test scraper for {num_articles} articles")
-
-    try:
-        # Load links
-        links = load_scraped_links()
-        if not links:
-            logger.warning("No links found to process")
-            return []
-
-        # Take only the first num_articles
-        test_links = links[:num_articles]
-        # Convert to URL-series pairs
-        url_series_pairs = [
-            (link.url, convert_series_to_product_family(link.family))
-            for link in test_links
-        ]
-
-        print(url_series_pairs)
-
-        if not url_series_pairs:
-            logger.warning("No valid URL-series pairs found")
-            return []
-
-        # Extract URLs and series
-        urls, series = zip(*url_series_pairs)
-
-        # Create and run scraper with test configuration
-        config = ParsingConfig(
-            max_retries=3,
-            skip_empty_steps=False,
-        )
-
-        scraper = ArticleScraper(
-            urls=urls,
-            series=series,
-            parser_config=config,
-            continue_on_failure=True,
-        )
-
-        articles = await scraper.scrape_all()
-
-        # Filter out None values
-        valid_articles = [article for article in articles if article is not None]
-
-        # Save to filesystem with test prefix
-        if valid_articles:
-            save_articles_to_filesystem(valid_articles, "test_articles.json")
-
-        logger.info(
-            f"Test scraping completed. Processed {len(valid_articles)} articles"
-        )
-        return valid_articles
-
-    except Exception as e:
-        logger.error(f"Error in test scraper execution: {e}")
         raise
 
 
@@ -1480,8 +1346,14 @@ async def run_article_extraction(
             logger.warning("No valid URL-series pairs found")
             return []
 
+        catalyst_1200_urls_and_series = []
+
+        for url, series in url_series_pairs:
+            if "Cisco Catalyst 1200 Series Switches" in series:
+                catalyst_1200_urls_and_series.append((url, series))
+
         # Extract URLs and series
-        urls, series = zip(*url_series_pairs)
+        urls, series = zip(*catalyst_1200_urls_and_series)
 
         # Create and run scraper
         scraper = ArticleScraper(
@@ -1491,17 +1363,15 @@ async def run_article_extraction(
             continue_on_failure=True,
         )
 
-        articles = await scraper.scrape_all()
+        articles = []
+        async for article in scraper.scrape():
+            if article:
+                articles.append(article)
 
-        # Filter out None values
-        valid_articles = [article for article in articles if article is not None]
+        save_articles_to_filesystem(articles, output_filename)
 
-        # Save to filesystem
-        if valid_articles:
-            save_articles_to_filesystem(valid_articles, output_filename)
-
-        logger.info(f"Scraping completed. Processed {len(valid_articles)} articles")
-        return valid_articles
+        logger.info(f"Scraping completed. Processed {len(articles)} articles")
+        return articles
 
     except Exception as e:
         logger.error(f"Error in scraper execution: {e}")
@@ -1510,44 +1380,19 @@ async def run_article_extraction(
 
 # Main execution
 if __name__ == "__main__":
-    import sys
 
-    # Check for command line arguments
-    if len(sys.argv) > 1:
-        if sys.argv[1] == "--test":
-            num_test = int(sys.argv[2]) if len(sys.argv) > 2 else 10
-            # Run test mode
-            try:
-                articles = asyncio.run(test_article_extraction(num_test))
-                logger.info(
-                    f"Test completed successfully with {len(articles)} articles"
-                )
-            except Exception as e:
-                logger.error(f"Test failed: {e}")
-                raise
+    # Configure parsing behavior for full run (default: no LLM fallback)
+    config = ParsingConfig(
+        use_llm_fallback=False,
+        llm_timeout=30.0,
+        max_retries=3,
+        skip_empty_steps=False,
+    )
 
-        else:
-            print("Usage:")
-            print(
-                "  python -m articles.services.articles                 # Normal scraping"
-            )
-            print(
-                "  python -m articles.services.articles --test [N]     # Test N articles (default 10)"
-            )
-            sys.exit(1)
-    else:
-        # Configure parsing behavior for full run
-        config = ParsingConfig(
-            max_retries=3,
-            skip_empty_steps=False,
-        )
-
-        # Run the full scraper
-        try:
-            articles = asyncio.run(run_article_extraction(config))
-            logger.info(
-                f"Scraping completed successfully with {len(articles)} articles"
-            )
-        except Exception as e:
-            logger.error(f"Scraping failed: {e}")
-            raise
+    # Run the full scraper
+    try:
+        articles = asyncio.run(run_article_extraction(config))
+        logger.info(f"Scraping completed successfully with {len(articles)} articles")
+    except Exception as e:
+        logger.error(f"Scraping failed: {e}")
+        raise

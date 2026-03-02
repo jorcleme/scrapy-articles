@@ -7,7 +7,6 @@ and common filesystem paths used by scrapers and detectors.
 from __future__ import annotations
 from typing import Literal, Optional, Dict
 
-
 # Series and model lists (Switches)
 CISCO_CATALYST_1200_SERIES = [
     "C1200-8T-D",

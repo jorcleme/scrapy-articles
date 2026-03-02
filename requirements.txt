@@ -4,6 +4,8 @@ scrapyd==1.4.3
 scrapyd-client==1.2.3
 scrapeops_scrapy==0.5.4
 
+black==26.1.0
+
 # Web scraping utilities
 beautifulsoup4==4.12.3
 lxml==5.2.2

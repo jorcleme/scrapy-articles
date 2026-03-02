@@ -11,6 +11,7 @@ from langchain_text_splitters import TextSplitter
 from langchain.schema import Document
 from langchain_core.document_loaders import BaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain.retrievers.parent_document_retriever import ParentDocumentRetriever
 import os
 import chromadb.utils.embedding_functions as embedding_functions
 from lxml import etree
